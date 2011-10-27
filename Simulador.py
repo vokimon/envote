@@ -1,35 +1,40 @@
 #!/usr/bin/env python
 
-(
-	resultadosGeneralesBarcelona2008,
-	resultadosGeneralesBarcelona2004,
-	resultadosGeneralesBarcelona2000,
-) = zip(*[
-	(
-		(nom, votacions2008, percent2008, escanos2008),
-		(nom, votacions2004, percent2004, escanos2004),
-		(nom, votacions2000, percent2000, escanos2000),
-	)
-	for nom, votacions2008, percent2008, escanos2008,
-		_,   votacions2004, percent2004, escanos2004,
-		_,   votacions2000, percent2000, escanos2000,
-	in [
-		line.strip().split('\t')
-		for line in file("generals.csv")
+class Resultats(object) :
+	__slots__ = [
+		'vots',
+		'scons',
+		'percents',
+		'representants',
 		]
-	])
+	def __init__(self, afile) :
+		data = [
+			(nom, vots, percent, scons)
+			for nom, vots, percent, scons,
+			in (
+				line.strip().split('\t')
+				for line in afile
+				)
+			if vots!='-'
+			]
+		self.vots = dict((
+			(nom, int(vots))
+			for nom, vots, percent, scons in data))
+		self.percents = dict((
+			(nom, float(percent) if percent!='-' else 0)
+			for nom, vots, percent, scons in data))
+		self.scons = dict(( 
+			(nom, int(scons) if scons!='-' else 0)
+			for nom, vots, percent, scons in data))
+		self.representants = self.scons['participacion']
+		assert sum(self.vots.values()) == 2*self.vots['participacion'] + self.vots['abstenciones']
+		del self.vots['participacion']
+		del self.percents['participacion']
+		del self.scons['participacion']
+		del self.scons['abstenciones']
+		del self.scons['blancos']
+		del self.scons['nulos']
 
-for year, data in [
-	(2000, resultadosGeneralesBarcelona2000),
-	(2004, resultadosGeneralesBarcelona2004),
-	(2008, resultadosGeneralesBarcelona2008),
-	] :
-	f = open("parlamentoBarcelona%s.csv"%year, "w")
-	for partido, votaciones, percent, escanos in data :
-		print >> f, '\t'.join([partido, votaciones, percent, escanos])
-	
-
-print resultadosGeneralesBarcelona2004
 
 
 class Simulador(object) :
@@ -71,19 +76,21 @@ class Simulador(object) :
 				'nulos',
 				]
 			))
-	def reparto(self, representants) :
-		numeros = sum([
+	def repartiment(self, representants) :
+		numeros = sorted(sum((
 			[
-				(votos/(i+1), partido)
+				(self._votacions[partido]/(i+1), partido)
 				for i in xrange(representants)
 			]
-			for partido, votos in self._votacions.iteritems()
-			if partido not in [
-				'abstenciones',
-				'nulos',
-				'blancos',
-				]
-		],[])[:representants]
+			for partido in self.partidos()
+		),[]))
+		numeros.reverse()
+		numeros = numeros[:representants]
+		import collections
+		counter = collections.Counter((partit for num, partit in numeros))
+		return dict((
+			(partit, counter[partit]) 
+			for partit in self.partidos()))
 
 import unittest
 
@@ -123,12 +130,26 @@ class SimuladorTest(unittest.TestCase) :
 			4500,
 			s.votosValidos())
 
-	def test_reparto(self) :
-		s = Simulador(representantes=31, **prova1)
+	def test_repartiment_parlamentoBarcelona2000(self) :
+		case = Resultats(file("parlamentoBarcelona2000.csv"))
+		s = Simulador(case.representants, **case.vots)
 		self.assertEquals(
-			dict(),
-			s.reparto(31))
+			case.scons,
+			s.repartiment(case.representants))
 
+	def test_repartiment_parlamentoBarcelona2004(self) :
+		case = Resultats(file("parlamentoBarcelona2004.csv"))
+		s = Simulador(case.representants, **case.vots)
+		self.assertEquals(
+			case.scons,
+			s.repartiment(case.representants))
+
+	def test_repartiment_parlamentoBarcelona2008(self) :
+		case = Resultats(file("parlamentoBarcelona2008.csv"))
+		s = Simulador(case.representants, **case.vots)
+		self.assertEquals(
+			case.scons,
+			s.repartiment(case.representants))
 
 
 
