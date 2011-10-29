@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-15" />
+    <style>
+        body {text-align:left;}
+        th.columnaCandidatura {text-align:left}
+        table.data thead th {background-color:#e3e9ee;}
+        th.head {background-color:#e3e9ee;color:#323232;}
+        table.cabecera td, table.data table.cabecera td {border:none;}
+        table.data td {text-align:right;font-size:1.em;}
+        table.data table.cabecera td {text-align:left;}
+        tr.logos td {height:45px;border:none;}
+        table.data thead tr {height:20px;}
+        table.data thead tr th{font-size:1.em;}
+        table.data td, table.data th {border:none;border-bottom:1px solid #dddddd;}
+        table.data td.resumen{text-align:right;font-size:1.em; border:none;border-bottom:none solid #dddddd;}
+        table.data th.resumen{text-align:left;font-size:1.em; border:none;border-bottom:none solid #dddddd;}
+        table.data .col_a1 {white-space:nowrap;}
+        table.data th.first,  table.data td.first {vertical-align:top;text-align:left;font-size:1em;}
+        table.data td.b2 {text-align:left;vertical-align: top;}
+        table.data td.b3 {text-align:center;vertical-align: top;}
+        table.data td.b4 {text-align:left;}
+        table.data tr.colum th {background-image:none;}
+        table.data tr.cab th {text-align:left;}
+        table.data td.b5 {text-align: center}
+        caption {display: none;visibility:hidden;}
+        td.migas {white-space:nowrap;font-size:16px}
+    </style>
+</head><body dir="ltr">
+
+<table>
+	<tr class="logos">
+		<td><img src="http://www.infoelectoral.mir.es/min/images/tituloEX.gif" alt="" /></td>
+	</tr>
+</table>
+			
+
+<table>
+    <tr><td class="migas"><strong>Congreso <span> | </span> Marzo 1996</strong></td></tr>
+    <tr><td class="migas"><strong></span>C.A. Cataluña<span> | </span><strong>Prov. Barcelona</strong></strong></td></tr>
+    <tr><td></td></tr>
+</table>
+<table class="data" summary="Tabla que muestra la formación política en forma de votos y diputados">
+    <tbody>
+                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Población: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     4.743.797
+                    </td>
+                    
+                    <td class="resumen">
+                    </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Número de municipios: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    310
+                    </td>
+                    
+                    <td class="resumen">
+                    </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Número de mesas: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     5.393
+                    </td>
+                    
+                    <td class="resumen">
+                    </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Censo electoral sin CERA: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    3.865.051
+                    </td>
+                    
+                    <td class="resumen">
+                    
+                    </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votantes  a las 14:00 h :</strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     1.552.711
+                    </td>
+                    
+                    <td class="resumen">
+                     40,17%                     </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votantes  a las 18:00 h : </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    2.363.343 
+                    </td>
+                    
+                    <td class="resumen">
+                     61,15%                     </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votantes  a las 20:00 h :</strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     2.979.841  
+                    </td>
+                    
+                    <td class="resumen">
+                     77,1%                     </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Censo CERA: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    40.204
+                    </td>
+                    
+                    <td class="resumen">
+                    
+                    </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votantes CERA </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     13.583
+                    </td>
+                    
+                    <td class="resumen">
+                                            33,79%
+                                        </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Total censo electoral: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    3.905.255
+                    </td>
+                    
+                    <td class="resumen">
+                    
+                    </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Total votantes: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     2.993.424  
+                    </td>
+                    
+                    <td class="resumen">
+                                            76,65%
+                                        </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Abstención: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    911.831  
+                    </td>
+                    
+                    <td class="resumen">
+                                            23,35%
+                                        </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votos válidos: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     2.984.714  
+                    </td>
+                    
+                    <td class="resumen">
+                                            99,71%
+                                        </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votos nulos: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    8.710  
+                    </td>
+                    
+                    <td class="resumen">
+                                            0,29%
+                                        </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votos a candidaturas: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                     2.964.349  
+                    </td>
+                    
+                    <td class="resumen">
+                                            99,32%
+                                        </td>
+                </tr>
+                                                <tr>
+                    <th class="resumen">
+                    </th>
+                    
+                    <th class="resumen">
+                    <strong>Votos en blanco: </strong>
+                    </th>
+                    
+                    <td class="resumen">
+                    20.365  
+                    </td>
+                    
+                    <td class="resumen">
+                                            0,68%
+                                        </td>
+                </tr>
+                        
+            <tr>
+                <td style="border:none"> </td>
+            </tr>
+    </tbody>
+
+    <thead>
+        <tr>
+            <th abbr="a1.1" class="col_a1" id="a1.1">Siglas</th>
+            <th abbr="a1.2" class="col_a2 c2" id="a1.1">Candidatura</th>
+            <th id="a1.3" class="col_a3" abbr="votos">Votos</th>
+            <th id="a1.4" class="col_a4" abbr="porcient">% válidos</th>
+            <th id="a1.5" class="col_a5" abbr="porcientcenso">% censo</th>
+            <th id="a1.6" class="col_a6" abbr="porcientcandidaturas">% candidaturas</th>
+            <th abbr="dip" class="col_a7 c2" id="a1.4">Diputados</th>
+        </tr>
+    </thead>
+    <tbody>
+    	    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>PSC-PSOE</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIT DELS SOCIALISTES DE CATALUNYA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">1.203.339</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">40,32%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">30,81%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">40,59%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">13</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>CIU</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">CONVERGENCIA I UNIO</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">818.832</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">27,43%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">20,97%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">27,62%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">9</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>PP</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIDO POPULAR</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">548.323</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">18,37%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">14,04%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">18,5%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">6</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>IC-EV</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">INICIATIVA PER CATALUNYA-ELS VERDS</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">260.881</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">8,74%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">6,68%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">8,8%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">2</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>ERC</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">ESQUERRA REPUBLICANA DE CATALUNYA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">114.195</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">3,83%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">2,92%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">3,85%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">1</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>EVE-AEC</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">ELS VERDS EUROPEUS-ALTER. ECOLOGISTA DE CATALUNYA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">6.241</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,21%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,16%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,21%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>PEC</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIT ECOLOGISTA DE CATALUNYA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">3.980</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,13%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,1%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,13%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>UC</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">UNION CENTRISTA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">2.221</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,07%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,06%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,07%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>PRT</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIT REVOLUCIONARI DELS TREBALLADORS</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">1.936</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,06%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,05%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,07%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>FEA</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">FALANGE ESPAÑOLA AUTENTICA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">1.296</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,04%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,03%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,04%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>PH</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIDO HUMANISTA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">1.060</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,04%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,03%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,04%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>PICC</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PLATAFORMA INDEPENDENT CIUTADANA DE CATALUNYA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">895</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,03%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,03%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>CR</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">COALICIO REPUBLICANA</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">655</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>N</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">ESTADO NACIONAL EUROPEO</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">495</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,01%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>POR</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIT OBRER REVOLUCIONARI</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    </tbody>
+	</table>
+</body>
+</html>EO</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">495</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,01%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0,02%</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	        </tr>
+		    		<tr>
+	            <th  class="first" headers="a1.1" id="a2.1">
+	            <strong>POR</strong></th>
+	            <th  class="first" headers="a1.2" id="a2.2">PARTIT OBRER REVOLUCIONARI</th>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0</td>
+	            <td class="center c2_odd" headers="a1.1 a2.1 a1.4">0%</td>
+	      
