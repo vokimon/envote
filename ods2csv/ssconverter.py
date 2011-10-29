@@ -78,7 +78,10 @@ class SSConverter:
         document  = self.desktop.loadComponentFromURL(inputUrl, "_blank", 0, ooutils.oo_properties())
 
         try:
-            props = ooutils.oo_properties(FilterName="Text - txt - csv (StarCalc)")
+            props = ooutils.oo_properties(
+                FilterName = "Text - txt - csv (StarCalc)",
+                FilterOptions = "9,0,0,2",
+				)
             #
             # Another useful property option:
             #   FilterOptions="59,34,0,1"
