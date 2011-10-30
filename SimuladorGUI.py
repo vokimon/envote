@@ -101,7 +101,7 @@ class PieChart(QtGui.QGraphicsView) :
 		self.setScene(self.scene)
 		self.colors = [
 			'red', 'orange', 'blue', 'green', 'yellow',
-			'lightblue',
+			'lightblue', 'purple',
 			]
 		self.maxAngle = maxAngle * 16 # 16th of degree
 		self.radius = 100
@@ -152,26 +152,32 @@ class PieChart(QtGui.QGraphicsView) :
 class ExperimentalVoter(QtGui.QDialog) :
 	def __init__(self) :
 		QtGui.QDialog.__init__(self)
-		self.cases = [
+		self.cases = sorted([
 			(name, Simulador.Resultats(file(name)))
 			for name in glob.iglob(
 				"cookedData/congresoBarcelona-????-??.csv")
-			]
+			])
 		self.currentCase = 0
 
 		colors = dict(
-			abstencion="black",
+			abstencion="darkgrey",
 			blancos="white",
 			nulos="#F44",
 			PSOE="red",
 			CiU="blue",
+			CIU="blue",
 			PP="cyan",
 			ERC="orange",
 			ESQUERRA="orange",
 			** {
+			"PSC" : "red",
+			"PSC-PSOE" : "red",
 			"ICV-EUiA" : "green",
 			"IC-V" : "green",
+			"IC-EV" : "green",
 			"IU" : "green",
+			"PSUC" : "green",
+			"PSUC-PCE" : "green",
 			})
 
 		layout = QtGui.QVBoxLayout()
@@ -193,11 +199,11 @@ class ExperimentalVoter(QtGui.QDialog) :
 		self.proportionalChart.setSectorColors(colors)
 
 		self.sconsChart = PieChart()
-		chartLayout.addWidget(self.sconsChart,1,0)
+		chartLayout.addWidget(self.sconsChart,0,2)
 		self.sconsChart.setSectorColors(colors)
 
 		self.hondtTable = HondtTable()
-		chartLayout.addWidget(self.hondtTable,1,1)
+		layout.addWidget(self.hondtTable)
 
 		button = QtGui.QPushButton("Change")
 		layout.addWidget(button)
@@ -216,8 +222,9 @@ class ExperimentalVoter(QtGui.QDialog) :
 		del proportional['blancos']
 		del proportional['nulos']
 		self.proportionalChart.setSectorValues(**proportional)
-		self.hondtTable.feedVotations(proportional)
+		self.hondtTable.threshold = case.votsValids *.03
 		self.hondtTable.nSeats = case.representants
+		self.hondtTable.feedVotations(proportional)
 
 
 
