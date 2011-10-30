@@ -50,27 +50,27 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 		self.labelBox.setPen(QtGui.QColor("black"))
 		self.labelBox.setZValue(20)
 		self.label.setZValue(30)
-		duration = 200
+		duration = 150
 		self.updater = Sector.Updater(self)
 		self.startAnimation = QtCore.QPropertyAnimation(self.updater, 'start')
 		self.spanAnimation = QtCore.QPropertyAnimation(self.updater, 'span')
-		self.fadeIn = QtCore.QPropertyAnimation(self.updater, 'opacity')
-		self.fadeOut = QtCore.QPropertyAnimation(self.updater, 'opacity')
+		self.fade = QtCore.QPropertyAnimation(self.updater, 'opacity')
 		self.startAnimation.setDuration(duration);
 		self.spanAnimation.setDuration(duration);
-		self.fadeIn.setDuration(duration/3);
-		self.fadeOut.setDuration(duration/3);
-		self.fadeOut.setKeyValueAt(0., 1.)
-		self.fadeOut.setKeyValueAt(1, .8)
-		self.fadeIn.setKeyValueAt(0, .8)
-		self.fadeIn.setKeyValueAt(1., 1.)
-		self.animation = QtCore.QSequentialAnimationGroup(self.updater)
-		self.animation.addAnimation(self.fadeOut)
+		self.fade.setDuration(duration);
+		self.fade.setKeyValueAt(0., 1.)
+		self.fade.setKeyValueAt(.1, .8)
+		self.fade.setKeyValueAt(.9, .8)
+		self.fade.setKeyValueAt(1., 1.)
+		self.animation = QtCore.QParallelAnimationGroup(self.updater)
+		self.animation.addAnimation(self.fade)
 		self.animation.addAnimation(self.spanAnimation)
 		self.animation.addAnimation(self.startAnimation)
-		self.animation.addAnimation(self.fadeIn)
 
 	def move(self, start, span) :
+		if self.animation.state is QtCore.QAbstractAnimation.Running :
+			self.animation.setCurrentTime(self.animation.duration())
+			QtGui.QApplication.processEvents()
 		self.startAnimation.setEndValue(start)
 		self.spanAnimation.setEndValue(span)
 		self.animation.start()
@@ -104,7 +104,7 @@ class PieChart(QtGui.QGraphicsView) :
 		self.scene = QtGui.QGraphicsScene()
 		self.setScene(self.scene)
 		self.colors = (
-			"green orange purple magenta yellow blue red aquamarine "+
+			"lightgreen orange purple magenta yellow blue red aquamarine "+
 			"gold greenyellow khaki sienna sandybrown skyblue Thistle orchid tomato "
 			"darkcyan "
 		).split()

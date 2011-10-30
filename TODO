@@ -5,13 +5,16 @@
 	+ Check censo == abstencion + participacion
 	+ Check participacion == nulos + blancos + partidos
 	+ Check scons estan repartidos bien
-- Buttons next, previous
-- Title is a combobox
++ Buttons next, previous
++ Title is a combobox
++ move generated data to data/
+- Fix label line
 - Use party descriptions on PieCharts
 - Use party descriptions on HondtTable
-- Use special 'censo' party to display case explanation
+- Use description of special party 'censo' to display case explanation
 - translate symbols to english
-
+- Save Button
+- Move button
 
 
 

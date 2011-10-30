@@ -147,7 +147,7 @@ class SimuladorTest(unittest.TestCase) :
 			s.votosValidos())
 
 	def test_repartiment_cassosReals(self) :
-		for dataFile in glob.glob("cookedData/congresoBarcelona-2011*csv") :
+		for dataFile in glob.glob("data/congresoBarcelona-2011*csv") :
 			print dataFile
 			case = Resultats(file(dataFile))
 			s = Simulador(case.representants, **case.vots)
@@ -156,7 +156,7 @@ class SimuladorTest(unittest.TestCase) :
 				s.repartiment(case.representants))
 
 	def test_repartiment_cassosReals(self) :
-		for dataFile in glob.glob("cookedData/congresoBarcelona-????-??.csv") :
+		for dataFile in glob.glob("data/congresoBarcelona-????-??.csv") :
 			print dataFile
 			case = Resultats(file(dataFile))
 			s = Simulador(case.representants, **case.vots)
@@ -165,7 +165,7 @@ class SimuladorTest(unittest.TestCase) :
 				s.repartiment(case.representants))
 
 	def test_repartiment_parlamentoBarcelona2000(self) :
-		case = Resultats(file("cookedData/congresoBarcelona-2000-03.csv"))
+		case = Resultats(file("data/congresoBarcelona-2000-03.csv"))
 		s = Simulador(case.representants, **case.vots)
 		self.assertEquals(
 			case.scons,

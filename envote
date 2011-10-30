@@ -16,7 +16,7 @@ class Envoter(QtGui.QDialog) :
 		if not files :
 			files = sorted(
 				glob.glob(
-					"cookedData/congresoBarcelona-????-*.csv"))
+					"data/congresoBarcelona-????-*.csv"))
 		print files
 		self.cases = sorted([
 			(name, Simulador.Resultats(file(name)))
@@ -40,6 +40,7 @@ class Envoter(QtGui.QDialog) :
 			"PSC-PSOE" : "red",
 			"ICV-EUiA" : "green",
 			"IC-V" : "green",
+			"IC" : "green",
 			"IC-EV" : "green",
 			"IU" : "green",
 			"PSUC" : "green",
@@ -87,13 +88,13 @@ class Envoter(QtGui.QDialog) :
 		self.currentCase -= 1
 		self.currentCase %= len(self.cases)
 	
-		self.updateDatabase()
+		self.title.setCurrentIndex(self.currentCase)
 		
 	def nextDatabase(self) :
 		self.currentCase += 1
 		self.currentCase %= len(self.cases)
 
-		self.updateDatabase()
+		self.title.setCurrentIndex(self.currentCase)
 
 	def titleChanged(self, current) :
 		self.currentCase = current
@@ -102,21 +103,31 @@ class Envoter(QtGui.QDialog) :
 
 	def updateDatabase(self) :
 		name, case = self.cases[self.currentCase]
-		self.title.setCurrentIndex(self.currentCase)
-		self.votesChart.setSectorValues(**case.vots)
+		print "Changint to", name
+		print "Computing proportional"
+		proportional = dict((
+			(party, votes) 
+			for party, votes in case.vots.iteritems()
+			if party not in [
+				'abstencion',
+				'blancos',
+				'nulos',
+				]
+			))
+		print "Computing Seats"
 		scons = case.scons
 		if not sum(case.scons.values()) :
 			s = Simulador.Simulador(case.representants, **case.vots)
 			scons = s.repartiment(case.representants)
-		self.sconsChart.setSectorValues(**scons)
-		proportional = dict(case.vots)
-		del proportional['abstencion']
-		del proportional['blancos']
-		del proportional['nulos']
-		self.proportionalChart.setSectorValues(**proportional)
+		print "Hondt Table"
 		self.hondtTable.threshold = case.votsValids *.03
 		self.hondtTable.nSeats = case.representants
 		self.hondtTable.feedVotations(proportional)
+		print "Updating Pies"
+		self.votesChart.setSectorValues(**case.vots)
+		self.proportionalChart.setSectorValues(**proportional)
+		self.sconsChart.setSectorValues(**scons)
+		print "end"
 
 
 
