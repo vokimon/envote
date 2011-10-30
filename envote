@@ -49,10 +49,6 @@ class Envoter(QtGui.QDialog) :
 		layout = QtGui.QVBoxLayout()
 		self.setLayout(layout)
 
-		self.title = QtGui.QLabel()
-		self.title.setAlignment(QtCore.Qt.AlignCenter)
-		layout.addWidget(self.title)
-
 		chartLayout = QtGui.QGridLayout()
 		layout.addLayout(chartLayout)
 
@@ -71,6 +67,11 @@ class Envoter(QtGui.QDialog) :
 		self.hondtTable = HondtTable()
 		layout.addWidget(self.hondtTable)
 
+		self.title = QtGui.QComboBox()
+		layout.addWidget(self.title)
+		self.title.addItems([name for name, case in self.cases])
+		self.title.currentIndexChanged.connect(self.titleChanged)
+
 		buttonBox = QtGui.QDialogButtonBox()
 		prevButton = buttonBox.addButton("Previous", QtGui.QDialogButtonBox.ActionRole)
 		nextButton = buttonBox.addButton("Next", QtGui.QDialogButtonBox.ActionRole)
@@ -79,6 +80,8 @@ class Envoter(QtGui.QDialog) :
 		nextButton.clicked.connect(self.nextDatabase)
 		prevButton.clicked.connect(self.previousDatabase)
 		self.updateDatabase()
+
+		
 
 	def previousDatabase(self) :
 		self.currentCase -= 1
@@ -92,9 +95,14 @@ class Envoter(QtGui.QDialog) :
 
 		self.updateDatabase()
 
+	def titleChanged(self, current) :
+		self.currentCase = current
+
+		self.updateDatabase()
+
 	def updateDatabase(self) :
 		name, case = self.cases[self.currentCase]
-		self.title.setText(name)
+		self.title.setCurrentIndex(self.currentCase)
 		self.votesChart.setSectorValues(**case.vots)
 		scons = case.scons
 		if not sum(case.scons.values()) :
