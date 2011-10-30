@@ -74,8 +74,8 @@ class Envoter(QtGui.QDialog) :
 		self.title.currentIndexChanged.connect(self.titleChanged)
 
 		buttonBox = QtGui.QDialogButtonBox()
-		prevButton = buttonBox.addButton("Previous", QtGui.QDialogButtonBox.ActionRole)
-		nextButton = buttonBox.addButton("Next", QtGui.QDialogButtonBox.ActionRole)
+		prevButton = buttonBox.addButton("&Previous", QtGui.QDialogButtonBox.ActionRole)
+		nextButton = buttonBox.addButton("&Next", QtGui.QDialogButtonBox.ActionRole)
 		layout.addWidget(buttonBox)
 
 		nextButton.clicked.connect(self.nextDatabase)
@@ -134,7 +134,7 @@ class Envoter(QtGui.QDialog) :
 app = QtGui.QApplication(sys.argv)
 window = Envoter(sys.argv[1:])
 window.resize(800,600)
-window.setWindowTitle("Simulador de votacions")
+window.setWindowTitle("enVote: Simulador de votacions")
 window.show()
 
 sys.exit(app.exec_())
