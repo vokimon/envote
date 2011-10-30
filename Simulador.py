@@ -4,37 +4,44 @@ class Resultats(object) :
 	__slots__ = [
 		'vots',
 		'scons',
-		'percents',
 		'representants',
+		'descripcions',
 		]
 	def __init__(self, afile) :
 		data = [
-			(nom, vots, percent, scons)
-			for nom, vots, percent, scons,
+			(nom, vots, scons, descripcions)
+			for nom, vots, scons, descripcions
 			in (
-				line.strip().split('\t')
+				line.split('\t')
 				for line in afile
 				)
-			if vots!='-'
-			]
+			][1:]
 		self.vots = dict((
 			(nom, int(vots))
-			for nom, vots, percent, scons in data))
-		self.percents = dict((
-			(nom, float(percent) if percent!='-' else 0)
-			for nom, vots, percent, scons in data))
+			for nom, vots, scons, descripcions in data))
 		self.scons = dict(( 
-			(nom, int(scons) if scons!='-' else 0)
-			for nom, vots, percent, scons in data))
-		self.representants = self.scons['participacion']
-		assert sum(self.vots.values()) == 2*self.vots['participacion'] + self.vots['abstenciones']
+			(nom, int(scons) if scons else 0)
+			for nom, vots, scons, descripcions in data))
+
+		self.representants = self.scons['censo']
+		totalCensats = self.vots['censo']
+		participacio = self.vots['participacion']
+
+		del self.vots['censo']
 		del self.vots['participacion']
-		del self.percents['participacion']
+		del self.scons['censo']
 		del self.scons['participacion']
-		del self.scons['abstenciones']
+		del self.scons['abstencion']
 		del self.scons['blancos']
 		del self.scons['nulos']
 
+		assert totalCensats == participacio + self.vots['abstencion']
+		assert participacio == sum((
+			vots for partit, vots in self.vots.iteritems()
+			if partit != 'abstencion' ))
+		sconsRepartits = sum(self.scons.itervalues())
+		assert sconsRepartits == 0 or sconsRepartits == self.representants
+		
 
 
 class Simulador(object) :
@@ -42,7 +49,7 @@ class Simulador(object) :
 	def __init__(
 			self,
 			representantes,
-			abstenciones,
+			abstencion,
 			blancos,
 			nulos,
 			umbral = 30,
@@ -51,7 +58,7 @@ class Simulador(object) :
 		self._votacions = dict(votacions)
 		self._votacions.update(
 			blancos = blancos,
-			abstenciones = abstenciones,
+			abstencion = abstencion,
 			nulos = nulos,
 			)
 
@@ -62,7 +69,7 @@ class Simulador(object) :
 		return [
 			p for p in self.opciones()
 			if p not in [
-				'abstenciones',
+				'abstencion',
 				'blancos',
 				'nulos',
 				]
@@ -72,7 +79,7 @@ class Simulador(object) :
 			votos 
 			for partido, votos in self._votacions.iteritems()
 			if partido not in [
-				'abstenciones',
+				'abstencion',
 				'nulos',
 				]
 			))
@@ -93,9 +100,11 @@ class Simulador(object) :
 			for partit in self.partidos()))
 
 import unittest
+import glob
+
 
 prova1 = dict(
-	abstenciones = 2000,
+	abstencion = 2000,
 	blancos = 500,
 	nulos = 100,
 	partido1 = 1000,
@@ -130,21 +139,37 @@ class SimuladorTest(unittest.TestCase) :
 			4500,
 			s.votosValidos())
 
+	def test_repartiment_cassosReals(self) :
+		for dataFile in glob.glob("cookedData/congresoBarcelona-????-??.csv") :
+			print dataFile
+			case = Resultats(file(dataFile))
+			s = Simulador(case.representants, **case.vots)
+			self.assertEquals(
+				case.scons,
+				s.repartiment(case.representants))
+
 	def test_repartiment_parlamentoBarcelona2000(self) :
+		case = Resultats(file("cookedData/congresoBarcelona-2000-03.csv"))
+		s = Simulador(case.representants, **case.vots)
+		self.assertEquals(
+			case.scons,
+			s.repartiment(case.representants))
+
+	def _test_repartiment_parlamentoBarcelona2000(self) :
 		case = Resultats(file("parlamentoBarcelona2000.csv"))
 		s = Simulador(case.representants, **case.vots)
 		self.assertEquals(
 			case.scons,
 			s.repartiment(case.representants))
 
-	def test_repartiment_parlamentoBarcelona2004(self) :
+	def _test_repartiment_parlamentoBarcelona2004(self) :
 		case = Resultats(file("parlamentoBarcelona2004.csv"))
 		s = Simulador(case.representants, **case.vots)
 		self.assertEquals(
 			case.scons,
 			s.repartiment(case.representants))
 
-	def test_repartiment_parlamentoBarcelona2008(self) :
+	def _test_repartiment_parlamentoBarcelona2008(self) :
 		case = Resultats(file("parlamentoBarcelona2008.csv"))
 		s = Simulador(case.representants, **case.vots)
 		self.assertEquals(
