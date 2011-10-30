@@ -23,6 +23,7 @@ class Envoter(QtGui.QDialog) :
 			for name in files
 			])
 		self.currentCase = 0
+		self.case = None
 
 		colors = dict(
 			abstencion="darkgrey",
@@ -70,15 +71,30 @@ class Envoter(QtGui.QDialog) :
 		self.hondtTable = HondtTable()
 		layout.addWidget(self.hondtTable)
 
-		button = QtGui.QPushButton("Change")
-		layout.addWidget(button)
+		buttonBox = QtGui.QDialogButtonBox()
+		prevButton = buttonBox.addButton("Previous", QtGui.QDialogButtonBox.ActionRole)
+		nextButton = buttonBox.addButton("Next", QtGui.QDialogButtonBox.ActionRole)
+		layout.addWidget(buttonBox)
 
-		button.clicked.connect(self.changeValues)
+		nextButton.clicked.connect(self.nextDatabase)
+		prevButton.clicked.connect(self.previousDatabase)
+		self.updateDatabase()
 
-	def changeValues(self) :
+	def previousDatabase(self) :
+		self.currentCase -= 1
+		self.currentCase %= len(self.cases)
+	
+		self.updateDatabase()
+		
+	def nextDatabase(self) :
+		self.currentCase += 1
+		self.currentCase %= len(self.cases)
+
+		self.updateDatabase()
+
+	def updateDatabase(self) :
 		name, case = self.cases[self.currentCase]
 		self.title.setText(name)
-		self.currentCase = (self.currentCase+1)%len(self.cases)
 		self.votesChart.setSectorValues(**case.vots)
 		scons = case.scons
 		if not sum(case.scons.values()) :
@@ -98,6 +114,7 @@ class Envoter(QtGui.QDialog) :
 
 app = QtGui.QApplication(sys.argv)
 window = Envoter(sys.argv[1:])
+window.resize(800,600)
 window.setWindowTitle("Simulador de votacions")
 window.show()
 

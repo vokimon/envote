@@ -41,6 +41,7 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 	def __init__(self, parent, rect, label) :
 		super(QtGui.QGraphicsEllipseItem,self).__init__(rect)
 		self.parent = parent
+		self._rect = parent.rect()
 		self.setToolTip(label)
 		self.line = QtGui.QGraphicsLineItem(self)
 		self.label = QtGui.QGraphicsSimpleTextItem(label, self)
@@ -109,6 +110,7 @@ class PieChart(QtGui.QGraphicsView) :
 		).split()
 		self.maxAngle = maxAngle * 16 # 16th of degree
 		self.radius = 100
+		self._rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
 		self.sectors = {}
 		self._sectorColors = {}
 
@@ -119,10 +121,10 @@ class PieChart(QtGui.QGraphicsView) :
 		super(PieChart, self).resizeEvent(event)
 		size = event.size()
 		self.radius = min(size.width(), size.height())/2.5
-		self.rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
-		self.setSceneRect(self.rect)
+		self._rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
+		self.setSceneRect(self._rect)
 		for sector in self.sectors.itervalues() :
-			sector.setRect(self.rect)
+			sector.setRect(self._rect)
 
 	def setSectorValues(self, **sectors) :
 		removedNames = [ name 
@@ -142,7 +144,7 @@ class PieChart(QtGui.QGraphicsView) :
 			try :
 				sector = self.sectors[name]
 			except KeyError :
-				sector = Sector(self, self.rect, name)
+				sector = Sector(self, self._rect, name)
 				sector.setPen(color.lighter())
 				sector.setStartAngle(0)
 				sector.setSpanAngle(0)
