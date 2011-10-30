@@ -5,8 +5,11 @@
 	+ Check censo == abstencion + participacion
 	+ Check participacion == nulos + blancos + partidos
 	+ Check scons estan repartidos bien
-- Comparar el umbral con el minimo numero que entra de escaño
-- Comparar el umbral con el porcentaje de el primer partido que queda fuera
+- Buttons next, previous
+- Title is a combobox
+- Use party descriptions on PieCharts
+- Use party descriptions on HondtTable
+- Use special 'censo' party to display case explanation
 - translate symbols to english
 
 
