@@ -10,7 +10,6 @@ class Resultats(object) :
 		]
 	def __init__(self, afile) :
 		tabSeparated = [line.split('\t') for line in afile]
-		print tabSeparated
 		for i, line in enumerate(tabSeparated) :
 			assert len(line) == 4, "line"
 
@@ -46,14 +45,10 @@ class Resultats(object) :
 		assert participacio == sum((
 			vots for partit, vots in self.vots.iteritems()
 			if partit != 'abstencion' ))
+
 		sconsRepartits = sum(self.scons.itervalues())
 		assert sconsRepartits == 0 or sconsRepartits == self.representants
-
 		self.votsValids = participacio - self.vots['nulos']
-
-		print self.vots
-		print self.scons
-		
 
 
 class Simulador(object) :
