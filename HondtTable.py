@@ -9,6 +9,7 @@ class HondtTable(QtGui.QTableWidget) :
 		super(HondtTable, self).__init__()
 		self._nSeats = 10
 		self._threshold = .03
+		self._votations = []
 
 		self.verticalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
 		self.horizontalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
@@ -20,6 +21,7 @@ class HondtTable(QtGui.QTableWidget) :
 	@nSeats.setter
 	def nSeats(self, value) :
 		self._nSeats = value
+		self.redistribute()
 
 	@QtCore.pyqtProperty(float)
 	def threshold(self) :
@@ -27,13 +29,10 @@ class HondtTable(QtGui.QTableWidget) :
 	@threshold.setter
 	def threshold(self, value) :
 		self._threshold = value
+		self.redistribute()
 
 
 	def feedVotations(self, results) :
-		nParties = len(results)
-		self.clear()
-		self.setRowCount(nParties)
-		self.setColumnCount(self.nSeats)
 
 		# Sort Parties by votes
 		self._votations = [
@@ -42,6 +41,13 @@ class HondtTable(QtGui.QTableWidget) :
 				reversed(sorted(
 					(votes, party) for party, votes in results.iteritems()))
 			 ]
+		self.redistribute()
+
+	def redistribute(self) :
+		self.clear()
+		nParties = len(self._votations)
+		self.setRowCount(nParties)
+		self.setColumnCount(self.nSeats)
 
 		# Adding party names
 		self.setVerticalHeaderLabels([
@@ -72,17 +78,18 @@ class HondtTable(QtGui.QTableWidget) :
 		for number, seatItem in self._seats[-self.nSeats:] :
 			seatItem.setBackground(QtGui.QColor("#ddb"))
 
+		# Mark seats next to the border
+		borderNearSeats = self._seats[-self.nSeats-2:-self.nSeats+2]
+		for seat in borderNearSeats :
+			seat[1].setForeground(
+			QtGui.QColor("orange"))
+
 		# Mark seats in the border between in and out
-		self._seats[-self.nSeats][1].setForeground(
-			QtGui.QColor("red"))
-		self._seats[-self.nSeats-1][1].setForeground(
+		borderSeats = self._seats[-self.nSeats-1:-self.nSeats+1]
+		for seat in borderSeats :
+			seat[1].setForeground(
 			QtGui.QColor("red"))
 
-		# Mark seats next to the border
-		self._seats[-self.nSeats+1][1].setForeground(
-			QtGui.QColor("orange"))
-		self._seats[-self.nSeats-2][1].setForeground(
-			QtGui.QColor("orange"))
 
 
 if __name__ == "__main__" :
@@ -102,6 +109,7 @@ if __name__ == "__main__" :
 		party8=1433,
 		party9=431,
 		))
+	window.resize(600, 300)
 
 	window.show()
 
