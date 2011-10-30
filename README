@@ -1,0 +1,32 @@
+The purpose of this program is to simulate the Spanish electoral system
+in order to get insight on how it works despite the myhts that exist
+about what is better to do.
+
+Some common myths and questions which are common within the spanish society:
+- When I vote to a minoritary party, is it a loose of force to avoid
+some evil party majority? Should i vote to a less evil majoritary party?
+- Who gets benefited or damaged when anyone does not vote, votes blank, 
+null, or does a protest vote to a system protesting party?
+- Is the electoral threshold actual damaging minoritary options?
+Is that possible in a given election?
+
+Using this program you can simulate vote flows from one option to
+another, being the options not just parties but also abstention, 
+blank and null votes.
+
+You can also review historical results and use that data to establish
+a worse case scenario for each so you can keep the faithful voters
+when simulating vote flows.
+
+
+This program was started by the 15M movement activists in Sant 
+Joan Despí (Barcelona, Spain) to provide objective arguments about
+what is worth to do or not on the 2011 Spanish Parlament polls,
+with the hope that although our electoral and political 
+system is quite unfair, we could find holes that we can use to
+empower our democracy.
+
+
+
+
+
