@@ -1,12 +1,14 @@
 + Convert agregated ods into separate csv files
 + Change the csv importer to the new format
 + Test exported data
-	- Check sum(scons) == total scons
-	- Check censo == abstencion + participacion
-	- Check participacion == nulos + blancos + partidos
-	- Check scons estan repartidos bien
+	+ Check sum(scons) == total scons
+	+ Check censo == abstencion + participacion
+	+ Check participacion == nulos + blancos + partidos
+	+ Check scons estan repartidos bien
 - Comparar el umbral con el minimo numero que entra de escaño
 - Comparar el umbral con el porcentaje de el primer partido que queda fuera
+- translate symbols to english
+
 
 
 
