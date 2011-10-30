@@ -6,6 +6,7 @@ class Resultats(object) :
 		'scons',
 		'representants',
 		'descripcions',
+		'votsValids',
 		]
 	def __init__(self, afile) :
 		data = [
@@ -41,6 +42,8 @@ class Resultats(object) :
 			if partit != 'abstencion' ))
 		sconsRepartits = sum(self.scons.itervalues())
 		assert sconsRepartits == 0 or sconsRepartits == self.representants
+
+		self.votsValids = participacio - self.vots['nulos']
 		
 
 
