@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 import Simulador
-try :
-	from PySide import QtGui, QtCore
-except ImportError :
-	from PyQt4 import QtGui, QtCore
+from PyQt4 import QtGui, QtCore
+from HondtTable import HondtTable
+
 
 import sys
 import math
+import glob
 
 class Sector(QtGui.QGraphicsEllipseItem) :
 	class Updater(QtCore.QObject) :
@@ -38,9 +38,11 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 		def opacity(self, value) :
 			self.sector.setOpacity(value)
 
-	def __init__(self, rect, label) :
+	def __init__(self, parent, rect, label) :
 		super(QtGui.QGraphicsEllipseItem,self).__init__(rect)
+		self.parent = parent
 		self.setToolTip(label)
+		self.line = QtGui.QGraphicsLineItem(self)
 		self.label = QtGui.QGraphicsSimpleTextItem(label, self)
 		self.labelBox = QtGui.QGraphicsRectItem(self.label.boundingRect(), self)
 		self.labelBox.setBrush(QtGui.QColor("white"))
@@ -71,14 +73,22 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 
 	def updateLabel(self) :
 		angle = (self.spanAngle()/2 + self.startAngle())/16
-		self.label.setPos(
-			QtCore.QPointF(
-				100*1.3*math.cos(math.radians(angle)),
-				-100*1.3*math.sin(math.radians(angle))))
-		self.labelBox.setPos(
-			QtCore.QPointF(
-				100*1.3*math.cos(math.radians(angle)),
-				-100*1.3*math.sin(math.radians(angle))))
+		radius = self.parent.radius
+		pos = QtCore.QPointF(
+				radius*1.1*math.cos(math.radians(angle))-self.labelBox.rect().width()/2,
+				-radius*1.1*math.sin(math.radians(angle))+self.labelBox.rect().height()/2,
+				)
+		self.line.setLine(
+			QtCore.QLineF(
+				QtCore.QPointF(0,0),
+				pos,
+			))
+		self.label.setPos(pos)
+		self.labelBox.setPos(pos)
+
+		self.line.setPen(self.brush().color())
+		self.labelBox.setPen(self.brush().color())
+		self.labelBox.setBrush(self.brush().color().lighter())
 
 class PieChart(QtGui.QGraphicsView) :
 
@@ -89,18 +99,25 @@ class PieChart(QtGui.QGraphicsView) :
 			QtGui.QPainter.SmoothPixmapTransform);
 		self.scene = QtGui.QGraphicsScene()
 		self.setScene(self.scene)
-		self.colors = ['red', 'orange', 'blue', 'green', 'yellow']
+		self.colors = [
+			'red', 'orange', 'blue', 'green', 'yellow',
+			'lightblue',
+			]
 		self.maxAngle = maxAngle * 16 # 16th of degree
-		self.rect = QtCore.QRectF(-radius,-radius,2*radius,2*radius)
+		self.radius = 100
 		self.sectors = {}
 		self._sectorColors = {}
-		self.setSizePolicy(
-			QtGui.QSizePolicy.MinimumExpanding,
-			QtGui.QSizePolicy.Fixed)
-		self.setMinimumSize(350,300)
 
 	def setSectorColors(self, sectorColors) :
 		self._sectorColors = sectorColors
+
+	def resizeEvent(self, event) :
+		super(PieChart, self).resizeEvent(event)
+		size = event.size()
+		self.radius = min(size.width(), size.height())/2.5
+		self.rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
+		for sector in self.sectors.itervalues() :
+			sector.setRect(self.rect)
 
 	def setSectorValues(self, **sectors) :
 		removedNames = [ name 
@@ -121,7 +138,7 @@ class PieChart(QtGui.QGraphicsView) :
 			try :
 				sector = self.sectors[name]
 			except KeyError :
-				sector = Sector(self.rect, name)
+				sector = Sector(self, self.rect, name)
 				sector.setPen(color.lighter())
 				sector.setStartAngle(0)
 				sector.setSpanAngle(0)
@@ -136,17 +153,14 @@ class ExperimentalVoter(QtGui.QDialog) :
 	def __init__(self) :
 		QtGui.QDialog.__init__(self)
 		self.cases = [
-			(name, Simulador.Resultats(file(name+".csv")))
-			for name in [
-				"parlamentoBarcelona2000",
-				"parlamentoBarcelona2004",
-				"parlamentoBarcelona2008",
-				]
+			(name, Simulador.Resultats(file(name)))
+			for name in glob.iglob(
+				"cookedData/congresoBarcelona-????-??.csv")
 			]
 		self.currentCase = 0
 
 		colors = dict(
-			abstenciones="black",
+			abstencion="black",
 			blancos="white",
 			nulos="#F44",
 			PSOE="red",
@@ -182,6 +196,9 @@ class ExperimentalVoter(QtGui.QDialog) :
 		chartLayout.addWidget(self.sconsChart,1,0)
 		self.sconsChart.setSectorColors(colors)
 
+		self.hondtTable = HondtTable()
+		chartLayout.addWidget(self.hondtTable,1,1)
+
 		button = QtGui.QPushButton("Change")
 		layout.addWidget(button)
 
@@ -195,10 +212,14 @@ class ExperimentalVoter(QtGui.QDialog) :
 		self.votesChart.setSectorValues(**case.vots)
 		self.sconsChart.setSectorValues(**case.scons)
 		proportional = dict(case.vots)
-		del proportional['abstenciones']
+		del proportional['abstencion']
 		del proportional['blancos']
 		del proportional['nulos']
 		self.proportionalChart.setSectorValues(**proportional)
+		self.hondtTable.feedVotations(proportional)
+		self.hondtTable.nSeats = case.representants
+
+
 
 app = QtGui.QApplication(sys.argv)
 window = ExperimentalVoter()
