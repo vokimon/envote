@@ -11,12 +11,16 @@ import math
 import glob
 
 class Envoter(QtGui.QDialog) :
-	def __init__(self) :
+	def __init__(self, files) :
 		QtGui.QDialog.__init__(self)
+		if not files :
+			files = sorted(
+				glob.glob(
+					"cookedData/congresoBarcelona-????-*.csv"))
+		print files
 		self.cases = sorted([
 			(name, Simulador.Resultats(file(name)))
-			for name in glob.iglob(
-				"cookedData/congresoBarcelona-????-??.csv")
+			for name in files
 			])
 		self.currentCase = 0
 
@@ -72,12 +76,15 @@ class Envoter(QtGui.QDialog) :
 		button.clicked.connect(self.changeValues)
 
 	def changeValues(self) :
-		import random
 		name, case = self.cases[self.currentCase]
 		self.title.setText(name)
 		self.currentCase = (self.currentCase+1)%len(self.cases)
 		self.votesChart.setSectorValues(**case.vots)
-		self.sconsChart.setSectorValues(**case.scons)
+		scons = case.scons
+		if not sum(case.scons.values()) :
+			s = Simulador.Simulador(case.representants, **case.vots)
+			scons = s.repartiment(case.representants)
+		self.sconsChart.setSectorValues(**scons)
 		proportional = dict(case.vots)
 		del proportional['abstencion']
 		del proportional['blancos']
@@ -90,7 +97,7 @@ class Envoter(QtGui.QDialog) :
 
 
 app = QtGui.QApplication(sys.argv)
-window = Envoter()
+window = Envoter(sys.argv[1:])
 window.setWindowTitle("Simulador de votacions")
 window.show()
 

@@ -9,16 +9,22 @@ class Resultats(object) :
 		'votsValids',
 		]
 	def __init__(self, afile) :
+		tabSeparated = [line.split('\t') for line in afile]
+		print tabSeparated
+		for i, line in enumerate(tabSeparated) :
+			assert len(line) == 4, "line"
+
 		data = [
-			(nom, vots, scons, descripcions)
+			(
+				nom,
+				int(vots) if vots else 0,
+				int(scons) if scons else 0,
+				descripcions.strip())
 			for nom, vots, scons, descripcions
-			in (
-				line.split('\t')
-				for line in afile
-				)
-			][1:]
+			in tabSeparated[1:]
+			]
 		self.vots = dict((
-			(nom, int(vots))
+			(nom, int(vots) if vots else 0)
 			for nom, vots, scons, descripcions in data))
 		self.scons = dict(( 
 			(nom, int(scons) if scons else 0)
@@ -44,6 +50,9 @@ class Resultats(object) :
 		assert sconsRepartits == 0 or sconsRepartits == self.representants
 
 		self.votsValids = participacio - self.vots['nulos']
+
+		print self.vots
+		print self.scons
 		
 
 
@@ -141,6 +150,15 @@ class SimuladorTest(unittest.TestCase) :
 		self.assertEquals(
 			4500,
 			s.votosValidos())
+
+	def test_repartiment_cassosReals(self) :
+		for dataFile in glob.glob("cookedData/congresoBarcelona-2011*csv") :
+			print dataFile
+			case = Resultats(file(dataFile))
+			s = Simulador(case.representants, **case.vots)
+			self.assertEquals(
+				case.scons,
+				s.repartiment(case.representants))
 
 	def test_repartiment_cassosReals(self) :
 		for dataFile in glob.glob("cookedData/congresoBarcelona-????-??.csv") :

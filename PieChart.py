@@ -120,6 +120,7 @@ class PieChart(QtGui.QGraphicsView) :
 		size = event.size()
 		self.radius = min(size.width(), size.height())/2.5
 		self.rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
+		self.setSceneRect(self.rect)
 		for sector in self.sectors.itervalues() :
 			sector.setRect(self.rect)
 
@@ -131,14 +132,13 @@ class PieChart(QtGui.QGraphicsView) :
 			self.scene.removeItem(self.sectors[name])
 			del self.sectors[name]
 		total = sum((quantity for quantity in sectors.values()))
+		print total
 		sortedSectors = sorted(((value, name) for name, value in sectors.iteritems()))
 		angle = 0
 		for i, (value, name) in enumerate(sortedSectors) :
-			try :
-				colorName = self._sectorColors[name]
-			except KeyError :
-				colorName = self.colors[i%len(self.colors)]
-			color = QtGui.QColor(colorName)
+			if name not in self._sectorColors :
+				self._sectorColors[name] = self.colors[len(self._sectorColors)%len(self.colors)]
+			color = QtGui.QColor(self._sectorColors[name])
 			try :
 				sector = self.sectors[name]
 			except KeyError :

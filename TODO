@@ -1,6 +1,6 @@
 + Convert agregated ods into separate csv files
-- Change the csv importer to the new format
-- Test exported data
++ Change the csv importer to the new format
++ Test exported data
 	- Check sum(scons) == total scons
 	- Check censo == abstencion + participacion
 	- Check participacion == nulos + blancos + partidos
