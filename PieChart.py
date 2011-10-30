@@ -50,7 +50,7 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 		self.labelBox.setPen(QtGui.QColor("black"))
 		self.labelBox.setZValue(20)
 		self.label.setZValue(30)
-		duration = 150
+		duration = 250
 		self.updater = Sector.Updater(self)
 		self.startAnimation = QtCore.QPropertyAnimation(self.updater, 'start')
 		self.spanAnimation = QtCore.QPropertyAnimation(self.updater, 'span')
