@@ -49,7 +49,7 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 		self.labelBox.setPen(QtGui.QColor("black"))
 		self.labelBox.setZValue(20)
 		self.label.setZValue(30)
-		duration = 500
+		duration = 200
 		self.updater = Sector.Updater(self)
 		self.startAnimation = QtCore.QPropertyAnimation(self.updater, 'start')
 		self.spanAnimation = QtCore.QPropertyAnimation(self.updater, 'span')
@@ -102,10 +102,11 @@ class PieChart(QtGui.QGraphicsView) :
 			QtGui.QPainter.SmoothPixmapTransform);
 		self.scene = QtGui.QGraphicsScene()
 		self.setScene(self.scene)
-		self.colors = [
-			'red', 'orange', 'blue', 'green', 'yellow',
-			'lightblue', 'purple',
-			]
+		self.colors = (
+			"green orange purple magenta yellow blue red aquamarine "+
+			"gold greenyellow khaki sienna sandybrown skyblue Thistle orchid tomato "
+			"darkcyan "
+		).split()
 		self.maxAngle = maxAngle * 16 # 16th of degree
 		self.radius = 100
 		self.sectors = {}
@@ -152,91 +153,31 @@ class PieChart(QtGui.QGraphicsView) :
 			angle += span
 			self.sectors[name]=sector
 
-class ExperimentalVoter(QtGui.QDialog) :
-	def __init__(self) :
-		QtGui.QDialog.__init__(self)
-		self.cases = sorted([
-			(name, Simulador.Resultats(file(name)))
-			for name in glob.iglob(
-				"cookedData/congresoBarcelona-????-??.csv")
-			])
-		self.currentCase = 0
 
-		colors = dict(
-			abstencion="darkgrey",
-			blancos="white",
-			nulos="#F44",
-			PSOE="red",
-			CiU="blue",
-			CIU="blue",
-			PP="cyan",
-			ERC="orange",
-			ESQUERRA="orange",
-			** {
-			"PSC" : "red",
-			"PSC-PSOE" : "red",
-			"ICV-EUiA" : "green",
-			"IC-V" : "green",
-			"IC-EV" : "green",
-			"IU" : "green",
-			"PSUC" : "green",
-			"PSUC-PCE" : "green",
-			})
+if __name__ == "__main__" :
+	import random
 
-		layout = QtGui.QVBoxLayout()
-		self.setLayout(layout)
+	app = QtGui.QApplication(sys.argv)
+	window = QtGui.QDialog()
+	window.setLayout(QtGui.QVBoxLayout())
+	pie = PieChart()
+	sectors = pie.colors
+	def switch() :
+		pie.setSectorValues(**dict((
+			(v, random.randint(1,1000))
+			for v in sectors)))
+	window.layout().addWidget(pie)
+	button = QtGui.QPushButton("switch")
+	window.layout().addWidget(button)
+	colors = dict((v,v) for v in sectors)
+	pie.setSectorColors(colors)
+	button.clicked.connect(switch)
 
-		self.title = QtGui.QLabel()
-		self.title.setAlignment(QtCore.Qt.AlignCenter)
-		layout.addWidget(self.title)
+	window.setWindowTitle("Simulador de votacions")
+	window.resize(500,500)
+	window.show()
 
-		chartLayout = QtGui.QGridLayout()
-		layout.addLayout(chartLayout)
-
-		self.votesChart = PieChart()
-		chartLayout.addWidget(self.votesChart,0,0)
-		self.votesChart.setSectorColors(colors)
-
-		self.proportionalChart = PieChart()
-		chartLayout.addWidget(self.proportionalChart, 0,1)
-		self.proportionalChart.setSectorColors(colors)
-
-		self.sconsChart = PieChart()
-		chartLayout.addWidget(self.sconsChart,0,2)
-		self.sconsChart.setSectorColors(colors)
-
-		self.hondtTable = HondtTable()
-		layout.addWidget(self.hondtTable)
-
-		button = QtGui.QPushButton("Change")
-		layout.addWidget(button)
-
-		button.clicked.connect(self.changeValues)
-
-	def changeValues(self) :
-		import random
-		name, case = self.cases[self.currentCase]
-		self.title.setText(name)
-		self.currentCase = (self.currentCase+1)%len(self.cases)
-		self.votesChart.setSectorValues(**case.vots)
-		self.sconsChart.setSectorValues(**case.scons)
-		proportional = dict(case.vots)
-		del proportional['abstencion']
-		del proportional['blancos']
-		del proportional['nulos']
-		self.proportionalChart.setSectorValues(**proportional)
-		self.hondtTable.threshold = case.votsValids *.03
-		self.hondtTable.nSeats = case.representants
-		self.hondtTable.feedVotations(proportional)
-
-
-
-app = QtGui.QApplication(sys.argv)
-window = ExperimentalVoter()
-window.setWindowTitle("Simulador de votacions")
-window.show()
-
-sys.exit(app.exec_())
+	sys.exit(app.exec_())
 
 
 
