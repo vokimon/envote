@@ -157,7 +157,6 @@ class PieChart(QtGui.QGraphicsView) :
 			self.scene.removeItem(self.sectors[name])
 			del self.sectors[name]
 		total = sum((quantity for quantity in sectors.values()))
-		print total
 		sortedSectors = sorted(((value, name) for name, value in sectors.iteritems()))
 		angle = 0
 		for i, (value, name) in enumerate(sortedSectors) :
