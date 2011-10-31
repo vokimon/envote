@@ -78,7 +78,6 @@ class Simulador(object) :
 			abstencion,
 			blancos,
 			nulos,
-			umbral = 30,
 			** votacions
 			) :
 		self._votacions = dict(votacions)
