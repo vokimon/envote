@@ -1,4 +1,23 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Copyright 2011 David García Garzón
+
+This file is part of enVote
+
+enVote is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+enVote is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
 
 import Simulador
 from PyQt4 import QtGui, QtCore
@@ -29,13 +48,13 @@ class Envoter(QtGui.QDialog) :
 			abstencion="darkgrey",
 			blancos="white",
 			nulos="#F44",
-			PSOE="red",
 			CiU="blue",
 			CIU="blue",
 			PP="cyan",
 			ERC="orange",
 			ESQUERRA="orange",
 			** {
+			"PSOE" : "red",
 			"PSC" : "red",
 			"PSC-PSOE" : "red",
 			"ICV-EUiA" : "green",
@@ -120,7 +139,7 @@ class Envoter(QtGui.QDialog) :
 			s = Simulador.Simulador(case.representants, **case.vots)
 			scons = s.repartiment(case.representants)
 		print "Hondt Table"
-		self.hondtTable.threshold = case.votsValids *.03
+		self.hondtTable.threshold = case.votsValids *.05
 		self.hondtTable.nSeats = case.representants
 		self.hondtTable.feedVotations(proportional)
 		print "Updating Pies"
