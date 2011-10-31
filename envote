@@ -139,7 +139,7 @@ class Envoter(QtGui.QDialog) :
 			s = Simulador.Simulador(case.representants, **case.vots)
 			scons = s.repartiment(case.representants)
 		print "Hondt Table"
-		self.hondtTable.threshold = case.votsValids *.05
+		self.hondtTable.threshold = case.votsValids *.03
 		self.hondtTable.nSeats = case.representants
 		self.hondtTable.feedVotations(proportional)
 		print "Updating Pies"
