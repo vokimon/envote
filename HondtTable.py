@@ -32,6 +32,8 @@ class HondtTable(QtGui.QTableWidget) :
 
 		self.verticalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
 		self.horizontalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
+		self.setSelectionBehavior(QtGui.QTableWidget.SelectRows)
+		self.setTabKeyNavigation(False)
 
 
 	@QtCore.pyqtProperty(int)
