@@ -97,14 +97,18 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 	def updateLabel(self) :
 		angle = (self.spanAngle()/2 + self.startAngle())/16
 		radius = self.parent.radius
-		pos = QtCore.QPointF(
-				radius*1.1*math.cos(math.radians(angle))-self.labelBox.rect().width()/2,
-				-radius*1.1*math.sin(math.radians(angle))+self.labelBox.rect().height()/2,
+		labelCenter = QtCore.QPointF(
+				radius*1.2*math.cos(math.radians(angle)),
+				-radius*1.2*math.sin(math.radians(angle)),
+				)
+		pos = labelCenter + QtCore.QPointF(
+				-self.labelBox.rect().width()/2,
+				-self.labelBox.rect().height()/2,
 				)
 		self.line.setLine(
 			QtCore.QLineF(
 				QtCore.QPointF(0,0),
-				pos,
+				labelCenter,
 			))
 		self.label.setPos(pos)
 		self.labelBox.setPos(pos)
