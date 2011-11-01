@@ -27,12 +27,12 @@ class HondtTable(QtGui.QTableWidget) :
 	def __init__(self) :
 		super(HondtTable, self).__init__()
 		self._nSeats = 10
-		self._threshold = .03
+		self._threshold = 0
 		self._votations = []
 
 		self.verticalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
 		self.horizontalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
-		self.setSelectionBehavior(QtGui.QTableWidget.SelectRows)
+#		self.setSelectionBehavior(QtGui.QTableWidget.SelectRows)
 		self.setTabKeyNavigation(False)
 
 
@@ -52,13 +52,13 @@ class HondtTable(QtGui.QTableWidget) :
 
 
 	def feedVotations(self, results) :
-
 		# Sort Parties by votes
 		self._votations = [
 			(party,votes) 
 			for votes, party in 
 				reversed(sorted(
-					(votes, party) for party, votes in results.iteritems()))
+					(votes, party)
+					for party, votes in results.iteritems()))
 			 ]
 		self.redistribute()
 
@@ -68,11 +68,15 @@ class HondtTable(QtGui.QTableWidget) :
 		self.setRowCount(nParties)
 		self.setColumnCount(self.nSeats)
 
+		self.verticalHeader().setResizeMode(QtGui.QHeaderView.Fixed)
+		self.horizontalHeader().setResizeMode(QtGui.QHeaderView.Fixed)
 		# Adding party names
+		print "Adding party names"
 		self.setVerticalHeaderLabels([
 			party for party, votes in self._votations])
 
 		# Distribute seats value
+		print "Distribute seats value"
 		self._seats = []
 		for i, (party, votes) in enumerate(self._votations) :
 			for seat in xrange(1, self.nSeats+1) :
@@ -83,7 +87,7 @@ class HondtTable(QtGui.QTableWidget) :
 		self._seats.sort()
 
 		# Mark parties under threshold
-		# TODO: Blank votes not considered yet
+		print "Mark parties under threshold"
 		firstThresholdedParty = len(
 			[party for party, votes in self._votations
 				if votes > self._threshold])
@@ -94,10 +98,12 @@ class HondtTable(QtGui.QTableWidget) :
 				item.setForeground(QtGui.QColor("#bbb"))
 
 		# Mark taken seats
+		print "Mark taken seats"
 		for number, seatItem in self._seats[-self.nSeats:] :
 			seatItem.setBackground(QtGui.QColor("#ddb"))
 
 		# Mark seats next to the border
+		print "Mark seats next to the border"
 		borderNearSeats = self._seats[-self.nSeats-2:-self.nSeats+2]
 		for seat in borderNearSeats :
 			seat[1].setForeground(
@@ -108,7 +114,11 @@ class HondtTable(QtGui.QTableWidget) :
 		for seat in borderSeats :
 			seat[1].setForeground(
 			QtGui.QColor("red"))
-
+		# Resizing
+		print "Resizing"
+		self.verticalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
+		self.horizontalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
+		print "HondtTable done"
 
 
 if __name__ == "__main__" :
@@ -133,9 +143,5 @@ if __name__ == "__main__" :
 	window.show()
 
 	sys.exit(app.exec_())
-
-
-
-
 
 
