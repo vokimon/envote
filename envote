@@ -19,11 +19,11 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import Simulador
-from PyQt4 import QtGui, QtCore
-from HondtTable import HondtTable
-from PieChart import PieChart
+import envotelib.Simulador as Simulador
+from envotelib.HondtTable import HondtTable
+from envotelib.PieChart import PieChart
 
+from PyQt4 import QtGui, QtCore
 
 import sys
 import os
@@ -35,8 +35,7 @@ class Envoter(QtGui.QDialog) :
 		QtGui.QDialog.__init__(self)
 		if not files :
 			files = sorted(
-				glob.glob(
-					"data/*.csv"))
+				glob.glob(self.dataPath("*")))
 		print files
 		self.cases = sorted([
 			(os.path.splitext(os.path.basename(name))[0], Simulador.Resultats(file(name)))
@@ -131,17 +130,20 @@ class Envoter(QtGui.QDialog) :
 		resetButton.clicked.connect(self.reset)
 		self.updateDatabase()
 
+	def dataPath(self, name) :
+		return os.path.join(os.path.dirname(__file__), "data", name+".csv")
+
 	def reset(self) :
 		name, case = self.cases[self.currentCase]
-		dataFile = os.path.join("data", name+".csv")
-		self.cases[self.currentCase] = (name, Simulador.Resultats(file(dataFile)))
+		dataFile = file(self.dataPath(name))
+		self.cases[self.currentCase] = (name, Simulador.Resultats(dataFile))
 
 		self.updateDatabase()
 
 	def save(self) :
 		name, case = self.cases[self.currentCase]
-		filename = os.path.join("data", name+".csv")
-		case.save(file(os.path.join("data", name+".csv"),'w'))
+		dataFile = file(self.dataPath(name), "w")
+		case.save(dataFile)
 
 	def previousDatabase(self) :
 		self.currentCase -= 1
