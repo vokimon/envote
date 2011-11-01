@@ -26,6 +26,7 @@ from PieChart import PieChart
 
 
 import sys
+import os
 import math
 import glob
 
@@ -35,10 +36,10 @@ class Envoter(QtGui.QDialog) :
 		if not files :
 			files = sorted(
 				glob.glob(
-					"data/congresoBarcelona-????-*.csv"))
+					"data/*.csv"))
 		print files
 		self.cases = sorted([
-			(name, Simulador.Resultats(file(name)))
+			(os.path.splitext(os.path.basename(name))[0], Simulador.Resultats(file(name)))
 			for name in files
 			])
 		self.currentCase = 0
@@ -116,7 +117,7 @@ class Envoter(QtGui.QDialog) :
 
 		resetButton = QtGui.QPushButton("&Reset")
 		buttonBox.addWidget(resetButton)
-		saveButton = QtGui.QPushButton("&Save As")
+		saveButton = QtGui.QPushButton("&Save")
 		buttonBox.addWidget(saveButton)
 		prevButton = QtGui.QPushButton("&Previous")
 		buttonBox.addWidget(prevButton)
@@ -126,9 +127,21 @@ class Envoter(QtGui.QDialog) :
 		transfer.clicked.connect(self.transfer)
 		nextButton.clicked.connect(self.nextDatabase)
 		prevButton.clicked.connect(self.previousDatabase)
+		saveButton.clicked.connect(self.save)
+		resetButton.clicked.connect(self.reset)
 		self.updateDatabase()
 
-		
+	def reset(self) :
+		name, case = self.cases[self.currentCase]
+		dataFile = os.path.join("data", name+".csv")
+		self.cases[self.currentCase] = (name, Simulador.Resultats(file(dataFile)))
+
+		self.updateDatabase()
+
+	def save(self) :
+		name, case = self.cases[self.currentCase]
+		filename = os.path.join("data", name+".csv")
+		case.save(file(os.path.join("data", name+".csv"),'w'))
 
 	def previousDatabase(self) :
 		self.currentCase -= 1
@@ -189,14 +202,14 @@ class Envoter(QtGui.QDialog) :
 		if not sum(self.case.scons.values()) :
 			s = Simulador.Simulador(self.case.representants, **self.case.vots)
 			scons = s.repartiment(self.case.representants)
-		print "Hondt Table"
-		self.hondtTable.threshold = self.case.votsValids *.03
-		self.hondtTable.nSeats = self.case.representants
-		self.hondtTable.feedVotations(proportional)
 		print "Updating Pies"
 		self.votesChart.setSectorValues(**self.case.vots)
 		self.proportionalChart.setSectorValues(**proportional)
 		self.sconsChart.setSectorValues(**scons)
+		print "Hondt Table"
+		self.hondtTable.threshold = self.case.votsValids *.03
+		self.hondtTable.nSeats = self.case.representants
+		self.hondtTable.feedVotations(proportional)
 		print "end"
 
 

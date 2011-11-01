@@ -47,6 +47,9 @@ class Resultats(object) :
 		self.scons = dict(( 
 			(nom, int(scons) if scons else 0)
 			for nom, vots, scons, descripcions in data))
+		self.descripcions = dict((
+			(nom, descripcions.strip())
+			for nom, vots, scons, descripcions in data))
 
 		self.representants = self.scons['censo']
 		totalCensats = self.vots['censo']
@@ -68,6 +71,29 @@ class Resultats(object) :
 		sconsRepartits = sum(self.scons.itervalues())
 		assert sconsRepartits == 0 or sconsRepartits == self.representants
 		self.votsValids = participacio - self.vots['nulos']
+
+	def save(self, f) :
+		nocandidaturas = ["abstencion", "nulos", "blancos"]
+		candidaturas = sorted(self.vots.iteritems(), key=lambda x: x[1], reverse=True)
+		candidaturas = [(nom,vots) for nom, vots in candidaturas if nom not in nocandidaturas]
+		cens = sum(self.vots.itervalues())
+		participacio = cens - self.vots['abstencion']
+		data = [
+			"Siglas Votos Diputados Candidaturas".split(),
+			("censo", cens, self.representants, self.descripcions['censo']),
+			("participacion", participacio, '', ''),
+			]
+		data+= [
+			(nom, self.vots[nom], '', '')
+			for nom in nocandidaturas
+			]
+		data+= [
+			(nom, vots, self.scons[nom], self.descripcions[nom])
+			for nom, vots in candidaturas
+			]
+		for line in data:
+			print >> f, "\t".join([str(item) for item in line])
+
 
 
 class Simulador(object) :
@@ -164,14 +190,12 @@ class SimuladorTest(unittest.TestCase) :
 			4500,
 			s.votosValidos())
 
-	def test_repartiment_cassosReals(self) :
-		for dataFile in glob.glob("data/congresoBarcelona-2011*csv") :
-			print dataFile
-			case = Resultats(file(dataFile))
-			s = Simulador(case.representants, **case.vots)
-			self.assertEquals(
-				case.scons,
-				s.repartiment(case.representants))
+	def test_repartiment_parlamentoBarcelona2000(self) :
+		case = Resultats(file("data/congresoBarcelona-2000-03.csv"))
+		s = Simulador(case.representants, **case.vots)
+		self.assertEquals(
+			case.scons,
+			s.repartiment(case.representants))
 
 	def test_repartiment_cassosReals(self) :
 		for dataFile in glob.glob("data/congresoBarcelona-????-??.csv") :
@@ -182,35 +206,37 @@ class SimuladorTest(unittest.TestCase) :
 				case.scons,
 				s.repartiment(case.representants))
 
-	def test_repartiment_parlamentoBarcelona2000(self) :
-		case = Resultats(file("data/congresoBarcelona-2000-03.csv"))
-		s = Simulador(case.representants, **case.vots)
-		self.assertEquals(
-			case.scons,
-			s.repartiment(case.representants))
+	def test_carrega_cassosNoRepartits(self) :
+		casosReals = glob.glob("data/congresoBarcelona-????-??.csv")
+		casosNoRepartits = [
+			case for case in glob.glob("data/*.csv")
+			if case not in casosReals ]
+		for dataFile in casosNoRepartits :
+			print dataFile
+			case = Resultats(file(dataFile))
+			s = Simulador(case.representants, **case.vots)
 
-	def _test_repartiment_parlamentoBarcelona2000(self) :
-		case = Resultats(file("parlamentoBarcelona2000.csv"))
-		s = Simulador(case.representants, **case.vots)
-		self.assertEquals(
-			case.scons,
-			s.repartiment(case.representants))
-
-	def _test_repartiment_parlamentoBarcelona2004(self) :
-		case = Resultats(file("parlamentoBarcelona2004.csv"))
-		s = Simulador(case.representants, **case.vots)
-		self.assertEquals(
-			case.scons,
-			s.repartiment(case.representants))
-
-	def _test_repartiment_parlamentoBarcelona2008(self) :
-		case = Resultats(file("parlamentoBarcelona2008.csv"))
-		s = Simulador(case.representants, **case.vots)
-		self.assertEquals(
-			case.scons,
-			s.repartiment(case.representants))
-
-
+	def test_save(self) :
+		fileContent = (
+			"Siglas\tVotos\tDiputados\tCandidaturas\n"+
+			"censo\t2500\t30\tAtest\n"+
+			"participacion\t2000\t\t\n"+
+			"abstencion\t500\t\t\n"+
+			"nulos\t200\t\t\n"+
+			"blancos\t300\t\t\n"+
+			"AAA\t600\t0\tAnonymous\n"+
+			"BBB\t500\t0\tBisexuals\n"+
+			"CCC\t400\t0\tCovenants\n"+
+			"")
+		import StringIO
+		original = StringIO.StringIO(fileContent)
+		case = Resultats(original)
+		s = StringIO.StringIO()
+		case.save(s)
+		print '\n',repr(s.getvalue())
+		print repr(fileContent)
+		self.assertEquals(fileContent, s.getvalue())
+		
 
 
 if __name__ == "__main__" :
