@@ -92,11 +92,38 @@ class Envoter(QtGui.QDialog) :
 		self.title.addItems([name for name, case in self.cases])
 		self.title.currentIndexChanged.connect(self.titleChanged)
 
-		buttonBox = QtGui.QDialogButtonBox()
-		prevButton = buttonBox.addButton("&Previous", QtGui.QDialogButtonBox.ActionRole)
-		nextButton = buttonBox.addButton("&Next", QtGui.QDialogButtonBox.ActionRole)
-		layout.addWidget(buttonBox)
+		buttonBox = QtGui.QHBoxLayout()
+		layout.addLayout(buttonBox)
+		self._from = QtGui.QComboBox()
+		self._to = QtGui.QComboBox()
+		transfer = QtGui.QPushButton("&Transfer")
+		self._tranferSize = QtGui.QSpinBox()
+		self._tranferSize.setMinimum(1)
+		self._tranferSize.setMaximum(1000000)
+		self._tranferSize.setValue(10000)
+		self._tranferSize.setSuffix(" vots")
+		arrow = QtGui.QLabel("->")
+		arrow.setSizePolicy(
+			QtGui.QSizePolicy.Fixed,
+			QtGui.QSizePolicy.Fixed,
+			)
+		buttonBox.addWidget(self._from)
+		buttonBox.addWidget(arrow)
+		buttonBox.addWidget(self._to)
+		buttonBox.addWidget(self._tranferSize)
+		buttonBox.addWidget(transfer)
+		buttonBox.addWidget(QtGui.QWidget()) # spacer
 
+		resetButton = QtGui.QPushButton("&Reset")
+		buttonBox.addWidget(resetButton)
+		saveButton = QtGui.QPushButton("&Save As")
+		buttonBox.addWidget(saveButton)
+		prevButton = QtGui.QPushButton("&Previous")
+		buttonBox.addWidget(prevButton)
+		nextButton = QtGui.QPushButton("&Next")
+		buttonBox.addWidget(nextButton)
+
+		transfer.clicked.connect(self.transfer)
 		nextButton.clicked.connect(self.nextDatabase)
 		prevButton.clicked.connect(self.previousDatabase)
 		self.updateDatabase()
@@ -120,30 +147,54 @@ class Envoter(QtGui.QDialog) :
 
 		self.updateDatabase()
 
+	def transfer(self) :
+		vots = self.case.vots
+		fromOption = str(self._from.currentText())
+		toOption = str(self._to.currentText())
+		transferSize = min(vots[fromOption], self._tranferSize.value())
+		vots[fromOption] -= transferSize
+		vots[toOption] += transferSize
+		self.updateViews()
+
 	def updateDatabase(self) :
-		name, case = self.cases[self.currentCase]
+		name, self.case = self.cases[self.currentCase]
 		print "Changint to", name
+		specialOptions = [
+			'abstencion',
+			'blancos',
+			'nulos',
+			]
+		options = sorted(self.case.vots.keys())
+		self._to.clear()
+		self._to.addItems(options)
+		self._from.clear()
+		self._from.addItems(options)
+		self.updateViews()
+
+	def updateViews(self) :
+
 		print "Computing proportional"
 		proportional = dict((
 			(party, votes) 
-			for party, votes in case.vots.iteritems()
+			for party, votes in self.case.vots.iteritems()
 			if party not in [
 				'abstencion',
 				'blancos',
 				'nulos',
 				]
 			))
+
 		print "Computing Seats"
-		scons = case.scons
-		if not sum(case.scons.values()) :
-			s = Simulador.Simulador(case.representants, **case.vots)
-			scons = s.repartiment(case.representants)
+		scons = self.case.scons
+		if not sum(self.case.scons.values()) :
+			s = Simulador.Simulador(self.case.representants, **self.case.vots)
+			scons = s.repartiment(self.case.representants)
 		print "Hondt Table"
-		self.hondtTable.threshold = case.votsValids *.03
-		self.hondtTable.nSeats = case.representants
+		self.hondtTable.threshold = self.case.votsValids *.03
+		self.hondtTable.nSeats = self.case.representants
 		self.hondtTable.feedVotations(proportional)
 		print "Updating Pies"
-		self.votesChart.setSectorValues(**case.vots)
+		self.votesChart.setSectorValues(**self.case.vots)
 		self.proportionalChart.setSectorValues(**proportional)
 		self.sconsChart.setSectorValues(**scons)
 		print "end"
