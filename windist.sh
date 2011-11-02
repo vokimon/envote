@@ -1,14 +1,23 @@
-#!/bin/sh
+#!/bin/bash
 
 # This scripts is a unix/linux scripts that builds the windows binaries
 # Requires wine
-# Requires windows versions (installed on wine) of python27, pyqt and cxfreeze
+# Requires windows versions (installed on wine) of python27, pyqt and cx_freeze
 
+set -e
 
-version=0.1
+version=$(cat VERSION)
+WINE_DRIVE_C=~/.wine/drive_c
+PYTHON_PREFIX=$WINE_DRIVE_C/Python27
+PYTHON_DLL=$WINE_DRIVE_C/windows/system32/python27.dll
 
-~/.wine/drive_c/Python27/python.exe /home/vokimon/.wine/drive_c/Scripts/cxfreeze  envote --target-dir envote-$version
-cp -r data envote-$version/
-zip -r envote-$version.zip envote-$version/
+$PYTHON_PREFIX/python.exe $PYTHON_PREFIX/Scripts/cxfreeze  envote --target-dir envote-$version-win32
+cp -vr data envote-$version-win32/
+cp -v $PYTHON_DLL envote-$version-win32/
+for dll in QtCore4 QtGui4
+do
+	cp -v $PYTHON_PREFIX/Lib/site-packages/PyQt4/$dll.dll envote-$version-win32/
+done
+zip -r envote-$version-win32.zip envote-$version-win32/
 
 

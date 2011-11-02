@@ -30,13 +30,13 @@ import os
 import math
 import glob
 
+
 class Envoter(QtGui.QDialog) :
 	def __init__(self, files) :
 		QtGui.QDialog.__init__(self)
 		if not files :
 			files = sorted(
 				glob.glob(self.dataPath("*")))
-		print files
 		self.cases = sorted([
 			(os.path.splitext(os.path.basename(name))[0], Simulador.Resultats(file(name)))
 			for name in files
@@ -131,7 +131,12 @@ class Envoter(QtGui.QDialog) :
 		self.updateDatabase()
 
 	def dataPath(self, name) :
-		return os.path.join(os.path.dirname(__file__), "data", name+".csv")
+		if getattr(sys,"frozen",None) is True :
+			# using cx_Freeze
+			selfDir = sys.path[1]
+		else :
+			selfDir = os.path.dirname(__file__)
+		return os.path.join(selfDir, "data", name+".csv")
 
 	def reset(self) :
 		name, case = self.cases[self.currentCase]
