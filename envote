@@ -120,6 +120,8 @@ class Envoter(QtGui.QDialog) :
 		buttonBox.addWidget(transfer)
 		buttonBox.addWidget(QtGui.QWidget()) # spacer
 
+		copyButton = QtGui.QPushButton("&Copy As")
+		buttonBox.addWidget(copyButton)
 		resetButton = QtGui.QPushButton("&Reset")
 		buttonBox.addWidget(resetButton)
 		saveButton = QtGui.QPushButton("&Save")
@@ -134,6 +136,7 @@ class Envoter(QtGui.QDialog) :
 		prevButton.clicked.connect(self.previousDatabase)
 		saveButton.clicked.connect(self.save)
 		resetButton.clicked.connect(self.reset)
+		copyButton.clicked.connect(self.copy)
 		self.updateDatabase()
 
 	def dataPath(self, name) :
@@ -150,6 +153,22 @@ class Envoter(QtGui.QDialog) :
 		self.cases[self.currentCase] = (name, Simulador.Resultats(dataFile))
 
 		self.updateDatabase()
+
+	def copy(self) :
+		name, case = self.cases[self.currentCase]
+		newName, ok = QtGui.QInputDialog.getText(self,
+			"Copy Data Set as",
+			 "Dame algo",
+			QtGui.QLineEdit.Normal,
+			name+"-new")
+		newName = str(newName)
+		dataFile = file(self.dataPath(newName), "w")
+		case.save(dataFile)
+		dataFile = file(self.dataPath(newName), "r")
+		self.cases.append((newName, Simulador.Resultats(dataFile)))
+		self.currentCase=len(self.cases)-1
+		self.title.addItem(newName)
+		self.title.setCurrentIndex(self.currentCase)
 
 	def save(self) :
 		name, case = self.cases[self.currentCase]
