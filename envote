@@ -90,19 +90,24 @@ class Envoter(QtGui.QDialog) :
 		chartLayout.addWidget(self.sconsChart,0,2)
 		self.sconsChart.setSectorColors(colors)
 
-		self.hondtTable = HondtTable()
-		layout.addWidget(self.hondtTable)
-
+		titleBox = QtGui.QHBoxLayout()
+		layout.addLayout(titleBox)
 		self.title = QtGui.QComboBox()
-		layout.addWidget(self.title)
+		titleBox.addWidget(self.title)
 		self.title.addItems([name for name, case in self.cases])
 		self.title.currentIndexChanged.connect(self.titleChanged)
+		titleBox.addWidget(QtGui.QWidget()) # spacer
+		prevButton = QtGui.QPushButton("&Previous")
+		titleBox.addWidget(prevButton)
+		nextButton = QtGui.QPushButton("&Next")
+		titleBox.addWidget(nextButton)
 
 		buttonBox = QtGui.QHBoxLayout()
 		layout.addLayout(buttonBox)
 		self._from = QtGui.QComboBox()
 		self._to = QtGui.QComboBox()
 		transfer = QtGui.QPushButton("&Transfer")
+		invert = QtGui.QPushButton("&Invert")
 		self._tranferSize = QtGui.QSpinBox()
 		self._tranferSize.setMinimum(1)
 		self._tranferSize.setMaximum(1000000)
@@ -118,6 +123,7 @@ class Envoter(QtGui.QDialog) :
 		buttonBox.addWidget(self._to)
 		buttonBox.addWidget(self._tranferSize)
 		buttonBox.addWidget(transfer)
+		buttonBox.addWidget(invert)
 		buttonBox.addWidget(QtGui.QWidget()) # spacer
 
 		copyButton = QtGui.QPushButton("&Copy As")
@@ -126,18 +132,20 @@ class Envoter(QtGui.QDialog) :
 		buttonBox.addWidget(resetButton)
 		saveButton = QtGui.QPushButton("&Save")
 		buttonBox.addWidget(saveButton)
-		prevButton = QtGui.QPushButton("&Previous")
-		buttonBox.addWidget(prevButton)
-		nextButton = QtGui.QPushButton("&Next")
-		buttonBox.addWidget(nextButton)
 
 		transfer.clicked.connect(self.transfer)
+		invert.clicked.connect(self.invertTransfer)
 		nextButton.clicked.connect(self.nextDatabase)
 		prevButton.clicked.connect(self.previousDatabase)
 		saveButton.clicked.connect(self.save)
 		resetButton.clicked.connect(self.reset)
 		copyButton.clicked.connect(self.copy)
+
+		self.hondtTable = HondtTable()
+		layout.addWidget(self.hondtTable)
+
 		self.updateDatabase()
+
 
 	def dataPath(self, name) :
 		if getattr(sys,"frozen",None) is True :
@@ -200,6 +208,12 @@ class Envoter(QtGui.QDialog) :
 		vots[fromOption] -= transferSize
 		vots[toOption] += transferSize
 		self.updateViews()
+
+	def invertTransfer(self) :
+		fromOption = self._from.currentIndex()
+		toOption = self._to.currentIndex()
+		self._from.setCurrentIndex(toOption)
+		self._to.setCurrentIndex(fromOption)
 
 	def updateDatabase(self) :
 		name, self.case = self.cases[self.currentCase]
