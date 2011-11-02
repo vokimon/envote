@@ -37,10 +37,16 @@ class Envoter(QtGui.QDialog) :
 		if not files :
 			files = sorted(
 				glob.glob(self.dataPath("*")))
+
+		if not files :
+			QtGui.QMessageBox.critical(self,"Error", "The application is unable to find out the data set")
+			raise RuntimeError("The application is unable to find the data set")
+
 		self.cases = sorted([
 			(os.path.splitext(os.path.basename(name))[0], Simulador.Resultats(file(name)))
 			for name in files
 			])
+	
 		self.currentCase = 0
 		self.case = None
 
