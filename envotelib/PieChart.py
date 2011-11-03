@@ -58,7 +58,8 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 			self.sector.setOpacity(value)
 
 	def __init__(self, parent, rect, label) :
-		super(QtGui.QGraphicsEllipseItem,self).__init__(rect)
+		QtGui.QGraphicsEllipseItem.__init__(self,rect)
+		self._name = label
 		self.parent = parent
 		self._rect = parent.rect()
 		self.setToolTip(label)
@@ -85,6 +86,14 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 		self.animation.addAnimation(self.fade)
 		self.animation.addAnimation(self.spanAnimation)
 		self.animation.addAnimation(self.startAnimation)
+
+
+	def mousePressEvent(self, event):
+		if event.button() == QtCore.Qt.LeftButton :
+			self.parent.sectorLeftClicked.emit(self._name)
+		elif event.button() == QtCore.Qt.RightButton :
+			self.parent.sectorRightClicked.emit(self._name)
+		QtGui.QGraphicsEllipseItem.mouseReleaseEvent(self,event)
 
 	def move(self, start, span) :
 		if self.animation.state is QtCore.QAbstractAnimation.Running :
@@ -118,6 +127,9 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 		self.labelBox.setBrush(self.brush().color().lighter())
 
 class PieChart(QtGui.QGraphicsView) :
+
+	sectorLeftClicked = QtCore.pyqtSignal(QtCore.QString)
+	sectorRightClicked = QtCore.pyqtSignal(QtCore.QString)
 
 	def __init__(self, radius=100, maxAngle = 360) :
 		QtGui.QGraphicsView.__init__(self)

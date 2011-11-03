@@ -140,6 +140,12 @@ class Envoter(QtGui.QDialog) :
 		saveButton.clicked.connect(self.save)
 		resetButton.clicked.connect(self.reset)
 		copyButton.clicked.connect(self.copy)
+		self.votesChart.sectorLeftClicked.connect(self.selectFrom)
+		self.votesChart.sectorRightClicked.connect(self.selectTo)
+		self.proportionalChart.sectorLeftClicked.connect(self.selectFrom)
+		self.proportionalChart.sectorRightClicked.connect(self.selectTo)
+		self.sconsChart.sectorLeftClicked.connect(self.selectFrom)
+		self.sconsChart.sectorRightClicked.connect(self.selectTo)
 
 		self.hondtTable = HondtTable()
 		layout.addWidget(self.hondtTable)
@@ -161,6 +167,16 @@ class Envoter(QtGui.QDialog) :
 		self.cases[self.currentCase] = (name, Simulador.Resultats(dataFile))
 
 		self.updateDatabase()
+
+	def selectFrom(self, candidature) :
+		index = self._from.findText(candidature)
+		if index < 0 : return
+		self._from.setCurrentIndex(index)
+
+	def selectTo(self, candidature) :
+		index = self._to.findText(candidature)
+		if index < 0 : return
+		self._to.setCurrentIndex(index)
 
 	def copy(self) :
 		name, case = self.cases[self.currentCase]
