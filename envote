@@ -169,6 +169,7 @@ class Envoter(QtGui.QDialog) :
 			 "Dame algo",
 			QtGui.QLineEdit.Normal,
 			name+"-new")
+		if not ok : return
 		newName = str(newName)
 		dataFile = file(self.dataPath(newName), "w")
 		case.save(dataFile)
