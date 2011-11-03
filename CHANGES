@@ -1,0 +1,14 @@
+envote 0.3
+* Left and right click on pie charts sets from and to transfer sides
+* Invert button to exchange transfer sides
+* Docs includes in windows binaries
+
+enVote 0.2
+* Able to copy a data set with a different name
+* Proper paths for data even in distributed binaries
+* Missing dll's distributed with windows binaries
+
+enVote 0.1
+* First versioned version (windows distribution)
+
+
