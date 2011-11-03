@@ -1,6 +1,6 @@
 The purpose of this program is to simulate the Spanish electoral system
 in order to get objective insight on how it works despite the myhts 
-that exist about what is better to do.
+that exist about what is better to do on election day.
 
 Some common myths and questions which are quite common within the 
 spanish society are:
@@ -22,12 +22,30 @@ when simulating vote flows.
 
 This program was started by the 15M movement activists in Sant 
 Joan Despí (Barcelona, Spain) to provide objective arguments about
-what is worth to do or not on the 2011 Spanish Parlament polls,
+what is worth to do or not on the 2011 Spanish Parlament elections,
 with the hope that although our electoral and political 
 system is quite unfair, we could find holes that we can use to
 empower our democracy.
 
 
+How to use it
+=============
+
+The program comes with several data sets of past elections
+you can move from one to another and compare the results.
+
+The three pie charts above are, from left to right:
+- What every citizent chose to do, including abstention.
+- Proportion of candidatures (no nuls, blank and abstentions)
+- Distribution of seats
+
+
+In the middle of the application, you can find some buttons to:
+- move from one case to the next
+- transferr votes from one option to another
+- save the modified results
+- create a renamed copy
+- revert the changes
 
 
 
