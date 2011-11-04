@@ -1,3 +1,7 @@
+envote 0.5
+* Tooltips showing party description for the hondt table headers
+* Tooltips showing numbers and party description for the piecharts
+
 envote 0.4
 * Display total seats, threshold, abstention, blanks and null numbers
 * Fix: seats were not recomputed after transfer
