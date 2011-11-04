@@ -94,6 +94,9 @@ class Resultats(object) :
 		for line in data:
 			print >> f, "\t".join([str(item) for item in line])
 
+	def recomputeSeats(self) :
+			s = Simulador(self.representants, **self.vots)
+			self.scons = s.repartiment(self.representants)
 
 
 class Simulador(object) :
