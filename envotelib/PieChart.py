@@ -148,11 +148,15 @@ class PieChart(QtGui.QGraphicsView) :
 		self._rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
 		self.sectors = {}
 		self._sectorColors = {}
+		self._sectorDescriptions = {}
 		self._title = QtGui.QGraphicsSimpleTextItem(self.toolTip())
 		self.scene.addItem(self._title)
 
 	def setSectorColors(self, sectorColors) :
 		self._sectorColors = sectorColors
+
+	def setSectorDescriptions(self, sectorDescriptions) :
+		self._sectorDescriptions = sectorDescriptions
 
 	def resizeEvent(self, event) :
 		super(PieChart, self).resizeEvent(event)
@@ -191,6 +195,14 @@ class PieChart(QtGui.QGraphicsView) :
 				sector.setStartAngle(0)
 				sector.setSpanAngle(0)
 				sector.setBrush(color)
+				sector.setToolTip((
+					"%s (%.2f%%) %s\n"+
+					"%s")%(
+						value,
+						100.*value/total,
+						name,
+						self._sectorDescriptions.get(name, "") or name)
+						)
 				self.scene.addItem(sector)
 			span = self.maxAngle*(float(value)/total)
 			sector.move(angle,span)
@@ -207,6 +219,9 @@ if __name__ == "__main__" :
 	pie = PieChart()
 	sectors = pie.colors
 	def switch() :
+		pie.setSectorDescriptions(dict((
+			(v, "Color: %s"%v)
+			for v in sectors)))
 		pie.setSectorValues(**dict((
 			(v, random.randint(1,1000))
 			for v in sectors)))

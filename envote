@@ -285,8 +285,11 @@ class Envoter(QtGui.QDialog) :
 			s = Simulador.Simulador(self.case.representants, **self.case.vots)
 			scons = s.repartiment(self.case.representants)
 		print "Updating Pies"
+		self.votesChart.setSectorDescriptions(self.case.descripcions)
 		self.votesChart.setSectorValues(**self.case.vots)
+		self.proportionalChart.setSectorDescriptions(self.case.descripcions)
 		self.proportionalChart.setSectorValues(**proportional)
+		self.sconsChart.setSectorDescriptions(self.case.descripcions)
 		self.sconsChart.setSectorValues(**scons)
 		print "Hondt Table"
 		self.hondtTable.threshold = self.case.votsValids * threshold
