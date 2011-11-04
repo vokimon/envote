@@ -1,3 +1,9 @@
+envote 0.4
+* Display total seats, threshold, abstention, blanks and null numbers
+* Fix: seats were not recomputed after transfer
+* Tooltips on buttons explaining functionality
+* Captions on pie charts
+
 envote 0.3
 * Left and right click on pie charts sets from and to transfer sides
 * Invert button to exchange transfer sides

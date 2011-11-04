@@ -30,6 +30,7 @@ import os
 import math
 import glob
 
+threshold = .03
 
 
 class Envoter(QtGui.QDialog) :
@@ -152,6 +153,7 @@ class Envoter(QtGui.QDialog) :
 		self.abstentionLabel = label()
 		self.nullLabel = label()
 		self.blankLabel = label()
+		self.thresholdLabel = label()
 		self.seatsLabel = label()
 
 		transfer.clicked.connect(self.transfer)
@@ -287,7 +289,7 @@ class Envoter(QtGui.QDialog) :
 		self.proportionalChart.setSectorValues(**proportional)
 		self.sconsChart.setSectorValues(**scons)
 		print "Hondt Table"
-		self.hondtTable.threshold = self.case.votsValids *.03
+		self.hondtTable.threshold = self.case.votsValids * threshold
 		self.hondtTable.nSeats = self.case.representants
 		self.hondtTable.feedVotations(proportional)
 		print "Stats"
@@ -301,6 +303,8 @@ class Envoter(QtGui.QDialog) :
 		displayStats(self.abstentionLabel, "Abstention", self.case.vots['abstencion'])
 		displayStats(self.nullLabel, "Nulls", self.case.vots['nulos'])
 		displayStats(self.blankLabel, "Blanks", self.case.vots['blancos'])
+		displayStats(self.thresholdLabel, "Threshold (%i%%)"%(threshold*100),
+			threshold*(census-self.case.vots['abstencion']-self.case.vots['nulos']))
 		self.seatsLabel.setText("<b>Seats:</b> %s"%self.case.representants)
 		print "end"
 
