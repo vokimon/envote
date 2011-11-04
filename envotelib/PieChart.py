@@ -148,6 +148,8 @@ class PieChart(QtGui.QGraphicsView) :
 		self._rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
 		self.sectors = {}
 		self._sectorColors = {}
+		self._title = QtGui.QGraphicsSimpleTextItem(self.toolTip())
+		self.scene.addItem(self._title)
 
 	def setSectorColors(self, sectorColors) :
 		self._sectorColors = sectorColors
@@ -155,11 +157,17 @@ class PieChart(QtGui.QGraphicsView) :
 	def resizeEvent(self, event) :
 		super(PieChart, self).resizeEvent(event)
 		size = event.size()
-		self.radius = min(size.width(), size.height())/2.5
+		self._title.setText(self.toolTip())
+		self.radius = min(size.width(), size.height()-self._title.boundingRect().height()*2.5-6)/2.5
 		self._rect = QtCore.QRectF(-self.radius, -self.radius, 2*self.radius, 2*self.radius)
 		self.setSceneRect(self._rect)
 		for sector in self.sectors.itervalues() :
 			sector.setRect(self._rect)
+			sector.updateLabel()
+		titleRect = self._title.boundingRect()
+		self._title.setPos(
+			-titleRect.width()/2-6,
+			-titleRect.height()+self.height()/2-6)
 
 	def setSectorValues(self, **sectors) :
 		removedNames = [ name 

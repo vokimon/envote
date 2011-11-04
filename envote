@@ -79,14 +79,17 @@ class Envoter(QtGui.QDialog) :
 		layout.addLayout(chartLayout)
 
 		self.votesChart = PieChart()
+		self.votesChart.setToolTip("Whole census")
 		chartLayout.addWidget(self.votesChart,0,0)
 		self.votesChart.setSectorColors(colors)
 
 		self.proportionalChart = PieChart()
+		self.proportionalChart.setToolTip("Just votes to candidatures")
 		chartLayout.addWidget(self.proportionalChart, 0,1)
 		self.proportionalChart.setSectorColors(colors)
 
 		self.sconsChart = PieChart()
+		self.sconsChart.setToolTip("Seat distribution")
 		chartLayout.addWidget(self.sconsChart,0,2)
 		self.sconsChart.setSectorColors(colors)
 
@@ -107,7 +110,9 @@ class Envoter(QtGui.QDialog) :
 		self._from = QtGui.QComboBox()
 		self._to = QtGui.QComboBox()
 		transfer = QtGui.QPushButton("&Transfer")
+		transfer.setToolTip("Transfer votes")
 		invert = QtGui.QPushButton("&Invert")
+		invert.setToolTip("Swap transfer sides")
 		self._tranferSize = QtGui.QSpinBox()
 		self._tranferSize.setMinimum(1)
 		self._tranferSize.setMaximum(1000000)
@@ -127,10 +132,13 @@ class Envoter(QtGui.QDialog) :
 		buttonBox.addWidget(QtGui.QWidget()) # spacer
 
 		copyButton = QtGui.QPushButton("&Copy As")
+		copyButton.setToolTip("Copy the current case with a new name")
 		buttonBox.addWidget(copyButton)
 		resetButton = QtGui.QPushButton("&Reset")
+		resetButton.setToolTip("Restore the case to the latest saved state")
 		buttonBox.addWidget(resetButton)
 		saveButton = QtGui.QPushButton("&Save")
+		resetButton.setToolTip("Save the changes of the case")
 		buttonBox.addWidget(saveButton)
 
 		transfer.clicked.connect(self.transfer)
@@ -182,7 +190,7 @@ class Envoter(QtGui.QDialog) :
 		name, case = self.cases[self.currentCase]
 		newName, ok = QtGui.QInputDialog.getText(self,
 			"Copy Data Set as",
-			 "Dame algo",
+			 "Give a new name for the copied case",
 			QtGui.QLineEdit.Normal,
 			name+"-new")
 		if not ok : return
