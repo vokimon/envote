@@ -294,6 +294,7 @@ class Envoter(QtGui.QDialog) :
 		print "Hondt Table"
 		self.hondtTable.threshold = self.case.votsValids * threshold
 		self.hondtTable.nSeats = self.case.representants
+		self.hondtTable.feedDescriptions(self.case.descripcions)
 		self.hondtTable.feedVotations(proportional)
 		print "Stats"
 		census = sum(self.case.vots.values())

@@ -29,6 +29,7 @@ class HondtTable(QtGui.QTableWidget) :
 		self._nSeats = 10
 		self._threshold = 0
 		self._votations = []
+		self._descriptions = {}
 
 		self.verticalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
 		self.horizontalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)
@@ -50,6 +51,8 @@ class HondtTable(QtGui.QTableWidget) :
 	def threshold(self, value) :
 		self._threshold = value
 
+	def feedDescriptions(self, descriptions) :
+		self._descriptions = descriptions
 
 	def feedVotations(self, results) :
 		# Sort Parties by votes
@@ -74,6 +77,9 @@ class HondtTable(QtGui.QTableWidget) :
 		print "Adding party names"
 		self.setVerticalHeaderLabels([
 			party for party, votes in self._votations])
+		for i, (party, votation) in enumerate(self._votations) :
+			self.verticalHeaderItem(i).setToolTip(
+				self._descriptions.get(party,party))
 
 		# Distribute seats value
 		print "Distribute seats value"
