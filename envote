@@ -31,6 +31,7 @@ import math
 import glob
 
 
+
 class Envoter(QtGui.QDialog) :
 	def __init__(self, files) :
 		QtGui.QDialog.__init__(self)
@@ -141,6 +142,18 @@ class Envoter(QtGui.QDialog) :
 		resetButton.setToolTip("Save the changes of the case")
 		buttonBox.addWidget(saveButton)
 
+		statLayout = QtGui.QHBoxLayout()
+		layout.addLayout(statLayout)
+		def label() :
+			label=QtGui.QLabel()
+			statLayout.addWidget(label)
+			return label
+		self.censusLabel = label()
+		self.abstentionLabel = label()
+		self.nullLabel = label()
+		self.blankLabel = label()
+		self.seatsLabel = label()
+
 		transfer.clicked.connect(self.transfer)
 		invert.clicked.connect(self.invertTransfer)
 		nextButton.clicked.connect(self.nextDatabase)
@@ -243,11 +256,6 @@ class Envoter(QtGui.QDialog) :
 	def updateDatabase(self) :
 		name, self.case = self.cases[self.currentCase]
 		print "Changint to", name
-		specialOptions = [
-			'abstencion',
-			'blancos',
-			'nulos',
-			]
 		options = sorted(self.case.vots.keys())
 		self._to.clear()
 		self._to.addItems(options)
@@ -281,6 +289,18 @@ class Envoter(QtGui.QDialog) :
 		self.hondtTable.threshold = self.case.votsValids *.03
 		self.hondtTable.nSeats = self.case.representants
 		self.hondtTable.feedVotations(proportional)
+		print "Stats"
+		census = sum(self.case.vots.values())
+		def displayStats(widget, text, quantity) :
+			percent = 100.*quantity/census
+			widget.setText("<b>%s:</b> %i (%.2f%%)"%(
+				text, quantity, percent))
+		self.censusLabel.setText("<b>Census:</b> %s"%census)
+
+		displayStats(self.abstentionLabel, "Abstention", self.case.vots['abstencion'])
+		displayStats(self.nullLabel, "Nulls", self.case.vots['nulos'])
+		displayStats(self.blankLabel, "Blanks", self.case.vots['blancos'])
+		self.seatsLabel.setText("<b>Seats:</b> %s"%self.case.representants)
 		print "end"
 
 
