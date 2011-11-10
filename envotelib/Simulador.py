@@ -144,8 +144,7 @@ class Simulador(object) :
 				for i in xrange(representants)
 			]
 			for partido in self.partidos()
-		),[]))
-		numeros.reverse()
+		),[]), reverse=True)
 		numeros = numeros[:representants]
 		import collections
 		counter = collections.Counter((partit for num, partit in numeros))
