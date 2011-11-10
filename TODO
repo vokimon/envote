@@ -8,13 +8,19 @@
 + Buttons next, previous
 + Title is a combobox
 + move generated data to data/
-- Fix label line
-- Use party descriptions on PieCharts
-- Use party descriptions on HondtTable
++ Fix label line
++ Use party descriptions on PieCharts
++ Use party descriptions on HondtTable
++ Save Button
++ Copy button
++ Change the number of total seats
+- Refactor Resultats
+- Warn on overwritting an existing file
+- Do not let to save until modified
+- Do not let to change read only
 - Use description of special party 'censo' to display case explanation
 - translate symbols to english
-- Save Button
-- Move button
+
 
 
 
