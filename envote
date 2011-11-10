@@ -155,6 +155,10 @@ class Envoter(QtGui.QDialog) :
 		self.blankLabel = label()
 		self.thresholdLabel = label()
 		self.seatsLabel = label()
+		self.seatsSpiner = QtGui.QSpinBox()
+		self.seatsSpiner.setMinimum(1)
+		self.seatsSpiner.setMaximum(99999)
+		statLayout.addWidget(self.seatsSpiner)
 
 		transfer.clicked.connect(self.transfer)
 		invert.clicked.connect(self.invertTransfer)
@@ -170,11 +174,20 @@ class Envoter(QtGui.QDialog) :
 		self.sconsChart.sectorLeftClicked.connect(self.selectFrom)
 		self.sconsChart.sectorRightClicked.connect(self.selectTo)
 
+		self.seatsSpiner.valueChanged.connect(self.changeSeats)
+
 		self.hondtTable = HondtTable()
 		layout.addWidget(self.hondtTable)
 
 		self.updateDatabase()
 
+
+	def changeSeats(self, seats) :
+		print "Value changed"
+		if self._updatingSeatsSpinner : return
+		self.case.representants = self.seatsSpiner.value()
+		self.case.recomputeSeats()
+		self.updateViews()
 
 	def dataPath(self, name) :
 		if getattr(sys,"frozen",None) is True :
@@ -309,7 +322,11 @@ class Envoter(QtGui.QDialog) :
 		displayStats(self.blankLabel, "Blanks", self.case.vots['blancos'])
 		displayStats(self.thresholdLabel, "Threshold (%i%%)"%(threshold*100),
 			threshold*(census-self.case.vots['abstencion']-self.case.vots['nulos']))
-		self.seatsLabel.setText("<b>Seats:</b> %s"%self.case.representants)
+		self.seatsLabel.setText("<b>Seats:</b>")
+		print "Updating seat spinner"
+		self._updatingSeatsSpinner = True
+		self.seatsSpiner.setValue(self.case.representants)
+		self._updatingSeatsSpinner = False
 		print "end"
 
 
