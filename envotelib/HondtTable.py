@@ -120,6 +120,7 @@ class HondtTable(QtGui.QTableWidget) :
 		for seat in borderSeats :
 			seat[1].setForeground(
 			QtGui.QColor("red"))
+
 		# Resizing
 		print "Resizing"
 		self.verticalHeader().setResizeMode(QtGui.QHeaderView.ResizeToContents)

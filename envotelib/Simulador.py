@@ -152,21 +152,26 @@ class Simulador(object) :
 			(partit, counter[partit]) 
 			for partit in self.partidos()))
 
+	def repartimentSencer(self, representants) :
+		partidos = self.partidos()
+		validVotes = self.votosValidos()
+		return dict(( (partido, self._votacions[partido] * representants // validVotes) for partido in partidos ))
+
 	def repartimentProporcional(self, representants) :
 		partidos = self.partidos()
 		validVotes = self.votosValidos()
-		seats = dict(( (partido, self._votacions[partido] * representants // validVotes) for partido in partidos ))
+		seats = self.repartimentSencer(representants)
 		remaining = representants - sum(seats.values())
 		rests = [
 			(partido, float(self._votacions[partido] * representants)/validVotes-seats[partido])
 			for partido in partidos ]
-		restsWithSeat = [ 
-			(partido, rest)
-			for partido, rest
-			in sorted(rests, reverse=True, key=lambda x : x[1])
-			]
+		restsWithSeat = sorted(rests, reverse=True, key=lambda x : x[1])
 		print restsWithSeat
-		for partido, rest in restsWithSeat[:remaining] :
+		restsWithSeat = [partido for partido, rest in restsWithSeat[:remaining] ]
+		print restsWithSeat
+		for partido in partidos :
+			print partido, seats[partido], "+1" if partido in restsWithSeat else ""
+		for partido in restsWithSeat :
 			seats[partido] += 1
 		return seats
 
