@@ -195,15 +195,15 @@ class PieChart(QtGui.QGraphicsView) :
 				sector.setStartAngle(0)
 				sector.setSpanAngle(0)
 				sector.setBrush(color)
-				sector.setToolTip((
-					"%s (%.2f%%) %s\n"+
-					"%s")%(
-						value,
-						100.*value/total,
-						name,
-						self._sectorDescriptions.get(name, "") or name)
-						)
 				self.scene.addItem(sector)
+			sector.setToolTip((
+				"%s (%.2f%%) %s\n"+
+				"%s")%(
+					value,
+					100.*value/total,
+					name,
+					self._sectorDescriptions.get(name, "") or name)
+					)
 			span = self.maxAngle*(float(value)/total)
 			sector.move(angle,span)
 			angle += span
