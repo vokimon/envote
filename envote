@@ -85,14 +85,19 @@ class Envoter(QtGui.QDialog) :
 		chartLayout.addWidget(self.votesChart,0,0)
 		self.votesChart.setSectorColors(colors)
 
+		self.candidaturesChart = PieChart()
+		self.candidaturesChart.setToolTip("Just votes to candidatures")
+		chartLayout.addWidget(self.candidaturesChart, 0,1)
+		self.candidaturesChart.setSectorColors(colors)
+
 		self.proportionalChart = PieChart()
-		self.proportionalChart.setToolTip("Just votes to candidatures")
-		chartLayout.addWidget(self.proportionalChart, 0,1)
+		self.proportionalChart.setToolTip("Proportional distribution")
+		chartLayout.addWidget(self.proportionalChart, 0,2)
 		self.proportionalChart.setSectorColors(colors)
 
 		self.sconsChart = PieChart()
 		self.sconsChart.setToolTip("Seat distribution")
-		chartLayout.addWidget(self.sconsChart,0,2)
+		chartLayout.addWidget(self.sconsChart,0,3)
 		self.sconsChart.setSectorColors(colors)
 
 		titleBox = QtGui.QHBoxLayout()
@@ -169,6 +174,8 @@ class Envoter(QtGui.QDialog) :
 		copyButton.clicked.connect(self.copy)
 		self.votesChart.sectorLeftClicked.connect(self.selectFrom)
 		self.votesChart.sectorRightClicked.connect(self.selectTo)
+		self.candidaturesChart.sectorLeftClicked.connect(self.selectFrom)
+		self.candidaturesChart.sectorRightClicked.connect(self.selectTo)
 		self.proportionalChart.sectorLeftClicked.connect(self.selectFrom)
 		self.proportionalChart.sectorRightClicked.connect(self.selectTo)
 		self.sconsChart.sectorLeftClicked.connect(self.selectFrom)
@@ -282,7 +289,7 @@ class Envoter(QtGui.QDialog) :
 	def updateViews(self) :
 
 		print "Computing proportional"
-		proportional = dict((
+		toCandidatures = dict((
 			(party, votes) 
 			for party, votes in self.case.vots.iteritems()
 			if party not in [
@@ -293,13 +300,16 @@ class Envoter(QtGui.QDialog) :
 			))
 
 		print "Computing Seats"
+		s = Simulador.Simulador(self.case.representants, **self.case.vots)
 		scons = self.case.scons
 		if not sum(self.case.scons.values()) :
-			s = Simulador.Simulador(self.case.representants, **self.case.vots)
 			scons = s.repartiment(self.case.representants)
+		proportional = s.repartimentProporcional(self.case.representants)
 		print "Updating Pies"
 		self.votesChart.setSectorDescriptions(self.case.descripcions)
 		self.votesChart.setSectorValues(**self.case.vots)
+		self.candidaturesChart.setSectorDescriptions(self.case.descripcions)
+		self.candidaturesChart.setSectorValues(**toCandidatures)
 		self.proportionalChart.setSectorDescriptions(self.case.descripcions)
 		self.proportionalChart.setSectorValues(**proportional)
 		self.sconsChart.setSectorDescriptions(self.case.descripcions)
@@ -308,7 +318,7 @@ class Envoter(QtGui.QDialog) :
 		self.hondtTable.threshold = self.case.votsValids * threshold
 		self.hondtTable.nSeats = self.case.representants
 		self.hondtTable.feedDescriptions(self.case.descripcions)
-		self.hondtTable.feedVotations(proportional)
+		self.hondtTable.feedVotations(toCandidatures)
 		print "Stats"
 		census = sum(self.case.vots.values())
 		def displayStats(widget, text, quantity) :
