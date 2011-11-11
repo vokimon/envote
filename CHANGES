@@ -1,3 +1,11 @@
+envote 0.6
+* PieChart tooltips were computed just once if the sector is reused
+* Able to change the number of seats
+* New PieChar with proportional distribution of seats
+* New info bar with rest distribution in hondt and proportional
+* New data from BOE (rejected candidatures)
+* New hypotesis data from October CIS poll
+
 envote 0.5
 * Tooltips showing party description for the hondt table headers
 * Tooltips showing numbers and party description for the piecharts
