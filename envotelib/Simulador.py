@@ -152,6 +152,24 @@ class Simulador(object) :
 			(partit, counter[partit]) 
 			for partit in self.partidos()))
 
+	def repartimentProporcional(self, representants) :
+		partidos = self.partidos()
+		validVotes = self.votosValidos()
+		seats = dict(( (partido, self._votacions[partido] * representants // validVotes) for partido in partidos ))
+		remaining = representants - sum(seats.values())
+		rests = [
+			(partido, self._votacions[partido] * representants % validVotes)
+			for partido in partidos ]
+		restsWithSeat = [ 
+			partido 
+			for partido, rest
+			in sorted(rests, reverse=True, key=lambda x : x[1])
+			]
+		for partido in restsWithSeat[:remaining] :
+			seats[partido] += 1
+		return seats
+
+
 import unittest
 import glob
 
@@ -239,6 +257,13 @@ class SimuladorTest(unittest.TestCase) :
 		print repr(fileContent)
 		self.assertEquals(fileContent, s.getvalue())
 		
+	def test_repartimentProporcional_parlamentoBarcelona2000(self) :
+		case = Resultats(file("data/congresoBarcelona-2000-03.csv"))
+		s = Simulador(case.representants, **case.vots)
+		self.maxDiff = None
+		self.assertEquals(
+			case.scons,
+			s.repartimentProporcional(case.representants))
 
 
 if __name__ == "__main__" :
