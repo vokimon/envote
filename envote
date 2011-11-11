@@ -165,6 +165,11 @@ class Envoter(QtGui.QDialog) :
 		self.seatsSpiner.setMaximum(99999)
 		statLayout.addWidget(self.seatsSpiner)
 
+		self.restLabelHondt = QtGui.QLabel()
+		layout.addWidget(self.restLabelHondt)
+		self.restLabelProportional = QtGui.QLabel()
+		layout.addWidget(self.restLabelProportional)
+
 		transfer.clicked.connect(self.transfer)
 		invert.clicked.connect(self.invertTransfer)
 		nextButton.clicked.connect(self.nextDatabase)
@@ -305,6 +310,22 @@ class Envoter(QtGui.QDialog) :
 		if not sum(self.case.scons.values()) :
 			scons = s.repartiment(self.case.representants)
 		proportional = s.repartimentProporcional(self.case.representants)
+		integer = s.repartimentSencer(self.case.representants)
+		restosHondt = [
+			(party, scons[party] - integer[party])
+			for party in s.partidos()
+			if scons[party] != integer[party]
+			]
+		restosProportional = [
+			(party, proportional[party] - integer[party])
+			for party in s.partidos()
+			if proportional[party] != integer[party]
+			]
+		self.restLabelHondt.setText(
+			"Rests Hondt: "+ ("".join([" %s: %+i"%rest for rest in sorted(restosHondt)])))
+		self.restLabelProportional.setText(
+			"Rests Proportional: "+ ("".join([" %s: %+i"%rest for rest in sorted(restosProportional)])))
+
 		print "Updating Pies"
 		self.votesChart.setSectorDescriptions(self.case.descripcions)
 		self.votesChart.setSectorValues(**self.case.vots)
