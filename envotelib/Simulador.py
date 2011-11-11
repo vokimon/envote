@@ -158,14 +158,15 @@ class Simulador(object) :
 		seats = dict(( (partido, self._votacions[partido] * representants // validVotes) for partido in partidos ))
 		remaining = representants - sum(seats.values())
 		rests = [
-			(partido, self._votacions[partido] * representants % validVotes)
+			(partido, float(self._votacions[partido] * representants)/validVotes-seats[partido])
 			for partido in partidos ]
 		restsWithSeat = [ 
-			partido 
+			(partido, rest)
 			for partido, rest
 			in sorted(rests, reverse=True, key=lambda x : x[1])
 			]
-		for partido in restsWithSeat[:remaining] :
+		print restsWithSeat
+		for partido, rest in restsWithSeat[:remaining] :
 			seats[partido] += 1
 		return seats
 
