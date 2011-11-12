@@ -33,6 +33,9 @@ else :
 
 
 version = file(os.path.join(installDir, "VERSION")).read().strip()
+iconFile = os.path.join(installDir,"envote.svg")
+translationPrefix = os.path.join(installDir,"i18n","envote_")
+dataPath = os.path.join(installDir,"data")
 
 app = QtGui.QApplication(sys.argv)
 
@@ -40,7 +43,7 @@ locale = str(QtCore.QLocale.system().name())
 
 translations = [
 	"qt_",
-	os.path.join(installDir,"i18n","envote_"),
+	translationPrefix,
 	]
 
 for translation in translations : 
@@ -48,10 +51,9 @@ for translation in translations :
 	translator.load(translation + locale)
 	app.installTranslator(translator)
 
-dataPath = os.path.join(installDir,"data")
-
 window = Envoter(dataPath, version=version)
 window.resize(800,600)
+window.setWindowIcon(QtGui.QIcon(iconFile))
 window.show()
 sys.exit(app.exec_())
 
