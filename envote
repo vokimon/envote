@@ -34,9 +34,11 @@ threshold = .03
 
 
 class Envoter(QtGui.QDialog) :
-	def __init__(self, files) :
+	def __init__(self, dataPath) :
 		QtGui.QDialog.__init__(self)
 		self.setWindowTitle(self.tr("enVote: Votation simulator"))
+		self._dataPath = dataPath
+		files = sorted(glob.glob(self.dataPath("*")))
 		if not files :
 			QtGui.QMessageBox.critical(self,
 				self.tr("Error loading data"),
@@ -203,8 +205,7 @@ class Envoter(QtGui.QDialog) :
 		self.updateViews()
 
 	def dataPath(self, name) :
-		global selfDir
-		return os.path.join(selfDir, "data", name+".csv")
+		return os.path.join(self._dataPath, name+".csv")
 
 	def reset(self) :
 		name, case = self.cases[self.currentCase]
@@ -362,28 +363,28 @@ class Envoter(QtGui.QDialog) :
 if getattr(sys,"frozen",None) is True :
 	# using cx_Freeze.
 	# Undocumented but path can be found in sys.path[1], at least in version 4.2.3
-	selfDir = sys.path[1]
+	installDir = sys.path[1]
 else :
-	selfDir = os.path.dirname(__file__)
+	installDir = os.path.dirname(__file__)
 
 
 app = QtGui.QApplication(sys.argv)
 
 locale = str(QtCore.QLocale.system().name())
 
-qtTranslator = QtCore.QTranslator()
-qtTranslator.load("qt_"+ locale);
-app.installTranslator(qtTranslator);
+translations = [
+	"qt_",
+	os.path.join(installDir,"i18n","envote_"),
+	]
 
-translator = QtCore.QTranslator()
-translator.load(os.path.join(selfDir,"i18n/envote_"+ locale)) # todo, install independent
-app.installTranslator(translator);
+for translation in translations : 
+	translator = QtCore.QTranslator()
+	translator.load(translation + locale)
+	app.installTranslator(translator)
 
-files = sys.argv[1:]
-if not files :
-	files = sorted(glob.glob(os.path.join(selfDir,"data","*.csv")))
+dataPath = os.path.join(installDir,"data")
 
-window = Envoter(files)
+window = Envoter(dataPath)
 window.resize(800,600)
 window.show()
 sys.exit(app.exec_())
