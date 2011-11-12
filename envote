@@ -38,10 +38,6 @@ class Envoter(QtGui.QDialog) :
 		QtGui.QDialog.__init__(self)
 		self.setWindowTitle(self.tr("enVote: Votation simulator"))
 		if not files :
-			files = sorted(
-				glob.glob(self.dataPath("*")))
-
-		if not files :
 			QtGui.QMessageBox.critical(self,
 				self.tr("Error loading data"),
 				self.tr("The application is unable to find out the data set"))
@@ -94,7 +90,7 @@ class Envoter(QtGui.QDialog) :
 		self.candidaturesChart.setSectorColors(colors)
 
 		self.sconsChart = PieChart()
-		self.sconsChart.setToolTip("Hondt distribution (legal)")
+		self.sconsChart.setToolTip(self.tr("Hondt distribution (legal)"))
 		chartLayout.addWidget(self.sconsChart,0,2)
 		self.sconsChart.setSectorColors(colors)
 
@@ -364,7 +360,8 @@ class Envoter(QtGui.QDialog) :
 
 
 if getattr(sys,"frozen",None) is True :
-	# using cx_Freeze
+	# using cx_Freeze.
+	# Undocumented but path can be found in sys.path[1], at least in version 4.2.3
 	selfDir = sys.path[1]
 else :
 	selfDir = os.path.dirname(__file__)
@@ -382,12 +379,15 @@ translator = QtCore.QTranslator()
 translator.load(os.path.join(selfDir,"i18n/envote_"+ locale)) # todo, install independent
 app.installTranslator(translator);
 
+files = sys.argv[1:]
+if not files :
+	files = sorted(glob.glob(os.path.join(selfDir,"data","*.csv")))
 
-window = Envoter(sys.argv[1:])
+window = Envoter(files)
 window.resize(800,600)
 window.show()
-
 sys.exit(app.exec_())
+
 
 
 
