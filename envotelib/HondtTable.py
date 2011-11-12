@@ -87,6 +87,7 @@ class HondtTable(QtGui.QTableWidget) :
 		for i, (party, votes) in enumerate(self._votations) :
 			for seat in xrange(1, self.nSeats+1) :
 				item = QtGui.QTableWidgetItem("%i"%(votes/seat))
+				item.setToolTip("%i / %i %s" % (votes, seat, party))
 				item.setTextAlignment(QtCore.Qt.AlignRight);
 				self.setItem(i, seat-1, item)
 				self._seats.append( ( (votes/seat), item) )
@@ -102,24 +103,34 @@ class HondtTable(QtGui.QTableWidget) :
 			for seat in xrange(self.nSeats) :
 				item = self.item(party, seat)
 				item.setForeground(QtGui.QColor("#bbb"))
+				item.setToolTip(
+					item.toolTip()+'\n'+
+					self.tr("Divisor removed by %0% valid vote threshold").arg(3)
+					)
 
 		# Mark taken seats
 		print "Mark taken seats"
 		for number, seatItem in self._seats[-self.nSeats:] :
-			seatItem.setBackground(QtGui.QColor("#ddb"))
+			seatItem.setBackground(QtGui.QColor("#55f"))
+			seatItem.setForeground(QtGui.QColor("white"))
 
 		# Mark seats next to the border
 		print "Mark seats next to the border"
 		borderNearSeats = self._seats[-self.nSeats-2:-self.nSeats+2]
-		for seat in borderNearSeats :
-			seat[1].setForeground(
-			QtGui.QColor("orange"))
+		nearSeattooltips = [
+			self.tr("Second candidate out"),
+			self.tr("First candidate out"),
+			self.tr("Last to get in"),
+			self.tr("Last but one to get in"),
+		]
+		for (divisor, seat), tooltip in zip(borderNearSeats, nearSeattooltips) :
+			seat.setForeground(QtGui.QColor("orange"))
+			seat.setToolTip(seat.toolTip()+'\n'+tooltip)
 
 		# Mark seats in the border between in and out
 		borderSeats = self._seats[-self.nSeats-1:-self.nSeats+1]
 		for seat in borderSeats :
-			seat[1].setForeground(
-			QtGui.QColor("red"))
+			seat[1].setForeground(QtGui.QColor("red"))
 
 		# Resizing
 		print "Resizing"
@@ -131,7 +142,7 @@ class HondtTable(QtGui.QTableWidget) :
 if __name__ == "__main__" :
 	app = QtGui.QApplication(sys.argv)
 	window = HondtTable()
-	window.setWindowTitle("Simulador de votacions")
+	window.setWindowTitle("Hondt table display")
 	window.nSeats = 31
 	window.threshold = 2000
 	window.feedVotations(dict(
