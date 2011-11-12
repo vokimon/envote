@@ -36,12 +36,15 @@ threshold = .03
 class Envoter(QtGui.QDialog) :
 	def __init__(self, files) :
 		QtGui.QDialog.__init__(self)
+		self.setWindowTitle(self.tr("enVote: Votation simulator"))
 		if not files :
 			files = sorted(
 				glob.glob(self.dataPath("*")))
 
 		if not files :
-			QtGui.QMessageBox.critical(self,"Error", "The application is unable to find out the data set")
+			QtGui.QMessageBox.critical(self,
+				self.tr("Error loading data"),
+				self.tr("The application is unable to find out the data set"))
 			raise RuntimeError("The application is unable to find the data set")
 
 		self.cases = sorted([
@@ -81,24 +84,24 @@ class Envoter(QtGui.QDialog) :
 		layout.addLayout(chartLayout)
 
 		self.votesChart = PieChart()
-		self.votesChart.setToolTip("Whole census")
+		self.votesChart.setToolTip(self.tr("Whole census"))
 		chartLayout.addWidget(self.votesChart,0,0)
 		self.votesChart.setSectorColors(colors)
 
 		self.candidaturesChart = PieChart()
-		self.candidaturesChart.setToolTip("Just votes to candidatures")
+		self.candidaturesChart.setToolTip(self.tr("Just votes to candidatures"))
 		chartLayout.addWidget(self.candidaturesChart, 0,1)
 		self.candidaturesChart.setSectorColors(colors)
 
-		self.proportionalChart = PieChart()
-		self.proportionalChart.setToolTip("Proportional distribution")
-		chartLayout.addWidget(self.proportionalChart, 0,2)
-		self.proportionalChart.setSectorColors(colors)
-
 		self.sconsChart = PieChart()
-		self.sconsChart.setToolTip("Seat distribution")
-		chartLayout.addWidget(self.sconsChart,0,3)
+		self.sconsChart.setToolTip("Hondt distribution (legal)")
+		chartLayout.addWidget(self.sconsChart,0,2)
 		self.sconsChart.setSectorColors(colors)
+
+		self.proportionalChart = PieChart()
+		self.proportionalChart.setToolTip(self.tr("Hamilton distribution (proportional)"))
+		chartLayout.addWidget(self.proportionalChart, 0,3)
+		self.proportionalChart.setSectorColors(colors)
 
 		titleBox = QtGui.QHBoxLayout()
 		layout.addLayout(titleBox)
@@ -107,24 +110,26 @@ class Envoter(QtGui.QDialog) :
 		self.title.addItems([name for name, case in self.cases])
 		self.title.currentIndexChanged.connect(self.titleChanged)
 		titleBox.addWidget(QtGui.QWidget()) # spacer
-		prevButton = QtGui.QPushButton("&Previous")
+		prevButton = QtGui.QPushButton(self.tr("&Previous"))
 		titleBox.addWidget(prevButton)
-		nextButton = QtGui.QPushButton("&Next")
+		nextButton = QtGui.QPushButton(self.tr("&Next"))
 		titleBox.addWidget(nextButton)
 
 		buttonBox = QtGui.QHBoxLayout()
 		layout.addLayout(buttonBox)
 		self._from = QtGui.QComboBox()
+		self._from.setToolTip(self.tr("Vote transfer origin"))
 		self._to = QtGui.QComboBox()
-		transfer = QtGui.QPushButton("&Transfer")
-		transfer.setToolTip("Transfer votes")
-		invert = QtGui.QPushButton("&Invert")
-		invert.setToolTip("Swap transfer sides")
+		self._to.setToolTip(self.tr("Vote transfer destination"))
+		transfer = QtGui.QPushButton(self.tr("&Transfer"))
+		transfer.setToolTip(self.tr("Transfer votes"))
+		invert = QtGui.QPushButton(self.tr("&Invert"))
+		invert.setToolTip(self.tr("Swap transfer sides"))
 		self._tranferSize = QtGui.QSpinBox()
 		self._tranferSize.setMinimum(1)
 		self._tranferSize.setMaximum(1000000)
 		self._tranferSize.setValue(10000)
-		self._tranferSize.setSuffix(" vots")
+		self._tranferSize.setSuffix(self.tr(" votes"))
 		arrow = QtGui.QLabel("->")
 		arrow.setSizePolicy(
 			QtGui.QSizePolicy.Fixed,
@@ -138,14 +143,14 @@ class Envoter(QtGui.QDialog) :
 		buttonBox.addWidget(invert)
 		buttonBox.addWidget(QtGui.QWidget()) # spacer
 
-		copyButton = QtGui.QPushButton("&Copy As")
-		copyButton.setToolTip("Copy the current case with a new name")
+		copyButton = QtGui.QPushButton(self.tr("&Save As"))
+		copyButton.setToolTip(self.tr("Save a copy the current case with a new name"))
 		buttonBox.addWidget(copyButton)
-		resetButton = QtGui.QPushButton("&Reset")
-		resetButton.setToolTip("Restore the case to the latest saved state")
+		resetButton = QtGui.QPushButton(self.tr("&Reset"))
+		resetButton.setToolTip(self.tr("Restore the case to the latest saved state"))
 		buttonBox.addWidget(resetButton)
-		saveButton = QtGui.QPushButton("&Save")
-		resetButton.setToolTip("Save the changes of the case")
+		saveButton = QtGui.QPushButton(self.tr("&Save"))
+		resetButton.setToolTip(self.tr("Save the changes of the case"))
 		buttonBox.addWidget(saveButton)
 
 		statLayout = QtGui.QHBoxLayout()
@@ -202,11 +207,7 @@ class Envoter(QtGui.QDialog) :
 		self.updateViews()
 
 	def dataPath(self, name) :
-		if getattr(sys,"frozen",None) is True :
-			# using cx_Freeze
-			selfDir = sys.path[1]
-		else :
-			selfDir = os.path.dirname(__file__)
+		global selfDir
 		return os.path.join(selfDir, "data", name+".csv")
 
 	def reset(self) :
@@ -229,10 +230,10 @@ class Envoter(QtGui.QDialog) :
 	def copy(self) :
 		name, case = self.cases[self.currentCase]
 		newName, ok = QtGui.QInputDialog.getText(self,
-			"Copy Data Set as",
-			 "Give a new name for the copied case",
+			self.tr("Copy Data Set as"),
+			self.tr("Give a new name for the copied case"),
 			QtGui.QLineEdit.Normal,
-			name+"-new")
+			name+self.tr("-copy","default file suffix"))
 		if not ok : return
 		newName = str(newName)
 		dataFile = file(self.dataPath(newName), "w")
@@ -322,9 +323,9 @@ class Envoter(QtGui.QDialog) :
 			if proportional[party] != integer[party]
 			]
 		self.restLabelHondt.setText(
-			"Rests Hondt: "+ ("".join([" %s: %+i"%rest for rest in sorted(restosHondt)])))
+			self.tr("Rests Hondt: ")+ ("".join([" %s: %+i"%rest for rest in sorted(restosHondt)])))
 		self.restLabelProportional.setText(
-			"Rests Proportional: "+ ("".join([" %s: %+i"%rest for rest in sorted(restosProportional)])))
+			self.tr("Rests Hamilton: ")+ ("".join([" %s: %+i"%rest for rest in sorted(restosProportional)])))
 
 		print "Updating Pies"
 		self.votesChart.setSectorDescriptions(self.case.descripcions)
@@ -346,14 +347,15 @@ class Envoter(QtGui.QDialog) :
 			percent = 100.*quantity/census
 			widget.setText("<b>%s:</b> %i (%.2f%%)"%(
 				text, quantity, percent))
-		self.censusLabel.setText("<b>Census:</b> %s"%census)
+		self.censusLabel.setText("<b>%s:</b> %s"%(self.tr("Census"),census))
 
-		displayStats(self.abstentionLabel, "Abstention", self.case.vots['abstencion'])
-		displayStats(self.nullLabel, "Nulls", self.case.vots['nulos'])
-		displayStats(self.blankLabel, "Blanks", self.case.vots['blancos'])
-		displayStats(self.thresholdLabel, "Threshold (%i%%)"%(threshold*100),
+		displayStats(self.abstentionLabel, self.tr("Abstention"), self.case.vots['abstencion'])
+		displayStats(self.nullLabel, self.tr("Nulls"), self.case.vots['nulos'])
+		displayStats(self.blankLabel, self.tr("Blanks"), self.case.vots['blancos'])
+		displayStats(self.thresholdLabel, self.tr("Threshold (%0%)").arg(threshold*100),
 			threshold*(census-self.case.vots['abstencion']-self.case.vots['nulos']))
-		self.seatsLabel.setText("<b>Seats:</b>")
+		self.seatsLabel.setText(self.tr("<b>Seats:</b>"))
+		self.seatsLabel.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignVCenter)
 		print "Updating seat spinner"
 		self._updatingSeatsSpinner = True
 		self.seatsSpiner.setValue(self.case.representants)
@@ -361,11 +363,28 @@ class Envoter(QtGui.QDialog) :
 		print "end"
 
 
+if getattr(sys,"frozen",None) is True :
+	# using cx_Freeze
+	selfDir = sys.path[1]
+else :
+	selfDir = os.path.dirname(__file__)
+
 
 app = QtGui.QApplication(sys.argv)
+
+locale = str(QtCore.QLocale.system().name())
+
+qtTranslator = QtCore.QTranslator()
+qtTranslator.load("qt_"+ locale);
+app.installTranslator(qtTranslator);
+
+translator = QtCore.QTranslator()
+translator.load(os.path.join(selfDir,"i18n/envote_"+ locale)) # todo, install independent
+app.installTranslator(translator);
+
+
 window = Envoter(sys.argv[1:])
 window.resize(800,600)
-window.setWindowTitle("enVote: Simulador de votacions")
 window.show()
 
 sys.exit(app.exec_())

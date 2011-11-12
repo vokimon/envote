@@ -16,12 +16,14 @@
 + Change the number of total seats
 + Proportional pie
 + See rest distribution
++ Make displayed strings translatable
 - Refactor Resultats
 - Warn on overwritting an existing file
 - Do not let to save until modified
 - Do not let to change read only
 - Use description of special party 'censo' to display case explanation
-- translate symbols to english
+- Translate symbols to english
+- Behave properly when threshold applies
 
 
 
