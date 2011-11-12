@@ -4,6 +4,7 @@ envote 0.7
 * Tooltips explain buttons and controls
 * Translatable strings
 * Spanish and Catalan translations added
+* Display version in the title bar
 
 envote 0.6
 * FIX: PieChart tooltips were computed just once if the sector is reused

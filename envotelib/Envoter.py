@@ -32,9 +32,9 @@ threshold = .03
 
 
 class Envoter(QtGui.QDialog) :
-	def __init__(self, dataPath) :
+	def __init__(self, dataPath, version) :
 		QtGui.QDialog.__init__(self)
-		self.setWindowTitle(self.tr("enVote: Votation simulator"))
+		self.setWindowTitle(self.tr("enVote %1 - Votation simulator").arg(version))
 		self._dataPath = dataPath
 		files = sorted(glob.glob(self.dataPath("*")))
 		if not files :

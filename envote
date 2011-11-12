@@ -32,6 +32,8 @@ else :
 	installDir = os.path.dirname(__file__)
 
 
+version = file(os.path.join(installDir, "VERSION")).read().strip()
+
 app = QtGui.QApplication(sys.argv)
 
 locale = str(QtCore.QLocale.system().name())
@@ -48,7 +50,7 @@ for translation in translations :
 
 dataPath = os.path.join(installDir,"data")
 
-window = Envoter(dataPath)
+window = Envoter(dataPath, version=version)
 window.resize(800,600)
 window.show()
 sys.exit(app.exec_())
