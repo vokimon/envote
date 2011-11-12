@@ -103,12 +103,15 @@ class Envoter(QtGui.QDialog) :
 		layout.addLayout(titleBox)
 		self.title = QtGui.QComboBox()
 		titleBox.addWidget(self.title)
+		self.title.setToolTip(self.tr("Current case being displayed"))
 		self.title.addItems([name for name, case in self.cases])
 		self.title.currentIndexChanged.connect(self.titleChanged)
 		titleBox.addWidget(QtGui.QWidget()) # spacer
 		prevButton = QtGui.QPushButton(self.tr("&Previous"))
+		prevButton.setToolTip(self.tr("Switch to the previous case"))
 		titleBox.addWidget(prevButton)
 		nextButton = QtGui.QPushButton(self.tr("&Next"))
+		nextButton.setToolTip(self.tr("Switch to the next case"))
 		titleBox.addWidget(nextButton)
 
 		buttonBox = QtGui.QHBoxLayout()
@@ -122,6 +125,7 @@ class Envoter(QtGui.QDialog) :
 		invert = QtGui.QPushButton(self.tr("&Invert"))
 		invert.setToolTip(self.tr("Swap transfer sides"))
 		self._tranferSize = QtGui.QSpinBox()
+		self._tranferSize.setToolTip(self.tr("Number of votes to be transferred"))
 		self._tranferSize.setMinimum(1)
 		self._tranferSize.setMaximum(1000000)
 		self._tranferSize.setValue(10000)
@@ -146,7 +150,7 @@ class Envoter(QtGui.QDialog) :
 		resetButton.setToolTip(self.tr("Restore the case to the latest saved state"))
 		buttonBox.addWidget(resetButton)
 		saveButton = QtGui.QPushButton(self.tr("&Save"))
-		resetButton.setToolTip(self.tr("Save the changes of the case"))
+		saveButton.setToolTip(self.tr("Save the changes done to the case"))
 		buttonBox.addWidget(saveButton)
 
 		statLayout = QtGui.QHBoxLayout()

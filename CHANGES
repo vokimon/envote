@@ -1,11 +1,12 @@
 envote 0.7
 * HondTable uses a darker color for chosen divisors
 * Tooltips explain Hondt Table cell colors
+* Tooltips explain buttons and controls
 * Translatable strings
-* Spanish and Catalan translations, more to come
+* Spanish and Catalan translations added
 
 envote 0.6
-* PieChart tooltips were computed just once if the sector is reused
+* FIX: PieChart tooltips were computed just once if the sector is reused
 * Able to change the number of seats
 * New PieChar with proportional distribution of seats
 * New info bar with rest distribution in hondt and proportional
