@@ -33,7 +33,7 @@ else :
 
 
 version = file(os.path.join(installDir, "VERSION")).read().strip()
-iconFile = os.path.join(installDir,"envote.svg")
+iconFile = os.path.join(installDir,"envote.png")
 translationPrefix = os.path.join(installDir,"i18n","envote_")
 dataPath = os.path.join(installDir,"data")
 

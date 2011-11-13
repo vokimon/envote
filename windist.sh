@@ -13,7 +13,7 @@ PYTHON_DLL=$WINE_DRIVE_C/windows/system32/python27.dll
 
 $PYTHON_PREFIX/python.exe $PYTHON_PREFIX/Scripts/cxfreeze  envote --target-dir envote-$version-win32
 cp -vr data cookedData i18n envote-$version-win32/
-cp -v $PYTHON_DLL README COPYING TODO VERSION envote.svg envote-$version-win32/
+cp -v $PYTHON_DLL README COPYING TODO VERSION envote.svg envote.png envote-$version-win32/
 for dll in QtCore4 QtGui4
 do
 	cp -v $PYTHON_PREFIX/Lib/site-packages/PyQt4/$dll.dll envote-$version-win32/
