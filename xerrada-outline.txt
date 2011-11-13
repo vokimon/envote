@@ -160,28 +160,35 @@
 		- Cuando compiten los últimos divisores
 		- Votar en un partido con 0 escaños sube el divisor una unidad
 		- Votar en un partido con N escaños tienes que juntar N+1 votos para subir el divisor esa misma unidad unidad
-		- Al reves tambien es cierto, si pierdes un voto, 
+		- Al reves tambien es cierto, si pierdes un voto, es mas grave en los pequeños
 	- Si esto es así, votemos siempre a minoritarios y vayamos sumando siempre un escaño
-		- Pues no tampoco es así
-		- Cada vez que consigues un escaño el siguiente umbral esta proporcionalmente mas cerca en uniades de cociente y cuando los votos son muchos se compensa
-	- Voto útil
+		- Pues no, tampoco es así
+		- Cada vez que consigues un escaño el siguiente umbral esta proporcionalmente mas cerca en unidades de cociente
+			- Cuando el trasvase de votos es grande acaba compensandose
+		- Pero si, de cara a la competencia por los escaños de resto, pocos votos son muy importantes.
+	- Voto útil y voto tirado
 		- Vende la ilusion de control
-		- No solo es éticamente 
+		- Éticamente criticable por desincentivar el voto en consciencia
+		- Pero es que ademés es totalmente falso
+		- La verdad es que todo voto 'es inutil' hasta que se alcanza el siguiente escaño
+		- Los escalones para el siguiente escaño, aunque parezcan cada vez mas juntos, son mas o menos iguales porque cada voto vale una enesima parte
+		- Para el primer, para el segundo y para el decimo escaño
+		- Mientras que haya gente que vote a un partido habra la misma probabilidad de que tenga un resto para llegar al siguiente escaño.
+	- Voto dividido
+		- Dividir las opciones hace que cada opción tenga su resto
+		- Es probable que signifique la perdida de un escaño por cada división
 
-
-
-
-* Els vots d'un partit que no entra no afecten als vots dels partits que entra
-	* En un repartiment proporcional que un puji implica que la resta baixa
-	* En un sistema d'Hondt
-* Els vots nuls no afecten
-* Tampoc ho fan els vot en blanc normalment.
-* El vot que castiga es el vot que deixes de donar
-* El vot que dones a algu, no castiga a una opcio concreta
-* Els minoritaris son mes sensibles a perdre vots... pero tambe a guanyar-los
-
-
-
+	- En resumen
+		- Si quieres votar nulo, abstención o blanco, el unico problema es que, siendo un indignado, es un voto cesante a un partido alternativo
+			- Pero no tiene ningún otro efecto lateral!! Hazlo sin miedo de perjudicar a nadie, si es lo que quieres
+		- El voto más útil es el que mejor te representa
+		- Los minoritarios son más sensibles a perder votos, pero tambien a ganarlos!
+		- La division es mala
+			- Por desgracia pero para bien hay menos extra parlamentarios
+		- Si no te representa ninguno vota formaciones como Escons en Blanc
+		- Si no quieres delegar tu poder de decisión por 4 años, los Piratas te dejaran votar por internet en el congreso.
+		- El gran poder de la abstención es que es grande
+			- Si se puede convertir en otra cosa, se puede cambiar mucho el panorama
 
 - Preguntes de la gent
 
