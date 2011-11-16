@@ -95,10 +95,12 @@ class Sector(QtGui.QGraphicsEllipseItem) :
 			self.parent.sectorRightClicked.emit(self._name)
 		QtGui.QGraphicsEllipseItem.mouseReleaseEvent(self,event)
 
-	def move(self, start, span) :
-		if self.animation.state is QtCore.QAbstractAnimation.Running :
-			self.animation.setCurrentTime(self.animation.duration())
-			QtGui.QApplication.processEvents()
+	def animateTo(self, start, span) :
+		if self.animation.state() == QtCore.QAbstractAnimation.Running :
+			self.animation.stop()
+			self.updater.opacity = 1.
+			self.updater.start, ok = self.startAnimation.endValue().toFloat()
+			self.updater.span, ok = self.spanAnimation.endValue().toFloat()
 		self.startAnimation.setEndValue(start)
 		self.spanAnimation.setEndValue(span)
 		self.animation.start()
@@ -205,9 +207,9 @@ class PieChart(QtGui.QGraphicsView) :
 					self._sectorDescriptions.get(name, "") or name)
 					)
 			span = self.maxAngle*(float(value)/total)
-			sector.move(angle,span)
-			angle += span
 			self.sectors[name]=sector
+			sector.animateTo(angle,span)
+			angle += span
 
 
 if __name__ == "__main__" :
