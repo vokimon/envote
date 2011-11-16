@@ -194,11 +194,98 @@
 
 
 
+Rumor: Si la abstención o el voto blanco o nulo supera un límite, pasa algo.
+	No, no pasa nada, ya pueden ser altísimos. Ni se anulan, ni se repiten elecciones.
+
+Rumor: El umbral del 3% perjudica a los minoritarios
+	Cierto, pero en unas generales en Barcelona nunca ha pasado.
+	Hay pocos escaños y cuesta que el reparto llegue a partidos por debajo del umbral.
+	Si pasara, como máximo afectaria a un partido con los votos justos para un escaño.
+	En ese caso el voto no tiene por que irse a un mayoritario.
+	Sí que el mayoritario tiene más números que un minoritario de quedarselo.
+
+Rumor: El voto en blanco sube el umbral del 3%
+	Cierto, el voto en blanco se considera válido y se usa para calcular el 3%.
+	Sin embargo sube en la misma medida que lo subiría un voto a candidatura.
+	Por cada 1% mas de voto en blanco, el umbral sube en 700 votos aprox.
+
+Rumor: El voto blanco, nulo o la abstención favorecen a los mayoritarios.
+	Falso. Si el voto blanco no activa el umbral del 3%,
+	el reparto de Hondt es indiferente a la existencia de estas opciones.
+	Si que se puede considerar el efecto del voto cesante, si se considera
+	que los que han optado por estas opciones hubieran podido votar a minoritarios.
+
+Rumor: El voto nulo perjudica a mayoritarios
+	Falso. Si optas por nulo porque querias perjudicar a los mayoritarios
+	seguramente tampoco ibas a votar mayoritarios, por lo cual no les
+	perjudica ni por ser un voto cesante.
+
+Rumor: La ley de Hondt favorece a los mayoritarios
+	Cierto. Sin embargo mantiene la proporcionalidad de los escaños que se
+	obtendrían enteros. La desproporcion viene del reparto de restos.
+	En Generales en BCN, el más mayoritario gana como máximo dos escaños por encima de lo proporcional.
+	En Generales en BCN, el más minoritario pierde como máximo un escaño respecto a una ley proporcional pura.
+	Contra mas desproporción haya en los votos, mas desproporción hay en el reparto de restos.
+
+Rumor: Se requieren menos votos para un escaño contra más escaños tengas
+	Falso. Los coeficientes están más apretados pero subirlos una unidad 
+	cuesta tantos votos como escaños se hayan conseguido.
+
+Rumor: Es voto útil votar al grande menos malo
+	Falso. Para restarle votos a un partido, puedes sumar votos en cualquiera
+	de las otras opciones. Todas tienen la misma probabilidad de que no
+	acabes sumando votos para obtener el siguiente escaño.
+
+Rumor: Es voto tirado votar a candidaturas extraparlamentarias
+	Si, pero es relativo. Si no sumas un escaño, tan tirado es el voto
+	en uno que ya tenga escaños y no llegue al siguiente.
+
+Rumor: Cuando una opción se divide normalmente sale perdiendo
+	Cierto. Si una opción se divide por tres, habrá tres restos de escaño.
+	
+Rumor: Cuando un extraparlamentario entra, fastidia al siguiente partido mas pequeño.
+	Es al revés! Entra en competencia con el partido que tenga el último cociente más pequeño.
+	Los partidos mayoritarios tienen mas probabilidad de tenerlo.
 
 
+- Abstención:
+	Generales/BCN: Máxima del 34% en 2000, suele ser primera o segunda opción
+	Límite: Los votantes acérrimos de los partidos no dejarían que pasara del 44%
+	Por muy alta que sea la abstención no se repiten las elecciones ni nada parecido.
+	Efecto en el recuento: Ninguno más allá del voto cesante.
+	Hay dos tipos de abstención según los motivos.
 
+	- Abstención pasiva:
+		Significa: No me interesa la política
+		Como: Simplemente no ir a votar.
+		Representa el aprox 85% de la abstención (según CIS)
 
+	- Abstención activa:
+		Significa: No quiero legitimar el sistema con mi participación
+		Es activa si se contribuye a alternativas
+		Problema: És difícil diferenciarla de la pasiva
+		Sigue siendo una opción ética personal válida
 
+- Voto nulo (activo):
+	Significa: Es un voto de queja
+	Como: Poner en el sobre algo que no sea una papeleta de un partido
+	Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito
+	Confundible con error, pero no si hay mucho
+	Efecto en el recuento: Ninguno más allá del voto cesante.
+	Por muy alto que sea el voto nulo no se repiten las elecciones ni nada parecido.
+	Mito falso: La mesa no esta obligada a leer lo que diga.
+
+- Voto blanco
+	Significa: 'no me gusta ninguno'
+	Sube el umbral que tienen los partidos minoritarios para entrar.
+	En las Generales, es muy improbable que afecte ese umbral.
+	En Barcelona, afectaria como máximo a un partido que tenga el primer escaño justito.
+	Ese escaño no tiene porque llevarselo un mayoritario pero tiene mas probabilidades.
+	El voto en blanco contribuye poco a subir ese umbral pero contribuye.
+	Efecto en el reparto: A parte de subir el umbral, ninguno más allá del voto cesante.
+	Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.
+
+- Voto 
 
 
 
