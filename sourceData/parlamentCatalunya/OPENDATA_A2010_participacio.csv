@@ -1,0 +1,1008 @@
+ELECCIO;ANY;NIVELL;AUTONOMIA;CODI PROVÍNCIA;PROVÍNCIA;CODI COMARCA;COMARCA;CODI MUNICIPI;MUNICIPI;CODI DISTRICTE;DISTRICTE;CENS ELECTORAL;VOTANTS;% VOTANTS;ABSTENCIÓ;% ABSTENCIÓ;VOTS NULS;% VOTS NULS;VOTS EN BLANC;% VOTS EN BLANC;VOTS A CANDIDATURES;% VOTS A CANDIDATURES;VOTS VÀLIDS;% VOTS VÀLIDS
+A;2010;CA;Catalunya;;;;;;;;;5.363.688;3.152.630;58,78;2.211.058;41,22;22.354;0,71;91.631;2,91;3.038.645;96,38;3.130.276;99,29
+A;2010;CO;Catalunya;;;1;Alt Camp;;;;;32.027;18.609;58,10;13.418;41,90;173;0,93;483;2,60;17.953;96,47;18.436;99,07
+A;2010;CO;Catalunya;;;2;Alt Empordà;;;;;83.036;48.560;58,48;34.476;41,52;417;0,86;1.327;2,73;46.816;96,41;48.143;99,14
+A;2010;CO;Catalunya;;;3;Alt Penedès;;;;;74.650;47.219;63,25;27.431;36,75;414;0,88;1.353;2,87;45.452;96,26;46.805;99,12
+A;2010;CO;Catalunya;;;4;Alt Urgell;;;;;15.713;9.468;60,26;6.245;39,74;79;0,83;314;3,32;9.075;95,85;9.389;99,17
+A;2010;CO;Catalunya;;;5;Alta Ribagorça;;;;;3.046;1.765;57,94;1.281;42,06;15;0,85;58;3,29;1.692;95,86;1.750;99,15
+A;2010;CO;Catalunya;;;6;Anoia;;;;;86.011;51.007;59,30;35.004;40,70;299;0,59;1.444;2,83;49.264;96,58;50.708;99,41
+A;2010;CO;Catalunya;;;7;Bages;;;;;135.887;83.350;61,34;52.537;38,66;627;0,75;2.285;2,74;80.438;96,51;82.723;99,25
+A;2010;CO;Catalunya;;;8;Baix Camp;;;;;124.850;72.050;57,71;52.800;42,29;507;0,70;1.633;2,27;69.910;97,03;71.543;99,30
+A;2010;CO;Catalunya;;;9;Baix Ebre;;;;;54.904;32.887;59,90;22.017;40,10;430;1,31;1.050;3,19;31.407;95,50;32.457;98,69
+A;2010;CO;Catalunya;;;10;Baix Empordà;;;;;86.115;50.788;58,98;35.327;41,02;430;0,85;1.454;2,86;48.904;96,29;50.358;99,15
+A;2010;CO;Catalunya;;;11;Baix Llobregat;;;;;571.826;331.147;57,91;240.679;42,09;1.958;0,59;9.928;3,00;319.261;96,41;329.189;99,41
+A;2010;CO;Catalunya;;;12;Baix Penedès;;;;;69.086;37.020;53,59;32.066;46,41;383;1,03;912;2,46;35.725;96,50;36.637;98,97
+A;2010;CO;Catalunya;;;13;Barcelonès;;;;;1.571.727;942.180;59,95;629.547;40,05;5.827;0,62;28.025;2,97;908.328;96,41;936.353;99,38
+A;2010;CO;Catalunya;;;14;Berguedà;;;;;32.376;20.918;64,61;11.458;35,39;236;1,13;632;3,02;20.050;95,85;20.682;98,87
+A;2010;CO;Catalunya;;;15;Cerdanya;;;;;13.043;8.083;61,97;4.960;38,03;85;1,05;171;2,12;7.827;96,83;7.998;98,95
+A;2010;CO;Catalunya;;;16;Conca de Barberà;;;;;15.601;9.462;60,65;6.139;39,35;114;1,20;297;3,14;9.051;95,66;9.348;98,80
+A;2010;CO;Catalunya;;;17;Garraf;;;;;99.051;57.095;57,64;41.956;42,36;389;0,68;1.569;2,75;55.137;96,57;56.706;99,32
+A;2010;CO;Catalunya;;;18;Garrigues;;;;;15.296;9.831;64,27;5.465;35,73;93;0,95;324;3,30;9.414;95,76;9.738;99,05
+A;2010;CO;Catalunya;;;19;Garrotxa;;;;;39.428;25.510;64,70;13.918;35,30;286;1,12;817;3,20;24.407;95,68;25.224;98,88
+A;2010;CO;Catalunya;;;20;Gironès;;;;;115.926;73.121;63,08;42.805;36,92;694;0,95;2.150;2,94;70.277;96,11;72.427;99,05
+A;2010;CO;Catalunya;;;21;Maresme;;;;;308.750;190.959;61,85;117.791;38,15;1.194;0,63;5.146;2,69;184.619;96,68;189.765;99,37
+A;2010;CO;Catalunya;;;22;Montsià;;;;;47.232;27.806;58,87;19.426;41,13;382;1,37;1.101;3,96;26.323;94,67;27.424;98,63
+A;2010;CO;Catalunya;;;23;Noguera;;;;;28.164;18.327;65,07;9.837;34,93;190;1,04;613;3,34;17.524;95,62;18.137;98,96
+A;2010;CO;Catalunya;;;24;Osona;;;;;108.024;74.054;68,55;33.970;31,45;569;0,77;2.250;3,04;71.235;96,19;73.485;99,23
+A;2010;CO;Catalunya;;;25;Pallars Jussà;;;;;10.282;6.450;62,73;3.832;37,27;53;0,82;243;3,77;6.154;95,41;6.397;99,18
+A;2010;CO;Catalunya;;;26;Pallars Sobirà;;;;;5.466;3.608;66,01;1.858;33,99;26;0,72;119;3,30;3.463;95,98;3.582;99,28
+A;2010;CO;Catalunya;;;27;Pla d'Urgell;;;;;24.881;16.290;65,47;8.591;34,53;176;1,08;555;3,41;15.559;95,51;16.114;98,92
+A;2010;CO;Catalunya;;;28;Pla de l'Estany;;;;;21.107;14.297;67,74;6.810;32,26;191;1,34;420;2,94;13.686;95,73;14.106;98,66
+A;2010;CO;Catalunya;;;29;Priorat;;;;;7.603;5.352;70,39;2.251;29,61;76;1,42;202;3,77;5.074;94,81;5.276;98,58
+A;2010;CO;Catalunya;;;30;Ribera d'Ebre;;;;;17.152;11.208;65,35;5.944;34,65;216;1,93;339;3,02;10.653;95,05;10.992;98,07
+A;2010;CO;Catalunya;;;31;Ripollès;;;;;20.976;13.828;65,92;7.148;34,08;142;1,03;443;3,20;13.243;95,77;13.686;98,97
+A;2010;CO;Catalunya;;;32;Segarra;;;;;14.282;9.039;63,29;5.243;36,71;112;1,24;378;4,18;8.549;94,58;8.927;98,76
+A;2010;CO;Catalunya;;;33;Segrià;;;;;139.275;83.031;59,62;56.244;40,38;648;0,78;2.938;3,54;79.445;95,68;82.383;99,22
+A;2010;CO;Catalunya;;;34;Selva;;;;;110.068;61.937;56,27;48.131;43,73;556;0,90;1.675;2,70;59.706;96,40;61.381;99,10
+A;2010;CO;Catalunya;;;35;Solsonès;;;;;9.825;6.500;66,16;3.325;33,84;65;1,00;189;2,91;6.246;96,09;6.435;99,00
+A;2010;CO;Catalunya;;;36;Tarragonès;;;;;162.833;90.928;55,84;71.905;44,16;667;0,73;2.197;2,42;88.064;96,85;90.261;99,27
+A;2010;CO;Catalunya;;;37;Terra Alta;;;;;9.620;6.673;69,37;2.947;30,63;86;1,29;162;2,43;6.425;96,28;6.587;98,71
+A;2010;CO;Catalunya;;;38;Urgell;;;;;25.192;15.930;63,23;9.262;36,77;157;0,99;650;4,08;15.123;94,93;15.773;99,01
+A;2010;CO;Catalunya;;;39;Consell General d'Aran;;;;;6.620;3.735;56,42;2.885;43,58;25;0,67;128;3,43;3.582;95,90;3.710;99,33
+A;2010;CO;Catalunya;;;40;Vallès Occidental;;;;;629.742;373.787;59,36;255.955;40,64;2.208;0,59;10.483;2,80;361.096;96,60;371.579;99,41
+A;2010;CO;Catalunya;;;41;Vallès Oriental;;;;;283.180;171.386;60,52;111.794;39,48;1.065;0,62;5.018;2,93;165.303;96,45;170.321;99,38
+A;2010;CO;Catalunya;;;98;Residents Absents;;;;;133.815;17.435;13,03;116.380;86,97;94;0,54;156;0,89;17.185;98,57;17.341;99,46
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;1;Ciutat Vella        ;53.882;25.603;47,52;28.279;52,48;251;0,98;715;2,79;24.637;96,23;25.352;99,02
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;2;Eixample            ;188.578;125.483;66,54;63.095;33,46;739;0,59;3.805;3,03;120.939;96,38;124.744;99,41
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;3;Sants-Montjuïc      ;126.894;75.088;59,17;51.806;40,83;506;0,67;2.250;3,00;72.332;96,33;74.582;99,33
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;4;Les Corts           ;61.942;43.730;70,60;18.212;29,40;210;0,48;1.142;2,61;42.378;96,91;43.520;99,52
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;5;Sarrià-Sant Gervasi ;103.282;75.950;73,54;27.332;26,46;283;0,37;1.740;2,29;73.927;97,34;75.667;99,63
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;6;Gràcia              ;88.357;58.501;66,21;29.856;33,79;475;0,81;1.804;3,08;56.222;96,10;58.026;99,19
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;7;Horta-Guinardó      ;127.108;75.584;59,46;51.524;40,54;485;0,64;2.465;3,26;72.634;96,10;75.099;99,36
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;8;Nou Barris          ;119.722;64.764;54,10;54.958;45,90;421;0,65;1.944;3,00;62.399;96,35;64.343;99,35
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;9;Sant Andreu         ;108.135;66.521;61,52;41.614;38,48;483;0,73;2.284;3,43;63.754;95,84;66.038;99,27
+A;2010;DM;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;10;Sant Martí          ;165.140;100.401;60,80;64.739;39,20;587;0,58;3.421;3,41;96.393;96,01;99.814;99,42
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;1;Abrera;;;8.370;4.942;59,04;3.428;40,96;34;0,69;155;3,14;4.753;96,18;4.908;99,31
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;2;Aguilar de Segarra;;;203;147;72,41;56;27,59;2;1,36;1;0,68;144;97,96;145;98,64
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;3;Alella;;;6.991;4.812;68,83;2.179;31,17;37;0,77;125;2,60;4.650;96,63;4.775;99,23
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;4;Alpens;;;230;194;84,35;36;15,65;2;1,03;11;5,67;181;93,30;192;98,97
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;5;Ametlla del Vallès, l;;;5.794;3.896;67,24;1.898;32,76;24;0,62;115;2,95;3.757;96,43;3.872;99,38
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;6;Arenys de Mar;;;10.880;6.749;62,03;4.131;37,97;55;0,81;166;2,46;6.528;96,73;6.694;99,19
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;7;Arenys de Munt;;;6.272;4.130;65,85;2.142;34,15;49;1,19;111;2,69;3.970;96,13;4.081;98,81
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;8;Argençola;;;188;114;60,64;74;39,36;1;0,88;8;7,02;105;92,11;113;99,12
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;9;Argentona;;;8.891;5.756;64,74;3.135;35,26;30;0,52;136;2,36;5.590;97,12;5.726;99,48
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;10;Artés;;;4.124;2.618;63,48;1.506;36,52;24;0,92;50;1,91;2.544;97,17;2.594;99,08
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;11;Avià;;;1.742;1.192;68,43;550;31,57;12;1,01;49;4,11;1.131;94,88;1.180;98,99
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;12;Avinyó;;;1.712;1.261;73,66;451;26,34;1;0,08;38;3,01;1.222;96,91;1.260;99,92
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;13;Avinyonet del Penedès;;;1.229;820;66,72;409;33,28;3;0,37;27;3,29;790;96,34;817;99,63
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;14;Aiguafreda;;;1.895;1.333;70,34;562;29,66;14;1,05;45;3,38;1.274;95,57;1.319;98,95
+A;2010;MU;Catalunya;8;Barcelona;13;Barcelonès;15;Badalona;;;155.437;84.086;54,10;71.351;45,90;436;0,52;2.197;2,61;81.453;96,87;83.650;99,48
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;16;Bagà;;;1.950;1.263;64,77;687;35,23;2;0,16;34;2,69;1.227;97,15;1.261;99,84
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;17;Balenyà;;;2.749;1.699;61,80;1.050;38,20;19;1,12;52;3,06;1.628;95,82;1.680;98,88
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;18;Balsareny;;;2.690;1.570;58,36;1.120;41,64;8;0,51;55;3,50;1.507;95,99;1.562;99,49
+A;2010;MU;Catalunya;8;Barcelona;13;Barcelonès;19;Barcelona;;;1.143.040;711.625;62,26;431.415;37,74;4.440;0,62;21.570;3,03;685.615;96,34;707.185;99,38
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;20;Begues;;;4.450;3.063;68,83;1.387;31,17;20;0,65;109;3,56;2.934;95,79;3.043;99,35
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;21;Bellprat;;;77;49;63,64;28;36,36;0;0,00;2;4,08;47;95,92;49;100,00
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;22;Berga;;;12.454;7.687;61,72;4.767;38,28;84;1,09;230;2,99;7.373;95,92;7.603;98,91
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;23;Bigues i Riells;;;6.490;3.763;57,98;2.727;42,02;22;0,58;94;2,50;3.647;96,92;3.741;99,42
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;24;Borredà;;;407;268;65,85;139;34,15;0;0,00;11;4,10;257;95,90;268;100,00
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;25;Bruc, el;;;1.431;886;61,91;545;38,09;5;0,56;29;3,27;852;96,16;881;99,44
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;26;Brull, el;;;180;146;81,11;34;18,89;0;0,00;0;0,00;146;100,00;146;100,00
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;27;Cabanyes, les;;;659;497;75,42;162;24,58;6;1,21;6;1,21;485;97,59;491;98,79
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;28;Cabrera d Anoia;;;1.043;550;52,73;493;47,27;1;0,18;5;0,91;544;98,91;549;99,82
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;29;Cabrera de Mar;;;3.364;2.433;72,32;931;27,68;28;1,15;41;1,69;2.364;97,16;2.405;98,85
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;30;Cabrils;;;4.819;3.401;70,57;1.418;29,43;9;0,26;89;2,62;3.303;97,12;3.392;99,74
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;31;Calaf;;;2.303;1.572;68,26;731;31,74;11;0,70;50;3,18;1.511;96,12;1.561;99,30
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;32;Caldes d Estrac;;;1.955;1.272;65,06;683;34,94;5;0,39;30;2,36;1.237;97,25;1.267;99,61
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;33;Caldes de Montbui;;;12.376;7.681;62,06;4.695;37,94;41;0,53;219;2,85;7.421;96,62;7.640;99,47
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;34;Calders;;;739;534;72,26;205;27,74;6;1,12;9;1,69;519;97,19;528;98,88
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;35;Calella;;;11.929;7.232;60,63;4.697;39,37;48;0,66;124;1,71;7.060;97,62;7.184;99,34
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;36;Calonge de Segarra;;;165;125;75,76;40;24,24;1;0,80;2;1,60;122;97,60;124;99,20
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;37;Calldetenes;;;1.819;1.340;73,67;479;26,33;16;1,19;48;3,58;1.276;95,22;1.324;98,81
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;38;Callús;;;1.371;861;62,80;510;37,20;8;0,93;38;4,41;815;94,66;853;99,07
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;39;Campins;;;346;256;73,99;90;26,01;8;3,13;1;0,39;247;96,48;248;96,88
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;40;Canet de Mar;;;10.415;6.353;61,00;4.062;39,00;55;0,87;204;3,21;6.094;95,92;6.298;99,13
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;41;Canovelles;;;9.982;5.739;57,49;4.243;42,51;35;0,61;135;2,35;5.569;97,04;5.704;99,39
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;42;Cànoves i Samalús;;;2.130;1.270;59,62;860;40,38;3;0,24;31;2,44;1.236;97,32;1.267;99,76
+A;2010;MU;Catalunya;8;Barcelona;17;Garraf;43;Canyelles;;;3.035;1.695;55,85;1.340;44,15;9;0,53;45;2,65;1.641;96,81;1.686;99,47
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;44;Capellades;;;4.272;2.555;59,81;1.717;40,19;8;0,31;61;2,39;2.486;97,30;2.547;99,69
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;45;Capolat;;;67;44;65,67;23;34,33;0;0,00;2;4,55;42;95,45;44;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;46;Cardedeu;;;12.392;8.026;64,77;4.366;35,23;43;0,54;266;3,31;7.717;96,15;7.983;99,46
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;47;Cardona;;;4.172;2.404;57,62;1.768;42,38;34;1,41;66;2,75;2.304;95,84;2.370;98,59
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;48;Carme;;;632;429;67,88;203;32,12;5;1,17;18;4,20;406;94,64;424;98,83
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;49;Casserres;;;1.332;901;67,64;431;32,36;15;1,66;36;4,00;850;94,34;886;98,34
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;50;Castellar del Riu;;;136;92;67,65;44;32,35;0;0,00;2;2,17;90;97,83;92;100,00
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;51;Castellar del Vallès;;;17.242;10.951;63,51;6.291;36,49;47;0,43;326;2,98;10.578;96,59;10.904;99,57
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;52;Castellar de n Hug;;;151;107;70,86;44;29,14;2;1,87;1;0,93;104;97,20;105;98,13
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;53;Castellbell i el Vilar;;;2.892;1.595;55,15;1.297;44,85;4;0,25;31;1,94;1.560;97,81;1.591;99,75
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;54;Castellbisbal;;;8.700;5.308;61,01;3.392;38,99;25;0,47;144;2,71;5.139;96,82;5.283;99,53
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;55;Castellcir;;;477;317;66,46;160;33,54;1;0,32;9;2,84;307;96,85;316;99,68
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;56;Castelldefels;;;38.954;22.615;58,06;16.339;41,94;72;0,32;690;3,05;21.853;96,63;22.543;99,68
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;57;Castell de l Areny;;;59;44;74,58;15;25,42;0;0,00;0;0,00;44;100,00;44;100,00
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;58;Castellet i la Gornal;;;1.703;936;54,96;767;45,04;9;0,96;16;1,71;911;97,33;927;99,04
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;59;Castellfollit del Boix;;;319;198;62,07;121;37,93;2;1,01;10;5,05;186;93,94;196;98,99
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;60;Castellfollit de Riubregós;;;174;120;68,97;54;31,03;0;0,00;0;0,00;120;100,00;120;100,00
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;61;Castellgalí;;;1.439;831;57,75;608;42,25;9;1,08;18;2,17;804;96,75;822;98,92
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;62;Castellnou de Bages;;;837;560;66,91;277;33,09;3;0,54;12;2,14;545;97,32;557;99,46
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;63;Castellolí;;;409;334;81,66;75;18,34;0;0,00;7;2,10;327;97,90;334;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;64;Castellterçol;;;1.806;1.313;72,70;493;27,30;24;1,83;27;2,06;1.262;96,12;1.289;98,17
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;65;Castellví de la Marca;;;1.213;789;65,05;424;34,95;8;1,01;24;3,04;757;95,94;781;98,99
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;66;Castellví de Rosanes;;;1.277;866;67,82;411;32,18;4;0,46;17;1,96;845;97,58;862;99,54
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;67;Centelles;;;5.656;3.685;65,15;1.971;34,85;26;0,71;124;3,36;3.535;95,93;3.659;99,29
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;68;Cervelló;;;6.467;3.839;59,36;2.628;40,64;14;0,36;92;2,40;3.733;97,24;3.825;99,64
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;69;Collbató;;;2.962;1.903;64,25;1.059;35,75;13;0,68;45;2,36;1.845;96,95;1.890;99,32
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;70;Collsuspina;;;275;204;74,18;71;25,82;1;0,49;10;4,90;193;94,61;203;99,51
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;71;Copons;;;243;156;64,20;87;35,80;4;2,56;4;2,56;148;94,87;152;97,44
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;72;Corbera de Llobregat;;;9.712;5.398;55,58;4.314;44,42;18;0,33;179;3,32;5.201;96,35;5.380;99,67
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;73;Cornellà de Llobregat;;;59.702;34.357;57,55;25.345;42,45;168;0,49;972;2,83;33.217;96,68;34.189;99,51
+A;2010;MU;Catalunya;8;Barcelona;17;Garraf;74;Cubelles;;;10.119;5.441;53,77;4.678;46,23;33;0,61;142;2,61;5.266;96,78;5.408;99,39
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;75;Dosrius;;;3.823;2.180;57,02;1.643;42,98;13;0,60;53;2,43;2.114;96,97;2.167;99,40
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;76;Esparreguera;;;15.892;8.844;55,65;7.048;44,35;62;0,70;271;3,06;8.511;96,23;8.782;99,30
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;77;Esplugues de Llobregat;;;33.979;21.074;62,02;12.905;37,98;114;0,54;611;2,90;20.349;96,56;20.960;99,46
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;78;Espunyola, l;;;222;168;75,68;54;24,32;0;0,00;4;2,38;164;97,62;168;100,00
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;79;Estany, l;;;329;272;82,67;57;17,33;1;0,37;12;4,41;259;95,22;271;99,63
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;80;Fígols;;;45;37;82,22;8;17,78;0;0,00;0;0,00;37;100,00;37;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;81;Fogars de Montclús;;;331;244;73,72;87;26,28;4;1,64;8;3,28;232;95,08;240;98,36
+A;2010;MU;Catalunya;8;Barcelona;34;Selva;82;Fogars de la Selva;;;1.149;608;52,92;541;47,08;2;0,33;16;2,63;590;97,04;606;99,67
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;83;Folgueroles;;;1.644;1.304;79,32;340;20,68;16;1,23;48;3,68;1.240;95,09;1.288;98,77
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;84;Fonollosa;;;1.134;749;66,05;385;33,95;11;1,47;11;1,47;727;97,06;738;98,53
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;85;Font-rubí;;;1.058;729;68,90;329;31,10;14;1,92;11;1,51;704;96,57;715;98,08
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;86;Franqueses del Vallès, les;;;12.964;7.441;57,40;5.523;42,60;36;0,48;239;3,21;7.166;96,30;7.405;99,52
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;87;Gallifa;;;156;120;76,92;36;23,08;0;0,00;2;1,67;118;98,33;120;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;88;Garriga, la;;;11.161;7.582;67,93;3.579;32,07;58;0,76;254;3,35;7.270;95,88;7.524;99,24
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;89;Gavà;;;33.113;18.918;57,13;14.195;42,87;85;0,45;601;3,18;18.232;96,37;18.833;99,55
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;90;Gaià;;;132;91;68,94;41;31,06;1;1,10;1;1,10;89;97,80;90;98,90
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;91;Gelida;;;5.111;3.120;61,04;1.991;38,96;26;0,83;100;3,21;2.994;95,96;3.094;99,17
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;92;Gironella;;;3.953;2.537;64,18;1.416;35,82;54;2,13;72;2,84;2.411;95,03;2.483;97,87
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;93;Gisclareny;;;31;22;70,97;9;29,03;0;0,00;0;0,00;22;100,00;22;100,00
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;94;Granada, la;;;1.485;1.015;68,35;470;31,65;12;1,18;19;1,87;984;96,95;1.003;98,82
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;95;Granera;;;74;56;75,68;18;24,32;0;0,00;0;0,00;56;100,00;56;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;96;Granollers;;;40.268;25.231;62,66;15.037;37,34;138;0,55;718;2,85;24.375;96,61;25.093;99,45
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;97;Gualba;;;923;610;66,09;313;33,91;3;0,49;17;2,79;590;96,72;607;99,51
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;98;Sant Salvador de Guardiola;;;2.367;1.405;59,36;962;40,64;14;1,00;33;2,35;1.358;96,65;1.391;99,00
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;99;Guardiola de Berguedà;;;825;527;63,88;298;36,12;7;1,33;10;1,90;510;96,77;520;98,67
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;100;Gurb;;;1.924;1.519;78,95;405;21,05;11;0,72;38;2,50;1.470;96,77;1.508;99,28
+A;2010;MU;Catalunya;8;Barcelona;13;Barcelonès;101;Hospitalet de Llobregat, l;;;169.800;94.250;55,51;75.550;44,49;525;0,56;2.683;2,85;91.042;96,60;93.725;99,44
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;102;Igualada;;;27.835;17.716;63,65;10.119;36,35;79;0,45;523;2,95;17.114;96,60;17.637;99,55
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;103;Jorba;;;638;426;66,77;212;33,23;4;0,94;9;2,11;413;96,95;422;99,06
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;104;Llacuna, la;;;724;488;67,40;236;32,60;3;0,61;6;1,23;479;98,16;485;99,39
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;105;Llagosta, la;;;9.657;5.253;54,40;4.404;45,60;30;0,57;161;3,06;5.062;96,36;5.223;99,43
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;106;Llinars del Vallès;;;6.754;4.097;60,66;2.657;39,34;13;0,32;124;3,03;3.960;96,66;4.084;99,68
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;107;Lliçà d Amunt;;;10.826;5.905;54,54;4.921;45,46;19;0,32;174;2,95;5.712;96,73;5.886;99,68
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;108;Lliçà de Vall;;;4.915;3.005;61,14;1.910;38,86;16;0,53;59;1,96;2.930;97,50;2.989;99,47
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;109;Lluçà;;;201;154;76,62;47;23,38;0;0,00;7;4,55;147;95,45;154;100,00
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;110;Malgrat de Mar;;;13.359;7.472;55,93;5.887;44,07;45;0,60;206;2,76;7.221;96,64;7.427;99,40
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;111;Malla;;;214;190;88,79;24;11,21;6;3,16;2;1,05;182;95,79;184;96,84
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;112;Manlleu;;;12.924;8.333;64,48;4.591;35,52;37;0,44;255;3,06;8.041;96,50;8.296;99,56
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;113;Manresa;;;52.567;32.240;61,33;20.327;38,67;180;0,56;848;2,63;31.212;96,81;32.060;99,44
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;114;Martorell;;;17.467;10.305;59,00;7.162;41,00;82;0,80;288;2,79;9.935;96,41;10.223;99,20
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;115;Martorelles;;;3.911;2.260;57,79;1.651;42,21;9;0,40;65;2,88;2.186;96,73;2.251;99,60
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;116;Masies de Roda, les;;;590;424;71,86;166;28,14;4;0,94;19;4,48;401;94,58;420;99,06
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;117;Masies de Voltregà, les;;;2.427;1.659;68,36;768;31,64;5;0,30;66;3,98;1.588;95,72;1.654;99,70
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;118;Masnou, el;;;17.019;11.122;65,35;5.897;34,65;82;0,74;319;2,87;10.721;96,39;11.040;99,26
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;119;Masquefa;;;6.003;3.271;54,49;2.732;45,51;24;0,73;115;3,52;3.132;95,75;3.247;99,27
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;120;Matadepera;;;6.358;4.811;75,67;1.547;24,33;13;0,27;78;1,62;4.720;98,11;4.798;99,73
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;121;Mataró;;;84.610;50.552;59,75;34.058;40,25;256;0,51;1.422;2,81;48.874;96,68;50.296;99,49
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;122;Mediona;;;1.768;967;54,69;801;45,31;6;0,62;23;2,38;938;97,00;961;99,38
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;123;Molins de Rei;;;18.578;11.965;64,40;6.613;35,60;80;0,67;365;3,05;11.520;96,28;11.885;99,33
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;124;Mollet del Vallès;;;36.123;20.016;55,41;16.107;44,59;107;0,53;645;3,22;19.264;96,24;19.909;99,47
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;125;Montcada i Reixac;;;24.242;13.372;55,16;10.870;44,84;81;0,61;412;3,08;12.879;96,31;13.291;99,39
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;126;Montgat;;;8.188;4.900;59,84;3.288;40,16;17;0,35;142;2,90;4.741;96,76;4.883;99,65
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;127;Monistrol de Montserrat;;;2.308;1.248;54,07;1.060;45,93;6;0,48;38;3,04;1.204;96,47;1.242;99,52
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;128;Monistrol de Calders;;;553;397;71,79;156;28,21;2;0,50;11;2,77;384;96,73;395;99,50
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;129;Muntanyola;;;429;291;67,83;138;32,17;0;0,00;15;5,15;276;94,85;291;100,00
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;130;Montclar;;;93;53;56,99;40;43,01;0;0,00;1;1,89;52;98,11;53;100,00
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;131;Montesquiu;;;692;462;66,76;230;33,24;9;1,95;12;2,60;441;95,45;453;98,05
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;132;Montmajor;;;390;272;69,74;118;30,26;0;0,00;10;3,68;262;96,32;272;100,00
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;133;Montmaneu;;;160;115;71,88;45;28,13;0;0,00;3;2,61;112;97,39;115;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;134;Figaró-Montmany;;;761;488;64,13;273;35,87;8;1,64;8;1,64;472;96,72;480;98,36
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;135;Montmeló;;;6.668;4.113;61,68;2.555;38,32;34;0,83;122;2,97;3.957;96,21;4.079;99,17
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;136;Montornès del Vallès;;;11.007;6.218;56,49;4.789;43,51;40;0,64;187;3,01;5.991;96,35;6.178;99,36
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;137;Montseny;;;261;202;77,39;59;22,61;2;0,99;7;3,47;193;95,54;200;99,01
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;138;Moià;;;3.989;2.587;64,85;1.402;35,15;38;1,47;85;3,29;2.464;95,25;2.549;98,53
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;139;Mura;;;187;146;78,07;41;21,93;1;0,68;5;3,42;140;95,89;145;99,32
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;140;Navarcles;;;4.676;2.935;62,77;1.741;37,23;24;0,82;77;2,62;2.834;96,56;2.911;99,18
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;141;Navàs;;;4.673;3.055;65,38;1.618;34,62;48;1,57;71;2,32;2.936;96,10;3.007;98,43
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;142;Nou de Berguedà, la;;;124;95;76,61;29;23,39;0;0,00;7;7,37;88;92,63;95;100,00
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;143;Òdena;;;2.612;1.628;62,33;984;37,67;7;0,43;51;3,13;1.570;96,44;1.621;99,57
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;144;Olvan;;;756;505;66,80;251;33,20;10;1,98;14;2,77;481;95,25;495;98,02
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;145;Olèrdola;;;2.567;1.687;65,72;880;34,28;19;1,13;37;2,19;1.631;96,68;1.668;98,87
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;146;Olesa de Bonesvalls;;;1.318;707;53,64;611;46,36;3;0,42;20;2,83;684;96,75;704;99,58
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;147;Olesa de Montserrat;;;16.985;9.707;57,15;7.278;42,85;83;0,86;287;2,96;9.337;96,19;9.624;99,14
+A;2010;MU;Catalunya;8;Barcelona;17;Garraf;148;Olivella;;;2.163;1.064;49,19;1.099;50,81;6;0,56;21;1,97;1.037;97,46;1.058;99,44
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;149;Olost;;;993;741;74,62;252;25,38;4;0,54;21;2,83;716;96,63;737;99,46
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;150;Orís;;;236;179;75,85;57;24,15;3;1,68;9;5,03;167;93,30;176;98,32
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;151;Oristà;;;509;375;73,67;134;26,33;1;0,27;4;1,07;370;98,67;374;99,73
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;152;Orpí;;;133;86;64,66;47;35,34;1;1,16;4;4,65;81;94,19;85;98,84
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;153;Òrrius;;;499;365;73,15;134;26,85;4;1,10;8;2,19;353;96,71;361;98,90
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;154;Pacs del Penedès;;;684;485;70,91;199;29,09;1;0,21;13;2,68;471;97,11;484;99,79
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;155;Palafolls;;;6.508;3.730;57,31;2.778;42,69;37;0,99;90;2,41;3.603;96,60;3.693;99,01
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;156;Palau-solità i Plegamans;;;10.505;6.277;59,75;4.228;40,25;70;1,12;178;2,84;6.029;96,05;6.207;98,88
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;157;Pallejà;;;8.205;4.969;60,56;3.236;39,44;45;0,91;125;2,52;4.799;96,58;4.924;99,09
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;158;Papiol, el;;;2.950;1.801;61,05;1.149;38,95;14;0,78;49;2,72;1.738;96,50;1.787;99,22
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;159;Parets del Vallès;;;13.239;7.626;57,60;5.613;42,40;50;0,66;268;3,51;7.308;95,83;7.576;99,34
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;160;Perafita;;;314;230;73,25;84;26,75;0;0,00;9;3,91;221;96,09;230;100,00
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;161;Piera;;;10.812;5.634;52,11;5.178;47,89;33;0,59;148;2,63;5.453;96,79;5.601;99,41
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;162;Hostalets de Pierola, els;;;1.913;1.186;62,00;727;38,00;9;0,76;29;2,45;1.148;96,80;1.177;99,24
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;163;Pineda de Mar;;;17.918;10.304;57,51;7.614;42,49;61;0,59;236;2,29;10.007;97,12;10.243;99,41
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;164;Pla del Penedès, el;;;835;565;67,66;270;32,34;9;1,59;17;3,01;539;95,40;556;98,41
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;165;Pobla de Claramunt, la;;;1.694;1.023;60,39;671;39,61;29;2,83;18;1,76;976;95,41;994;97,17
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;166;Pobla de Lillet, la;;;1.165;786;67,47;379;32,53;13;1,65;23;2,93;750;95,42;773;98,35
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;167;Polinyà;;;5.619;3.089;54,97;2.530;45,03;17;0,55;80;2,59;2.992;96,86;3.072;99,45
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;168;Pontons;;;408;248;60,78;160;39,22;3;1,21;4;1,61;241;97,18;245;98,79
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;169;Prat de Llobregat, el;;;47.565;25.458;53,52;22.107;46,48;145;0,57;831;3,26;24.482;96,17;25.313;99,43
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;170;Prats de Rei, els;;;466;317;68,03;149;31,97;3;0,95;17;5,36;297;93,69;314;99,05
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;171;Prats de Lluçanès;;;2.157;1.485;68,85;672;31,15;13;0,88;41;2,76;1.431;96,36;1.472;99,12
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;172;Premià de Mar;;;19.862;12.420;62,53;7.442;37,47;85;0,68;365;2,94;11.970;96,38;12.335;99,32
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;174;Puigdàlber;;;409;292;71,39;117;28,61;2;0,68;7;2,40;283;96,92;290;99,32
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;175;Puig-reig;;;3.498;2.264;64,72;1.234;35,28;18;0,80;45;1,99;2.201;97,22;2.246;99,20
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;176;Pujalt;;;167;115;68,86;52;31,14;0;0,00;0;0,00;115;100,00;115;100,00
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;177;Quar, la;;;55;42;76,36;13;23,64;0;0,00;4;9,52;38;90,48;42;100,00
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;178;Rajadell;;;432;295;68,29;137;31,71;2;0,68;3;1,02;290;98,31;293;99,32
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;179;Rellinars;;;587;384;65,42;203;34,58;1;0,26;15;3,91;368;95,83;383;99,74
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;180;Ripollet;;;26.171;13.771;52,62;12.400;47,38;58;0,42;406;2,95;13.307;96,63;13.713;99,58
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;181;Roca del Vallès, la;;;7.714;4.728;61,29;2.986;38,71;42;0,89;110;2,33;4.576;96,79;4.686;99,11
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;182;Pont de Vilomara i Rocafort, el;;;2.814;1.623;57,68;1.191;42,32;7;0,43;39;2,40;1.577;97,17;1.616;99,57
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;183;Roda de Ter;;;4.502;3.004;66,73;1.498;33,27;12;0,40;87;2,90;2.905;96,70;2.992;99,60
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;184;Rubí;;;51.420;26.569;51,67;24.851;48,33;122;0,46;782;2,94;25.665;96,60;26.447;99,54
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;185;Rubió;;;176;111;63,07;65;36,93;1;0,90;0;0,00;110;99,10;110;99,10
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;187;Sabadell;;;149.047;89.394;59,98;59.653;40,02;468;0,52;2.296;2,57;86.630;96,91;88.926;99,48
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;188;Sagàs;;;107;88;82,24;19;17,76;1;1,14;4;4,55;83;94,32;87;98,86
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;189;Sant Pere Sallavinera;;;145;119;82,07;26;17,93;0;0,00;1;0,84;118;99,16;119;100,00
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;190;Saldes;;;293;197;67,24;96;32,76;3;1,52;9;4,57;185;93,91;194;98,48
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;191;Sallent;;;5.544;3.392;61,18;2.152;38,82;26;0,77;102;3,01;3.264;96,23;3.366;99,23
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;192;Santpedor;;;5.841;3.638;62,28;2.203;37,72;27;0,74;94;2,58;3.517;96,67;3.611;99,26
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;193;Sant Iscle de Vallalta;;;927;543;58,58;384;41,42;1;0,18;18;3,31;524;96,50;542;99,82
+A;2010;MU;Catalunya;8;Barcelona;13;Barcelonès;194;Sant Adrià de Besòs;;;24.539;11.918;48,57;12.621;51,43;96;0,81;295;2,48;11.527;96,72;11.822;99,19
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;195;Sant Agustí de Lluçanès;;;87;63;72,41;24;27,59;2;3,17;4;6,35;57;90,48;61;96,83
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;196;Sant Andreu de la Barca;;;18.774;9.927;52,88;8.847;47,12;49;0,49;285;2,87;9.593;96,64;9.878;99,51
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;197;Sant Andreu de Llavaneres;;;7.228;4.670;64,61;2.558;35,39;18;0,39;117;2,51;4.535;97,11;4.652;99,61
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;198;Sant Antoni de Vilamajor;;;4.068;2.625;64,53;1.443;35,47;12;0,46;79;3,01;2.534;96,53;2.613;99,54
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;199;Sant Bartomeu del Grau;;;724;523;72,24;201;27,76;0;0,00;16;3,06;507;96,94;523;100,00
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;200;Sant Boi de Llobregat;;;61.042;33.356;54,64;27.686;45,36;248;0,74;960;2,88;32.148;96,38;33.108;99,26
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;201;Sant Boi de Lluçanès;;;440;303;68,86;137;31,14;11;3,63;4;1,32;288;95,05;292;96,37
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;202;Sant Celoni;;;12.115;7.639;63,05;4.476;36,95;85;1,11;214;2,80;7.340;96,09;7.554;98,89
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;203;Sant Cebrià de Vallalta;;;2.472;1.393;56,35;1.079;43,65;7;0,50;34;2,44;1.352;97,06;1.386;99,50
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;204;Sant Climent de Llobregat;;;2.948;1.879;63,74;1.069;36,26;27;1,44;45;2,39;1.807;96,17;1.852;98,56
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;205;Sant Cugat del Vallès;;;53.398;38.274;71,68;15.124;28,32;374;0,98;1.070;2,80;36.830;96,23;37.900;99,02
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;206;Sant Cugat Sesgarrigues;;;712;541;75,98;171;24,02;5;0,92;21;3,88;515;95,19;536;99,08
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;207;Sant Esteve de Palautordera;;;1.720;1.337;77,73;383;22,27;10;0,75;31;2,32;1.296;96,93;1.327;99,25
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;208;Sant Esteve Sesrovires;;;5.373;3.401;63,30;1.972;36,70;21;0,62;94;2,76;3.286;96,62;3.380;99,38
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;209;Sant Fost de Campsentelles;;;6.563;3.752;57,17;2.811;42,83;21;0,56;83;2,21;3.648;97,23;3.731;99,44
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;210;Sant Feliu de Codines;;;4.054;2.456;60,58;1.598;39,42;20;0,81;84;3,42;2.352;95,77;2.436;99,19
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;211;Sant Feliu de Llobregat;;;31.935;19.470;60,97;12.465;39,03;155;0,80;621;3,19;18.694;96,01;19.315;99,20
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;212;Sant Feliu Sasserra;;;512;371;72,46;141;27,54;2;0,54;12;3,23;357;96,23;369;99,46
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;213;Sant Fruitós de Bages;;;6.031;3.779;62,66;2.252;37,34;16;0,42;113;2,99;3.650;96,59;3.763;99,58
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;214;Vilassar de Dalt;;;6.739;4.406;65,38;2.333;34,62;19;0,43;107;2,43;4.280;97,14;4.387;99,57
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;215;Sant Hipòlit de Voltregà;;;2.600;1.756;67,54;844;32,46;20;1,14;60;3,42;1.676;95,44;1.736;98,86
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;216;Sant Jaume de Frontanyà;;;21;12;57,14;9;42,86;0;0,00;0;0,00;12;100,00;12;100,00
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;217;Sant Joan Despí;;;23.816;14.849;62,35;8.967;37,65;69;0,46;470;3,17;14.310;96,37;14.780;99,54
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;218;Sant Joan de Vilatorrada;;;7.986;4.553;57,01;3.433;42,99;30;0,66;158;3,47;4.365;95,87;4.523;99,34
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;219;Vilassar de Mar;;;14.481;9.773;67,49;4.708;32,51;51;0,52;316;3,23;9.406;96,24;9.722;99,48
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;220;Sant Julià de Vilatorta;;;2.249;1.733;77,06;516;22,94;14;0,81;59;3,40;1.660;95,79;1.719;99,19
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;221;Sant Just Desvern;;;11.315;8.046;71,11;3.269;28,89;48;0,60;238;2,96;7.760;96,45;7.998;99,40
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;222;Sant Llorenç d Hortons;;;1.791;1.242;69,35;549;30,65;9;0,72;61;4,91;1.172;94,36;1.233;99,28
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;223;Sant Llorenç Savall;;;1.857;1.125;60,58;732;39,42;7;0,62;39;3,47;1.079;95,91;1.118;99,38
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;224;Sant Martí de Centelles;;;767;505;65,84;262;34,16;2;0,40;14;2,77;489;96,83;503;99,60
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;225;Sant Martí d Albars;;;96;76;79,17;20;20,83;0;0,00;6;7,89;70;92,11;76;100,00
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;226;Sant Martí de Tous;;;885;675;76,27;210;23,73;3;0,44;16;2,37;656;97,19;672;99,56
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;227;Sant Martí Sarroca;;;2.361;1.481;62,73;880;37,27;5;0,34;45;3,04;1.431;96,62;1.476;99,66
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;228;Sant Martí Sesgueioles;;;299;218;72,91;81;27,09;3;1,38;8;3,67;207;94,95;215;98,62
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;229;Sant Mateu de Bages;;;555;409;73,69;146;26,31;7;1,71;19;4,65;383;93,64;402;98,29
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;230;Premià de Dalt;;;7.407;4.952;66,86;2.455;33,14;36;0,73;122;2,46;4.794;96,81;4.916;99,27
+A;2010;MU;Catalunya;8;Barcelona;17;Garraf;231;Sant Pere de Ribes;;;19.558;10.394;53,14;9.164;46,86;76;0,73;259;2,49;10.059;96,78;10.318;99,27
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;232;Sant Pere de Riudebitlles;;;1.818;1.200;66,01;618;33,99;6;0,50;32;2,67;1.162;96,83;1.194;99,50
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;233;Sant Pere de Torelló;;;1.842;1.234;66,99;608;33,01;8;0,65;36;2,92;1.190;96,43;1.226;99,35
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;234;Sant Pere de Vilamajor;;;3.102;1.882;60,67;1.220;39,33;7;0,37;61;3,24;1.814;96,39;1.875;99,63
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;235;Sant Pol de Mar;;;3.621;2.500;69,04;1.121;30,96;16;0,64;56;2,24;2.428;97,12;2.484;99,36
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;236;Sant Quintí de Mediona;;;1.532;977;63,77;555;36,23;16;1,64;34;3,48;927;94,88;961;98,36
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;237;Sant Quirze de Besora;;;1.704;1.181;69,31;523;30,69;5;0,42;31;2,62;1.145;96,95;1.176;99,58
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;238;Sant Quirze del Vallès;;;13.806;9.470;68,59;4.336;31,41;45;0,48;282;2,98;9.143;96,55;9.425;99,52
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;239;Sant Quirze Safaja;;;457;301;65,86;156;34,14;0;0,00;8;2,66;293;97,34;301;100,00
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;240;Sant Sadurní d Anoia;;;9.037;5.791;64,08;3.246;35,92;40;0,69;200;3,45;5.551;95,86;5.751;99,31
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;241;Sant Sadurní d Osormort;;;87;61;70,11;26;29,89;0;0,00;1;1,64;60;98,36;61;100,00
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;242;Marganell;;;247;159;64,37;88;35,63;0;0,00;6;3,77;153;96,23;159;100,00
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;243;Santa Cecília de Voltregà;;;158;122;77,22;36;22,78;0;0,00;4;3,28;118;96,72;122;100,00
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;244;Santa Coloma de Cervelló;;;5.692;3.497;61,44;2.195;38,56;19;0,54;133;3,80;3.345;95,65;3.478;99,46
+A;2010;MU;Catalunya;8;Barcelona;13;Barcelonès;245;Santa Coloma de Gramenet;;;78.911;40.301;51,07;38.610;48,93;330;0,82;1.280;3,18;38.691;96,01;39.971;99,18
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;246;Santa Eugènia de Berga;;;1.683;1.239;73,62;444;26,38;11;0,89;42;3,39;1.186;95,72;1.228;99,11
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;247;Santa Eulàlia de Riuprimer;;;860;629;73,14;231;26,86;3;0,48;17;2,70;609;96,82;626;99,52
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;248;Santa Eulàlia de Ronçana;;;5.191;3.193;61,51;1.998;38,49;23;0,72;71;2,22;3.099;97,06;3.170;99,28
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;249;Santa Fe del Penedès;;;270;213;78,89;57;21,11;3;1,41;7;3,29;203;95,31;210;98,59
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;250;Santa Margarida de Montbui;;;7.086;3.707;52,31;3.379;47,69;20;0,54;110;2,97;3.577;96,49;3.687;99,46
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;251;Santa Margarida i els Monjos;;;4.713;2.674;56,74;2.039;43,26;20;0,75;62;2,32;2.592;96,93;2.654;99,25
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;252;Barberà del Vallès;;;23.911;13.413;56,10;10.498;43,90;83;0,62;414;3,09;12.916;96,29;13.330;99,38
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;253;Santa Maria de Besora;;;139;97;69,78;42;30,22;1;1,03;5;5,15;91;93,81;96;98,97
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;254;Santa Maria de Corcó;;;1.729;1.258;72,76;471;27,24;7;0,56;47;3,74;1.204;95,71;1.251;99,44
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;255;Santa Maria de Merlès;;;129;87;67,44;42;32,56;0;0,00;3;3,45;84;96,55;87;100,00
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;256;Santa Maria de Martorelles;;;638;461;72,26;177;27,74;1;0,22;14;3,04;446;96,75;460;99,78
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;257;Santa Maria de Miralles;;;115;81;70,43;34;29,57;0;0,00;5;6,17;76;93,83;81;100,00
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;258;Santa Maria d Oló;;;850;620;72,94;230;27,06;9;1,45;19;3,06;592;95,48;611;98,55
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;259;Santa Maria de Palautordera;;;6.274;4.129;65,81;2.145;34,19;40;0,97;122;2,95;3.967;96,08;4.089;99,03
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;260;Santa Perpètua de Mogoda;;;17.724;9.701;54,73;8.023;45,27;58;0,60;294;3,03;9.349;96,37;9.643;99,40
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;261;Santa Susanna;;;2.238;1.384;61,84;854;38,16;5;0,36;26;1,88;1.353;97,76;1.379;99,64
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;262;Sant Vicenç de Castellet;;;6.640;3.749;56,46;2.891;43,54;48;1,28;121;3,23;3.580;95,49;3.701;98,72
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;263;Sant Vicenç dels Horts;;;20.575;11.245;54,65;9.330;45,35;65;0,58;292;2,60;10.888;96,83;11.180;99,42
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;264;Sant Vicenç de Montalt;;;3.950;2.669;67,57;1.281;32,43;24;0,90;72;2,70;2.573;96,40;2.645;99,10
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;265;Sant Vicenç de Torelló;;;1.582;1.121;70,86;461;29,14;13;1,16;34;3,03;1.074;95,81;1.108;98,84
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;266;Cerdanyola del Vallès;;;42.932;25.709;59,88;17.223;40,12;187;0,73;842;3,28;24.680;96,00;25.522;99,27
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;267;Sentmenat;;;6.097;3.615;59,29;2.482;40,71;19;0,53;89;2,46;3.507;97,01;3.596;99,47
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;268;Cercs;;;1.106;742;67,09;364;32,91;10;1,35;33;4,45;699;94,20;732;98,65
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;269;Seva;;;2.577;1.851;71,83;726;28,17;21;1,13;64;3,46;1.766;95,41;1.830;98,87
+A;2010;MU;Catalunya;8;Barcelona;17;Garraf;270;Sitges;;;17.170;10.767;62,71;6.403;37,29;82;0,76;290;2,69;10.395;96,54;10.685;99,24
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;271;Sobremunt;;;73;49;67,12;24;32,88;0;0,00;0;0,00;49;100,00;49;100,00
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;272;Sora;;;155;113;72,90;42;27,10;0;0,00;2;1,77;111;98,23;113;100,00
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;273;Subirats;;;2.315;1.524;65,83;791;34,17;42;2,76;33;2,17;1.449;95,08;1.482;97,24
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;274;Súria;;;4.905;2.978;60,71;1.927;39,29;23;0,77;78;2,62;2.877;96,61;2.955;99,23
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;275;Tavèrnoles;;;237;196;82,70;41;17,30;1;0,51;9;4,59;186;94,90;195;99,49
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;276;Tagamanent;;;241;172;71,37;69;28,63;0;0,00;0;0,00;172;100,00;172;100,00
+A;2010;MU;Catalunya;8;Barcelona;7;Bages;277;Talamanca;;;117;80;68,38;37;31,62;3;3,75;1;1,25;76;95,00;77;96,25
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;278;Taradell;;;4.640;3.261;70,28;1.379;29,72;22;0,67;92;2,82;3.147;96,50;3.239;99,33
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;279;Terrassa;;;147.949;86.633;58,56;61.316;41,44;485;0,56;2.414;2,79;83.734;96,65;86.148;99,44
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;280;Tavertet;;;121;74;61,16;47;38,84;0;0,00;0;0,00;74;100,00;74;100,00
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;281;Teià;;;4.661;3.188;68,40;1.473;31,60;16;0,50;101;3,17;3.071;96,33;3.172;99,50
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;282;Tiana;;;5.980;4.190;70,07;1.790;29,93;19;0,45;152;3,63;4.019;95,92;4.171;99,55
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;283;Tona;;;5.860;3.738;63,79;2.122;36,21;23;0,62;121;3,24;3.594;96,15;3.715;99,38
+A;2010;MU;Catalunya;8;Barcelona;21;Maresme;284;Tordera;;;11.744;6.108;52,01;5.636;47,99;66;1,08;158;2,59;5.884;96,33;6.042;98,92
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;285;Torelló;;;10.180;6.612;64,95;3.568;35,05;71;1,07;188;2,84;6.353;96,08;6.541;98,93
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;286;Torre de Claramunt, la;;;2.839;1.543;54,35;1.296;45,65;9;0,58;41;2,66;1.493;96,76;1.534;99,42
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;287;Torrelavit;;;1.062;735;69,21;327;30,79;3;0,41;20;2,72;712;96,87;732;99,59
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;288;Torrelles de Foix;;;1.763;895;50,77;868;49,23;8;0,89;20;2,23;867;96,87;887;99,11
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;289;Torrelles de Llobregat;;;4.036;2.521;62,46;1.515;37,54;10;0,40;67;2,66;2.444;96,95;2.511;99,60
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;290;Ullastrell;;;1.401;983;70,16;418;29,84;5;0,51;15;1,53;963;97,97;978;99,49
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;291;Vacarisses;;;4.433;2.579;58,18;1.854;41,82;8;0,31;73;2,83;2.498;96,86;2.571;99,69
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;292;Vallbona d Anoia;;;1.070;730;68,22;340;31,78;4;0,55;16;2,19;710;97,26;726;99,45
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;293;Vallcebre;;;241;141;58,51;100;41,49;2;1,42;3;2,13;136;96,45;139;98,58
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;294;Vallgorguina;;;1.857;1.129;60,80;728;39,20;8;0,71;36;3,19;1.085;96,10;1.121;99,29
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;295;Vallirana;;;10.437;5.732;54,92;4.705;45,08;23;0,40;162;2,83;5.547;96,77;5.709;99,60
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;296;Vallromanes;;;1.638;1.123;68,56;515;31,44;3;0,27;24;2,14;1.096;97,60;1.120;99,73
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;297;Veciana;;;142;99;69,72;43;30,28;0;0,00;1;1,01;98;98,99;99;100,00
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;298;Vic;;;25.155;17.412;69,22;7.743;30,78;135;0,78;477;2,74;16.800;96,49;17.277;99,22
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;299;Vilada;;;454;314;69,16;140;30,84;2;0,64;11;3,50;301;95,86;312;99,36
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;300;Viladecavalls;;;5.562;3.405;61,22;2.157;38,78;12;0,35;104;3,05;3.289;96,59;3.393;99,65
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;301;Viladecans;;;47.010;25.640;54,54;21.370;45,46;161;0,63;822;3,21;24.657;96,17;25.479;99,37
+A;2010;MU;Catalunya;8;Barcelona;6;Anoia;302;Vilanova del Camí;;;9.160;4.829;52,72;4.331;47,28;31;0,64;137;2,84;4.661;96,52;4.798;99,36
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;303;Vilanova de Sau;;;288;217;75,35;71;24,65;1;0,46;6;2,76;210;96,77;216;99,54
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;304;Vilobí del Penedès;;;823;550;66,83;273;33,17;1;0,18;20;3,64;529;96,18;549;99,82
+A;2010;MU;Catalunya;8;Barcelona;3;Alt Penedès;305;Vilafranca del Penedès;;;26.006;16.539;63,60;9.467;36,40;135;0,82;474;2,87;15.930;96,32;16.404;99,18
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;306;Vilalba Sasserra;;;493;302;61,26;191;38,74;0;0,00;10;3,31;292;96,69;302;100,00
+A;2010;MU;Catalunya;8;Barcelona;17;Garraf;307;Vilanova i la Geltrú;;;47.006;27.734;59,00;19.272;41,00;183;0,66;812;2,93;26.739;96,41;27.551;99,34
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;308;Viver i Serrateix;;;155;120;77,42;35;22,58;0;0,00;0;0,00;120;100,00;120;100,00
+A;2010;MU;Catalunya;8;Barcelona;24;Osona;901;Rupit i Pruit;;;253;202;79,84;51;20,16;3;1,49;6;2,97;193;95,54;199;98,51
+A;2010;MU;Catalunya;8;Barcelona;41;Vallès Oriental;902;Vilanova del Vallès;;;3.524;2.216;62,88;1.308;37,12;11;0,50;73;3,29;2.132;96,21;2.205;99,50
+A;2010;MU;Catalunya;8;Barcelona;14;Berguedà;903;Sant Julià de Cerdanyola;;;211;171;81,04;40;18,96;0;0,00;4;2,34;167;97,66;171;100,00
+A;2010;MU;Catalunya;8;Barcelona;40;Vallès Occidental;904;Badia del Vallès;;;10.625;4.834;45,50;5.791;54,50;23;0,48;128;2,65;4.683;96,88;4.811;99,52
+A;2010;MU;Catalunya;8;Barcelona;11;Baix Llobregat;905;Palma de Cervelló, la;;;2.245;1.560;69,49;685;30,51;10;0,64;52;3,33;1.498;96,03;1.550;99,36
+A;2010;MU;Catalunya;8;Barcelona;98;Residents Absents;998;Residents Absents                       ;;;102.655;14.503;14,13;88.152;85,87;80;0,55;129;0,89;14.294;98,56;14.423;99,45
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;1;Agullana;;;564;379;67,20;185;32,80;3;0,79;17;4,49;359;94,72;376;99,21
+A;2010;MU;Catalunya;17;Girona;20;Gironès;2;Aiguaviva;;;539;406;75,32;133;24,68;7;1,72;7;1,72;392;96,55;399;98,28
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;3;Albanyà;;;100;69;69,00;31;31,00;0;0,00;3;4,35;66;95,65;69;100,00
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;4;Albons;;;506;343;67,79;163;32,21;2;0,58;14;4,08;327;95,34;341;99,42
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;5;Far d Empordà, el;;;404;251;62,13;153;37,87;2;0,80;6;2,39;243;96,81;249;99,20
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;6;Alp;;;1.162;739;63,60;423;36,40;16;2,17;11;1,49;712;96,35;723;97,83
+A;2010;MU;Catalunya;17;Girona;34;Selva;7;Amer;;;1.800;1.165;64,72;635;35,28;22;1,89;30;2,58;1.113;95,54;1.143;98,11
+A;2010;MU;Catalunya;17;Girona;34;Selva;8;Anglès;;;3.715;2.252;60,62;1.463;39,38;30;1,33;53;2,35;2.169;96,31;2.222;98,67
+A;2010;MU;Catalunya;17;Girona;34;Selva;9;Arbúcies;;;4.101;2.625;64,01;1.476;35,99;30;1,14;92;3,50;2.503;95,35;2.595;98,86
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;10;Argelaguer;;;331;212;64,05;119;35,95;4;1,89;8;3,77;200;94,34;208;98,11
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;11;Armentera, l;;;638;480;75,24;158;24,76;0;0,00;12;2,50;468;97,50;480;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;12;Avinyonet de Puigventós;;;1.080;580;53,70;500;46,30;4;0,69;21;3,62;555;95,69;576;99,31
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;13;Begur;;;2.769;1.692;61,11;1.077;38,89;26;1,54;47;2,78;1.619;95,69;1.666;98,46
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;14;Vajol, la;;;67;44;65,67;23;34,33;0;0,00;1;2,27;43;97,73;44;100,00
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;15;Banyoles;;;12.077;8.020;66,41;4.057;33,59;105;1,31;256;3,19;7.659;95,50;7.915;98,69
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;16;Bàscara;;;719;504;70,10;215;29,90;2;0,40;17;3,37;485;96,23;502;99,60
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;18;Bellcaire d Empordà;;;478;323;67,57;155;32,43;0;0,00;3;0,93;320;99,07;323;100,00
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;19;Besalú;;;1.774;1.302;73,39;472;26,61;24;1,84;28;2,15;1.250;96,01;1.278;98,16
+A;2010;MU;Catalunya;17;Girona;20;Gironès;20;Bescanó;;;3.384;2.279;67,35;1.105;32,65;25;1,10;67;2,94;2.187;95,96;2.254;98,90
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;21;Beuda;;;114;88;77,19;26;22,81;1;1,14;1;1,14;86;97,73;87;98,86
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;22;Bisbal d Empordà, la;;;6.784;4.000;58,96;2.784;41,04;43;1,08;151;3,78;3.806;95,15;3.957;98,93
+A;2010;MU;Catalunya;17;Girona;34;Selva;23;Blanes;;;26.937;14.958;55,53;11.979;44,47;129;0,86;452;3,02;14.377;96,12;14.829;99,14
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;24;Bolvir;;;297;211;71,04;86;28,96;1;0,47;1;0,47;209;99,05;210;99,53
+A;2010;MU;Catalunya;17;Girona;20;Gironès;25;Bordils;;;1.127;782;69,39;345;30,61;9;1,15;23;2,94;750;95,91;773;98,85
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;26;Borrassà;;;531;385;72,50;146;27,50;2;0,52;10;2,60;373;96,88;383;99,48
+A;2010;MU;Catalunya;17;Girona;34;Selva;27;Breda;;;2.903;1.865;64,24;1.038;35,76;20;1,07;52;2,79;1.793;96,14;1.845;98,93
+A;2010;MU;Catalunya;17;Girona;34;Selva;28;Brunyola;;;310;211;68,06;99;31,94;0;0,00;6;2,84;205;97,16;211;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;29;Boadella i les Escaules;;;194;143;73,71;51;26,29;1;0,70;1;0,70;141;98,60;142;99,30
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;30;Cabanes;;;627;374;59,65;253;40,35;6;1,60;9;2,41;359;95,99;368;98,40
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;31;Cabanelles;;;172;99;57,56;73;42,44;2;2,02;6;6,06;91;91,92;97;97,98
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;32;Cadaqués;;;1.597;894;55,98;703;44,02;3;0,34;20;2,24;871;97,43;891;99,66
+A;2010;MU;Catalunya;17;Girona;34;Selva;33;Caldes de Malavella;;;5.121;2.761;53,92;2.360;46,08;23;0,83;82;2,97;2.656;96,20;2.738;99,17
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;34;Calonge;;;6.645;3.639;54,76;3.006;45,24;36;0,99;93;2,56;3.510;96,46;3.603;99,01
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;35;Camós;;;554;394;71,12;160;28,88;1;0,25;4;1,02;389;98,73;393;99,75
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;36;Campdevànol;;;2.858;1.801;63,02;1.057;36,98;20;1,11;63;3,50;1.718;95,39;1.781;98,89
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;37;Campelles;;;109;72;66,06;37;33,94;0;0,00;1;1,39;71;98,61;72;100,00
+A;2010;MU;Catalunya;17;Girona;20;Gironès;38;Campllong;;;331;253;76,44;78;23,56;3;1,19;3;1,19;247;97,63;250;98,81
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;39;Camprodon;;;1.886;1.313;69,62;573;30,38;20;1,52;38;2,89;1.255;95,58;1.293;98,48
+A;2010;MU;Catalunya;17;Girona;20;Gironès;40;Canet d Adri;;;510;332;65,10;178;34,90;0;0,00;10;3,01;322;96,99;332;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;41;Cantallops;;;231;145;62,77;86;37,23;1;0,69;7;4,83;137;94,48;144;99,31
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;42;Capmany;;;419;285;68,02;134;31,98;5;1,75;10;3,51;270;94,74;280;98,25
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;43;Queralbs;;;160;118;73,75;42;26,25;1;0,85;0;0,00;117;99,15;117;99,15
+A;2010;MU;Catalunya;17;Girona;20;Gironès;44;Cassà de la Selva;;;6.590;4.369;66,30;2.221;33,70;47;1,08;138;3,16;4.184;95,77;4.322;98,92
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;46;Castellfollit de la Roca;;;743;508;68,37;235;31,63;4;0,79;14;2,76;490;96,46;504;99,21
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;47;Castelló d Empúries;;;4.812;2.505;52,06;2.307;47,94;22;0,88;49;1,96;2.434;97,17;2.483;99,12
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;48;Castell-Platja d Aro;;;6.086;3.399;55,85;2.687;44,15;13;0,38;64;1,88;3.322;97,73;3.386;99,62
+A;2010;MU;Catalunya;17;Girona;20;Gironès;49;Celrà;;;3.040;1.932;63,55;1.108;36,45;27;1,40;59;3,05;1.846;95,55;1.905;98,60
+A;2010;MU;Catalunya;17;Girona;20;Gironès;50;Cervià de Ter;;;638;471;73,82;167;26,18;3;0,64;31;6,58;437;92,78;468;99,36
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;51;Cistella;;;198;143;72,22;55;27,78;6;4,20;4;2,80;133;93,01;137;95,80
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;52;Siurana;;;140;86;61,43;54;38,57;0;0,00;6;6,98;80;93,02;86;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;54;Colera;;;384;253;65,89;131;34,11;2;0,79;8;3,16;243;96,05;251;99,21
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;55;Colomers;;;156;122;78,21;34;21,79;12;9,84;4;3,28;106;86,89;110;90,16
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;56;Cornellà del Terri;;;1.694;1.191;70,31;503;29,69;9;0,76;34;2,85;1.148;96,39;1.182;99,24
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;57;Corçà;;;1.003;622;62,01;381;37,99;5;0,80;27;4,34;590;94,86;617;99,20
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;58;Crespià;;;180;112;62,22;68;37,78;0;0,00;2;1,79;110;98,21;112;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;60;Darnius;;;383;259;67,62;124;32,38;7;2,70;3;1,16;249;96,14;252;97,30
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;61;Das;;;173;125;72,25;48;27,75;0;0,00;5;4,00;120;96,00;125;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;62;Escala, l;;;5.997;3.419;57,01;2.578;42,99;20;0,58;103;3,01;3.296;96,40;3.399;99,42
+A;2010;MU;Catalunya;17;Girona;24;Osona;63;Espinelves;;;167;130;77,84;37;22,16;4;3,08;11;8,46;115;88,46;126;96,92
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;64;Espolla;;;333;252;75,68;81;24,32;4;1,59;4;1,59;244;96,83;248;98,41
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;65;Esponellà;;;334;236;70,66;98;29,34;2;0,85;5;2,12;229;97,03;234;99,15
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;66;Figueres;;;25.655;13.933;54,31;11.722;45,69;123;0,88;381;2,73;13.429;96,38;13.810;99,12
+A;2010;MU;Catalunya;17;Girona;20;Gironès;67;Flaçà;;;752;502;66,76;250;33,24;7;1,39;20;3,98;475;94,62;495;98,61
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;68;Foixà;;;254;183;72,05;71;27,95;2;1,09;8;4,37;173;94,54;181;98,91
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;69;Fontanals de Cerdanya;;;382;250;65,45;132;34,55;6;2,40;1;0,40;243;97,20;244;97,60
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;70;Fontanilles;;;118;79;66,95;39;33,05;0;0,00;4;5,06;75;94,94;79;100,00
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;71;Fontcoberta;;;1.035;748;72,27;287;27,73;14;1,87;24;3,21;710;94,92;734;98,13
+A;2010;MU;Catalunya;17;Girona;20;Gironès;73;Fornells de la Selva;;;1.711;1.329;77,67;382;22,33;5;0,38;37;2,78;1.287;96,84;1.324;99,62
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;74;Fortià;;;481;291;60,50;190;39,50;3;1,03;15;5,15;273;93,81;288;98,97
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;75;Garrigàs;;;299;215;71,91;84;28,09;4;1,86;8;3,72;203;94,42;211;98,14
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;76;Garrigoles;;;120;73;60,83;47;39,17;1;1,37;6;8,22;66;90,41;72;98,63
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;77;Garriguella;;;583;367;62,95;216;37,05;1;0,27;3;0,82;363;98,91;366;99,73
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;78;Ger;;;342;250;73,10;92;26,90;2;0,80;8;3,20;240;96,00;248;99,20
+A;2010;MU;Catalunya;17;Girona;20;Gironès;79;Girona;;;62.235;39.111;62,84;23.124;37,16;334;0,85;1.161;2,97;37.616;96,18;38.777;99,15
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;80;Gombrèn;;;163;104;63,80;59;36,20;4;3,85;3;2,88;97;93,27;100;96,15
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;81;Gualta;;;235;164;69,79;71;30,21;2;1,22;5;3,05;157;95,73;162;98,78
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;82;Guils de Cerdanya;;;429;279;65,03;150;34,97;2;0,72;5;1,79;272;97,49;277;99,28
+A;2010;MU;Catalunya;17;Girona;34;Selva;83;Hostalric;;;2.871;1.647;57,37;1.224;42,63;18;1,09;66;4,01;1.563;94,90;1.629;98,91
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;84;Isòvol;;;256;188;73,44;68;26,56;2;1,06;5;2,66;181;96,28;186;98,94
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;85;Jafre;;;290;231;79,66;59;20,34;7;3,03;11;4,76;213;92,21;224;96,97
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;86;Jonquera, la;;;1.655;984;59,46;671;40,54;6;0,61;22;2,24;956;97,15;978;99,39
+A;2010;MU;Catalunya;17;Girona;20;Gironès;87;Juià;;;219;155;70,78;64;29,22;2;1,29;4;2,58;149;96,13;153;98,71
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;88;Lladó;;;539;355;65,86;184;34,14;1;0,28;10;2,82;344;96,90;354;99,72
+A;2010;MU;Catalunya;17;Girona;20;Gironès;89;Llagostera;;;5.424;3.161;58,28;2.263;41,72;28;0,89;84;2,66;3.049;96,46;3.133;99,11
+A;2010;MU;Catalunya;17;Girona;20;Gironès;90;Llambilles;;;536;394;73,51;142;26,49;4;1,02;11;2,79;379;96,19;390;98,98
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;91;Llanars;;;441;301;68,25;140;31,75;7;2,33;7;2,33;287;95,35;294;97,67
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;92;Llançà;;;3.542;2.093;59,09;1.449;40,91;42;2,01;43;2,05;2.008;95,94;2.051;97,99
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;93;Llers;;;858;536;62,47;322;37,53;1;0,19;23;4,29;512;95,52;535;99,81
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;94;Llívia;;;1.149;658;57,27;491;42,73;2;0,30;10;1,52;646;98,18;656;99,70
+A;2010;MU;Catalunya;17;Girona;34;Selva;95;Lloret de Mar;;;19.071;9.362;49,09;9.709;50,91;61;0,65;207;2,21;9.094;97,14;9.301;99,35
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;96;Llosses, les;;;184;103;55,98;81;44,02;2;1,94;1;0,97;100;97,09;101;98,06
+A;2010;MU;Catalunya;17;Girona;20;Gironès;97;Madremanya;;;176;141;80,11;35;19,89;2;1,42;7;4,96;132;93,62;139;98,58
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;98;Maià de Montcal;;;311;216;69,45;95;30,55;1;0,46;9;4,17;206;95,37;215;99,54
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;99;Meranges;;;82;57;69,51;25;30,49;2;3,51;4;7,02;51;89,47;55;96,49
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;100;Masarac;;;199;146;73,37;53;26,63;1;0,68;7;4,79;138;94,52;145;99,32
+A;2010;MU;Catalunya;17;Girona;34;Selva;101;Massanes;;;557;282;50,63;275;49,37;10;3,55;5;1,77;267;94,68;272;96,45
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;102;Maçanet de Cabrenys;;;573;384;67,02;189;32,98;2;0,52;10;2,60;372;96,88;382;99,48
+A;2010;MU;Catalunya;17;Girona;34;Selva;103;Maçanet de la Selva;;;4.940;2.281;46,17;2.659;53,83;18;0,79;46;2,02;2.217;97,19;2.263;99,21
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;105;Mieres;;;255;160;62,75;95;37,25;1;0,63;8;5,00;151;94,38;159;99,38
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;106;Mollet de Peralada;;;130;98;75,38;32;24,62;1;1,02;1;1,02;96;97,96;97;98,98
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;107;Molló;;;306;203;66,34;103;33,66;1;0,49;12;5,91;190;93,60;202;99,51
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;109;Montagut i Oix;;;735;421;57,28;314;42,72;3;0,71;20;4,75;398;94,54;418;99,29
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;110;Mont-ras;;;1.362;854;62,70;508;37,30;2;0,23;26;3,04;826;96,72;852;99,77
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;111;Navata;;;782;557;71,23;225;28,77;2;0,36;24;4,31;531;95,33;555;99,64
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;112;Ogassa;;;217;153;70,51;64;29,49;0;0,00;1;0,65;152;99,35;153;100,00
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;114;Olot;;;22.535;13.995;62,10;8.540;37,90;120;0,86;449;3,21;13.426;95,93;13.875;99,14
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;115;Ordis;;;268;197;73,51;71;26,49;2;1,02;9;4,57;186;94,42;195;98,98
+A;2010;MU;Catalunya;17;Girona;34;Selva;116;Osor;;;362;238;65,75;124;34,25;1;0,42;3;1,26;234;98,32;237;99,58
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;117;Palafrugell;;;13.886;7.758;55,87;6.128;44,13;78;1,01;239;3,08;7.441;95,91;7.680;98,99
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;118;Palamós;;;12.441;7.244;58,23;5.197;41,77;44;0,61;218;3,01;6.982;96,38;7.200;99,39
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;119;Palau de Santa Eulàlia;;;86;56;65,12;30;34,88;0;0,00;2;3,57;54;96,43;56;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;120;Palau-saverdera;;;779;527;67,65;252;32,35;6;1,14;7;1,33;514;97,53;521;98,86
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;121;Palau-sator;;;234;152;64,96;82;35,04;0;0,00;9;5,92;143;94,08;152;100,00
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;123;Palol de Revardit;;;368;284;77,17;84;22,83;8;2,82;4;1,41;272;95,77;276;97,18
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;124;Pals;;;1.661;1.075;64,72;586;35,28;3;0,28;35;3,26;1.037;96,47;1.072;99,72
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;125;Pardines;;;126;85;67,46;41;32,54;0;0,00;1;1,18;84;98,82;85;100,00
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;126;Parlavà;;;311;234;75,24;77;24,76;3;1,28;14;5,98;217;92,74;231;98,72
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;128;Pau;;;303;216;71,29;87;28,71;0;0,00;4;1,85;212;98,15;216;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;129;Pedret i Marzà;;;124;90;72,58;34;27,42;0;0,00;2;2,22;88;97,78;90;100,00
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;130;Pera, la;;;339;247;72,86;92;27,14;2;0,81;9;3,64;236;95,55;245;99,19
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;132;Peralada;;;1.279;876;68,49;403;31,51;7;0,80;28;3,20;841;96,00;869;99,20
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;133;Planes d Hostoles, les;;;1.363;897;65,81;466;34,19;18;2,01;20;2,23;859;95,76;879;97,99
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;134;Planoles;;;228;164;71,93;64;28,07;3;1,83;7;4,27;154;93,90;161;98,17
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;135;Pont de Molins;;;377;240;63,66;137;36,34;3;1,25;7;2,92;230;95,83;237;98,75
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;136;Pontós;;;174;122;70,11;52;29,89;0;0,00;1;0,82;121;99,18;122;100,00
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;137;Porqueres;;;3.325;2.234;67,19;1.091;32,81;35;1,57;62;2,78;2.137;95,66;2.199;98,43
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;138;Portbou;;;1.020;648;63,53;372;36,47;6;0,93;7;1,08;635;97,99;642;99,07
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;139;Preses, les;;;1.322;901;68,15;421;31,85;11;1,22;30;3,33;860;95,45;890;98,78
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;140;Port de la Selva, el;;;672;473;70,39;199;29,61;3;0,63;16;3,38;454;95,98;470;99,37
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;141;Puigcerdà;;;5.655;3.262;57,68;2.393;42,32;31;0,95;76;2,33;3.155;96,72;3.231;99,05
+A;2010;MU;Catalunya;17;Girona;20;Gironès;142;Quart;;;2.344;1.576;67,24;768;32,76;21;1,33;39;2,47;1.516;96,19;1.555;98,67
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;143;Rabós;;;127;88;69,29;39;30,71;2;2,27;2;2,27;84;95,45;86;97,73
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;144;Regencós;;;217;147;67,74;70;32,26;0;0,00;3;2,04;144;97,96;147;100,00
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;145;Ribes de Freser;;;1.595;1.095;68,65;500;31,35;15;1,37;39;3,56;1.041;95,07;1.080;98,63
+A;2010;MU;Catalunya;17;Girona;34;Selva;146;Riells i Viabrea;;;2.873;1.655;57,61;1.218;42,39;9;0,54;47;2,84;1.599;96,62;1.646;99,46
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;147;Ripoll;;;8.473;5.401;63,74;3.072;36,26;37;0,69;157;2,91;5.207;96,41;5.364;99,31
+A;2010;MU;Catalunya;17;Girona;34;Selva;148;Riudarenes;;;1.552;888;57,22;664;42,78;8;0,90;25;2,82;855;96,28;880;99,10
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;149;Riudaura;;;362;263;72,65;99;27,35;3;1,14;5;1,90;255;96,96;260;98,86
+A;2010;MU;Catalunya;17;Girona;34;Selva;150;Riudellots de la Selva;;;1.443;1.028;71,24;415;28,76;14;1,36;33;3,21;981;95,43;1.014;98,64
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;151;Riumors;;;171;122;71,35;49;28,65;0;0,00;1;0,82;121;99,18;122;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;152;Roses;;;10.283;5.467;53,17;4.816;46,83;46;0,84;121;2,21;5.300;96,95;5.421;99,16
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;153;Rupià;;;168;121;72,02;47;27,98;0;0,00;4;3,31;117;96,69;121;100,00
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;154;Sales de Llierca;;;87;50;57,47;37;42,53;2;4,00;3;6,00;45;90,00;48;96,00
+A;2010;MU;Catalunya;17;Girona;20;Gironès;155;Salt;;;14.361;7.875;54,84;6.486;45,16;71;0,90;190;2,41;7.614;96,69;7.804;99,10
+A;2010;MU;Catalunya;17;Girona;20;Gironès;157;Sant Andreu Salou;;;122;86;70,49;36;29,51;1;1,16;3;3,49;82;95,35;85;98,84
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;158;Sant Climent Sescebes;;;379;249;65,70;130;34,30;2;0,80;10;4,02;237;95,18;247;99,20
+A;2010;MU;Catalunya;17;Girona;34;Selva;159;Sant Feliu de Buixalleu;;;638;446;69,91;192;30,09;0;0,00;12;2,69;434;97,31;446;100,00
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;160;Sant Feliu de Guíxols;;;14.814;8.449;57,03;6.365;42,97;35;0,41;204;2,41;8.210;97,17;8.414;99,59
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;161;Sant Feliu de Pallerols;;;969;705;72,76;264;27,24;10;1,42;26;3,69;669;94,89;695;98,58
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;162;Sant Ferriol;;;136;67;49,26;69;50,74;0;0,00;2;2,99;65;97,01;67;100,00
+A;2010;MU;Catalunya;17;Girona;20;Gironès;163;Sant Gregori;;;2.475;1.719;69,45;756;30,55;9;0,52;59;3,43;1.651;96,04;1.710;99,48
+A;2010;MU;Catalunya;17;Girona;34;Selva;164;Sant Hilari Sacalm;;;4.112;2.574;62,60;1.538;37,40;18;0,70;58;2,25;2.498;97,05;2.556;99,30
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;165;Sant Jaume de Llierca;;;622;430;69,13;192;30,87;6;1,40;14;3,26;410;95,35;424;98,60
+A;2010;MU;Catalunya;17;Girona;20;Gironès;166;Sant Jordi Desvalls;;;485;359;74,02;126;25,98;8;2,23;22;6,13;329;91,64;351;97,77
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;167;Sant Joan de les Abadesses;;;2.838;1.951;68,75;887;31,25;19;0,97;73;3,74;1.859;95,28;1.932;99,03
+A;2010;MU;Catalunya;17;Girona;20;Gironès;168;Sant Joan de Mollet;;;388;279;71,91;109;28,09;0;0,00;4;1,43;275;98,57;279;100,00
+A;2010;MU;Catalunya;17;Girona;20;Gironès;169;Sant Julià de Ramis;;;2.393;1.591;66,49;802;33,51;25;1,57;46;2,89;1.520;95,54;1.566;98,43
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;170;Vallfogona de Ripollès;;;191;136;71,20;55;28,80;2;1,47;2;1,47;132;97,06;134;98,53
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;171;Sant Llorenç de la Muga;;;147;114;77,55;33;22,45;1;0,88;4;3,51;109;95,61;113;99,12
+A;2010;MU;Catalunya;17;Girona;20;Gironès;172;Sant Martí de Llémena;;;421;282;66,98;139;33,02;1;0,35;7;2,48;274;97,16;281;99,65
+A;2010;MU;Catalunya;17;Girona;20;Gironès;173;Sant Martí Vell;;;167;110;65,87;57;34,13;0;0,00;5;4,55;105;95,45;110;100,00
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;174;Sant Miquel de Campmajor;;;176;119;67,61;57;32,39;2;1,68;7;5,88;110;92,44;117;98,32
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;175;Sant Miquel de Fluvià;;;554;314;56,68;240;43,32;1;0,32;6;1,91;307;97,77;313;99,68
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;176;Sant Mori;;;134;91;67,91;43;32,09;3;3,30;5;5,49;83;91,21;88;96,70
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;177;Sant Pau de Segúries;;;567;389;68,61;178;31,39;6;1,54;21;5,40;362;93,06;383;98,46
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;178;Sant Pere Pescador;;;1.086;712;65,56;374;34,44;4;0,56;29;4,07;679;95,37;708;99,44
+A;2010;MU;Catalunya;17;Girona;34;Selva;180;Santa Coloma de Farners;;;7.998;4.786;59,84;3.212;40,16;46;0,96;145;3,03;4.595;96,01;4.740;99,04
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;181;Santa Cristina d Aro;;;3.162;1.932;61,10;1.230;38,90;31;1,60;21;1,09;1.880;97,31;1.901;98,40
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;182;Santa Llogaia d Àlguema;;;253;140;55,34;113;44,66;1;0,71;4;2,86;135;96,43;139;99,29
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;183;Sant Aniol de Finestres;;;258;185;71,71;73;28,29;0;0,00;5;2,70;180;97,30;185;100,00
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;184;Santa Pau;;;1.303;878;67,38;425;32,62;28;3,19;20;2,28;830;94,53;850;96,81
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;185;Sant Joan les Fonts;;;2.265;1.458;64,37;807;35,63;19;1,30;64;4,39;1.375;94,31;1.439;98,70
+A;2010;MU;Catalunya;17;Girona;20;Gironès;186;Sarrià de Ter;;;3.534;2.228;63,04;1.306;36,96;39;1,75;71;3,19;2.118;95,06;2.189;98,25
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;187;Saus, Camallera i Llampaies;;;559;401;71,74;158;28,26;5;1,25;15;3,74;381;95,01;396;98,75
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;188;Selva de Mar, la;;;173;136;78,61;37;21,39;0;0,00;10;7,35;126;92,65;136;100,00
+A;2010;MU;Catalunya;17;Girona;34;Selva;189;Cellera de Ter, la;;;1.558;1.077;69,13;481;30,87;13;1,21;21;1,95;1.043;96,84;1.064;98,79
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;190;Serinyà;;;805;569;70,68;236;29,32;11;1,93;16;2,81;542;95,25;558;98,07
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;191;Serra de Daró;;;157;116;73,89;41;26,11;1;0,86;0;0,00;115;99,14;115;99,14
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;192;Setcases;;;143;105;73,43;38;26,57;0;0,00;6;5,71;99;94,29;105;100,00
+A;2010;MU;Catalunya;17;Girona;34;Selva;193;Sils;;;3.827;2.048;53,51;1.779;46,49;17;0,83;58;2,83;1.973;96,34;2.031;99,17
+A;2010;MU;Catalunya;17;Girona;34;Selva;194;Susqueda;;;94;61;64,89;33;35,11;2;3,28;1;1,64;58;95,08;59;96,72
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;195;Tallada d Empordà, la;;;322;227;70,50;95;29,50;5;2,20;9;3,96;213;93,83;222;97,80
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;196;Terrades;;;204;133;65,20;71;34,80;0;0,00;6;4,51;127;95,49;133;100,00
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;197;Torrent;;;146;100;68,49;46;31,51;0;0,00;3;3,00;97;97,00;100;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;198;Torroella de Fluvià;;;400;243;60,75;157;39,25;1;0,41;9;3,70;233;95,88;242;99,59
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;199;Torroella de Montgrí;;;6.590;3.998;60,67;2.592;39,33;21;0,53;126;3,15;3.851;96,32;3.977;99,47
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;200;Tortellà;;;619;421;68,01;198;31,99;5;1,19;18;4,28;398;94,54;416;98,81
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;201;Toses;;;132;87;65,91;45;34,09;2;2,30;2;2,30;83;95,40;85;97,70
+A;2010;MU;Catalunya;17;Girona;34;Selva;202;Tossa de Mar;;;3.810;2.273;59,66;1.537;40,34;17;0,75;42;1,85;2.214;97,40;2.256;99,25
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;203;Ultramort;;;173;102;58,96;71;41,04;2;1,96;6;5,88;94;92,16;100;98,04
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;204;Ullà;;;549;324;59,02;225;40,98;5;1,54;10;3,09;309;95,37;319;98,46
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;205;Ullastret;;;182;146;80,22;36;19,78;4;2,74;6;4,11;136;93,15;142;97,26
+A;2010;MU;Catalunya;17;Girona;15;Cerdanya;206;Urús;;;172;116;67,44;56;32,56;0;0,00;5;4,31;111;95,69;116;100,00
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;207;Vall d en Bas, la;;;2.331;1.698;72,84;633;27,16;12;0,71;53;3,12;1.633;96,17;1.686;99,29
+A;2010;MU;Catalunya;17;Girona;19;Garrotxa;208;Vall de Bianya, la;;;993;655;65,96;338;34,04;14;2,14;20;3,05;621;94,81;641;97,86
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;209;Vall-llobrega;;;588;404;68,71;184;31,29;1;0,25;15;3,71;388;96,04;403;99,75
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;210;Ventalló;;;530;348;65,66;182;34,34;2;0,57;9;2,59;337;96,84;346;99,43
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;211;Verges;;;874;586;67,05;288;32,95;17;2,90;18;3,07;551;94,03;569;97,10
+A;2010;MU;Catalunya;17;Girona;24;Osona;212;Vidrà;;;129;105;81,40;24;18,60;1;0,95;3;2,86;101;96,19;104;99,05
+A;2010;MU;Catalunya;17;Girona;34;Selva;213;Vidreres;;;5.235;2.774;52,99;2.461;47,01;21;0,76;64;2,31;2.689;96,94;2.753;99,24
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;214;Vilabertran;;;687;429;62,45;258;37,55;5;1,17;16;3,73;408;95,10;424;98,83
+A;2010;MU;Catalunya;17;Girona;20;Gironès;215;Vilablareix;;;1.868;1.282;68,63;586;31,37;13;1,01;41;3,20;1.228;95,79;1.269;98,99
+A;2010;MU;Catalunya;17;Girona;20;Gironès;216;Viladasens;;;156;117;75,00;39;25,00;3;2,56;1;0,85;113;96,58;114;97,44
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;217;Viladamat;;;347;258;74,35;89;25,65;4;1,55;9;3,49;245;94,96;254;98,45
+A;2010;MU;Catalunya;17;Girona;28;Pla de l'Estany;218;Vilademuls;;;559;390;69,77;169;30,23;4;1,03;6;1,54;380;97,44;386;98,97
+A;2010;MU;Catalunya;17;Girona;24;Osona;220;Viladrau;;;777;575;74,00;202;26,00;5;0,87;13;2,26;557;96,87;570;99,13
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;221;Vilafant;;;4.091;2.479;60,60;1.612;39,40;22;0,89;63;2,54;2.394;96,57;2.457;99,11
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;222;Vilaür;;;111;79;71,17;32;28,83;1;1,27;2;2,53;76;96,20;78;98,73
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;223;Vilajuïga;;;788;507;64,34;281;35,66;2;0,39;17;3,35;488;96,25;505;99,61
+A;2010;MU;Catalunya;17;Girona;31;Ripollès;224;Vilallonga de Ter;;;359;247;68,80;112;31,20;3;1,21;9;3,64;235;95,14;244;98,79
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;225;Vilamacolum;;;218;137;62,84;81;37,16;4;2,92;9;6,57;124;90,51;133;97,08
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;226;Vilamalla;;;826;463;56,05;363;43,95;2;0,43;11;2,38;450;97,19;461;99,57
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;227;Vilamaniscle;;;107;85;79,44;22;20,56;0;0,00;3;3,53;82;96,47;85;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;228;Vilanant;;;273;177;64,84;96;35,16;0;0,00;6;3,39;171;96,61;177;100,00
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;230;Vila-sacra;;;445;315;70,79;130;29,21;2;0,63;9;2,86;304;96,51;313;99,37
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;232;Vilopriu;;;153;103;67,32;50;32,68;1;0,97;4;3,88;98;95,15;102;99,03
+A;2010;MU;Catalunya;17;Girona;34;Selva;233;Vilobí d Onyar;;;2.186;1.485;67,93;701;32,07;18;1,21;40;2,69;1.427;96,09;1.467;98,79
+A;2010;MU;Catalunya;17;Girona;2;Alt Empordà;234;Biure;;;175;120;68,57;55;31,43;1;0,83;4;3,33;115;95,83;119;99,17
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;901;Cruïlles, Monells i S.Sadurní de l Heura;;;977;650;66,53;327;33,47;14;2,15;21;3,23;615;94,62;636;97,85
+A;2010;MU;Catalunya;17;Girona;10;Baix Empordà;902;Forallac;;;1.365;949;69,52;416;30,48;12;1,26;17;1,79;920;96,94;937;98,74
+A;2010;MU;Catalunya;17;Girona;34;Selva;903;Sant Julià del Llor i Bonmatí;;;905;587;64,86;318;35,14;9;1,53;19;3,24;559;95,23;578;98,47
+A;2010;MU;Catalunya;17;Girona;98;Residents Absents;998;Residents Absents                       ;;;9.742;948;9,73;8.794;90,27;2;0,21;11;1,16;935;98,63;946;99,79
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;1;Abella de la Conca;;;145;88;60,69;57;39,31;3;3,41;2;2,27;83;94,32;85;96,59
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;2;Àger;;;464;305;65,73;159;34,27;6;1,97;9;2,95;290;95,08;299;98,03
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;3;Agramunt;;;3.858;2.250;58,32;1.608;41,68;21;0,93;93;4,13;2.136;94,93;2.229;99,07
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;4;Alamús, els;;;570;408;71,58;162;28,42;3;0,74;12;2,94;393;96,32;405;99,26
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;5;Alàs i Cerc;;;298;199;66,78;99;33,22;3;1,51;7;3,52;189;94,97;196;98,49
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;6;Albagés, l;;;385;248;64,42;137;35,58;0;0,00;4;1,61;244;98,39;248;100,00
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;7;Albatàrrec;;;1.335;810;60,67;525;39,33;5;0,62;30;3,70;775;95,68;805;99,38
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;8;Albesa;;;1.194;840;70,35;354;29,65;10;1,19;21;2,50;809;96,31;830;98,81
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;9;Albi, l;;;689;475;68,94;214;31,06;2;0,42;17;3,58;456;96,00;473;99,58
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;10;Alcanó;;;203;121;59,61;82;40,39;1;0,83;5;4,13;115;95,04;120;99,17
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;11;Alcarràs;;;5.138;2.903;56,50;2.235;43,50;13;0,45;86;2,96;2.804;96,59;2.890;99,55
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;12;Alcoletge;;;2.089;1.215;58,16;874;41,84;5;0,41;36;2,96;1.174;96,63;1.210;99,59
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;13;Alfarràs;;;2.294;1.302;56,76;992;43,24;7;0,54;43;3,30;1.252;96,16;1.295;99,46
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;14;Alfés;;;271;180;66,42;91;33,58;0;0,00;8;4,44;172;95,56;180;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;15;Algerri;;;406;273;67,24;133;32,76;0;0,00;18;6,59;255;93,41;273;100,00
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;16;Alguaire;;;2.239;1.341;59,89;898;40,11;8;0,60;44;3,28;1.289;96,12;1.333;99,40
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;17;Alins;;;254;178;70,08;76;29,92;1;0,56;2;1,12;175;98,31;177;99,44
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;19;Almacelles;;;4.613;2.611;56,60;2.002;43,40;12;0,46;89;3,41;2.510;96,13;2.599;99,54
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;20;Almatret;;;345;212;61,45;133;38,55;4;1,89;6;2,83;202;95,28;208;98,11
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;21;Almenar;;;2.711;1.559;57,51;1.152;42,49;6;0,38;61;3,91;1.492;95,70;1.553;99,62
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;22;Alòs de Balaguer;;;129;87;67,44;42;32,56;1;1,15;6;6,90;80;91,95;86;98,85
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;23;Alpicat;;;4.424;2.901;65,57;1.523;34,43;60;2,07;93;3,21;2.748;94,73;2.841;97,93
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;24;Alt Àneu;;;373;240;64,34;133;35,66;1;0,42;8;3,33;231;96,25;239;99,58
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;25;Naut Aran;;;1.286;753;58,55;533;41,45;4;0,53;24;3,19;725;96,28;749;99,47
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;27;Anglesola;;;1.057;701;66,32;356;33,68;10;1,43;24;3,42;667;95,15;691;98,57
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;29;Arbeca;;;1.772;1.145;64,62;627;35,38;20;1,75;41;3,58;1.084;94,67;1.125;98,25
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;30;Pont de Bar, el;;;155;105;67,74;50;32,26;0;0,00;3;2,86;102;97,14;105;100,00
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;31;Arres;;;53;27;50,94;26;49,06;0;0,00;3;11,11;24;88,89;27;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;32;Arsèguel;;;79;49;62,03;30;37,97;1;2,04;0;0,00;48;97,96;48;97,96
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;33;Artesa de Lleida;;;1.140;758;66,49;382;33,51;16;2,11;32;4,22;710;93,67;742;97,89
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;34;Artesa de Segre;;;2.475;1.623;65,58;852;34,42;23;1,42;44;2,71;1.556;95,87;1.600;98,58
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;35;Sentiu de Sió, la;;;440;302;68,64;138;31,36;5;1,66;7;2,32;290;96,03;297;98,34
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;36;Aspa;;;201;123;61,19;78;38,81;1;0,81;6;4,88;116;94,31;122;99,19
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;37;Avellanes i Santa Linya, les;;;405;284;70,12;121;29,88;2;0,70;14;4,93;268;94,37;282;99,30
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;38;Aitona;;;1.615;1.066;66,01;549;33,99;9;0,84;24;2,25;1.033;96,90;1.057;99,16
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;39;Baix Pallars;;;312;202;64,74;110;35,26;2;0,99;9;4,46;191;94,55;200;99,01
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;40;Balaguer;;;10.614;6.408;60,37;4.206;39,63;65;1,01;237;3,70;6.106;95,29;6.343;98,99
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;41;Barbens;;;636;415;65,25;221;34,75;7;1,69;16;3,86;392;94,46;408;98,31
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;42;Baronia de Rialb, la;;;212;142;66,98;70;33,02;1;0,70;1;0,70;140;98,59;141;99,30
+A;2010;MU;Catalunya;25;Lleida;5;Alta Ribagorça;43;Vall de Boí, la;;;834;470;56,35;364;43,65;4;0,85;20;4,26;446;94,89;466;99,15
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;44;Bassella;;;201;147;73,13;54;26,87;0;0,00;2;1,36;145;98,64;147;100,00
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;45;Bausen;;;49;30;61,22;19;38,78;0;0,00;1;3,33;29;96,67;30;100,00
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;46;Belianes;;;439;330;75,17;109;24,83;3;0,91;20;6,06;307;93,03;327;99,09
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;47;Bellcaire d Urgell;;;1.061;783;73,80;278;26,20;6;0,77;21;2,68;756;96,55;777;99,23
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;48;Bell-lloc d Urgell;;;1.693;1.142;67,45;551;32,55;19;1,66;34;2,98;1.089;95,36;1.123;98,34
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;49;Bellmunt d Urgell;;;168;110;65,48;58;34,52;0;0,00;3;2,73;107;97,27;110;100,00
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;50;Bellpuig;;;3.243;2.116;65,25;1.127;34,75;23;1,09;79;3,73;2.014;95,18;2.093;98,91
+A;2010;MU;Catalunya;25;Lleida;15;Cerdanya;51;Bellver de Cerdanya;;;1.681;1.075;63,95;606;36,05;11;1,02;22;2,05;1.042;96,93;1.064;98,98
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;52;Bellvís;;;1.627;1.123;69,02;504;30,98;11;0,98;32;2,85;1.080;96,17;1.112;99,02
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;53;Benavent de Segrià;;;1.089;688;63,18;401;36,82;4;0,58;24;3,49;660;95,93;684;99,42
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;55;Biosca;;;189;118;62,43;71;37,57;1;0,85;2;1,69;115;97,46;117;99,15
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;56;Bovera;;;301;183;60,80;118;39,20;2;1,09;6;3,28;175;95,63;181;98,91
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;57;Bòrdes, es;;;199;114;57,29;85;42,71;2;1,75;2;1,75;110;96,49;112;98,25
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;58;Borges Blanques, les;;;4.371;2.639;60,38;1.732;39,62;12;0,45;83;3,15;2.544;96,40;2.627;99,55
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;59;Bossòst;;;789;481;60,96;308;39,04;2;0,42;7;1,46;472;98,13;479;99,58
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;60;Cabanabona;;;92;55;59,78;37;40,22;0;0,00;2;3,64;53;96,36;55;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;61;Cabó;;;78;45;57,69;33;42,31;0;0,00;0;0,00;45;100,00;45;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;62;Camarasa;;;814;526;64,62;288;35,38;4;0,76;25;4,75;497;94,49;522;99,24
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;63;Canejan;;;93;59;63,44;34;36,56;0;0,00;3;5,08;56;94,92;59;100,00
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;64;Castellar de la Ribera;;;123;100;81,30;23;18,70;0;0,00;4;4,00;96;96,00;100;100,00
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;67;Castelldans;;;762;447;58,66;315;41,34;3;0,67;11;2,46;433;96,87;444;99,33
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;68;Castellnou de Seana;;;585;394;67,35;191;32,65;6;1,52;13;3,30;375;95,18;388;98,48
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;69;Castelló de Farfanya;;;472;269;56,99;203;43,01;1;0,37;11;4,09;257;95,54;268;99,63
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;70;Castellserà;;;889;606;68,17;283;31,83;5;0,83;16;2,64;585;96,53;601;99,17
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;71;Cava;;;56;35;62,50;21;37,50;0;0,00;1;2,86;34;97,14;35;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;72;Cervera;;;5.923;3.611;60,97;2.312;39,03;52;1,44;137;3,79;3.422;94,77;3.559;98,56
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;73;Cervià de les Garrigues;;;687;381;55,46;306;44,54;0;0,00;8;2,10;373;97,90;381;100,00
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;74;Ciutadilla;;;183;133;72,68;50;27,32;2;1,50;2;1,50;129;96,99;131;98,50
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;75;Clariana de Cardener;;;115;90;78,26;25;21,74;3;3,33;2;2,22;85;94,44;87;96,67
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;76;Cogul, el;;;172;91;52,91;81;47,09;0;0,00;1;1,10;90;98,90;91;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;77;Coll de Nargó;;;483;314;65,01;169;34,99;4;1,27;6;1,91;304;96,82;310;98,73
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;78;Corbins;;;1.011;682;67,46;329;32,54;3;0,44;24;3,52;655;96,04;679;99,56
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;79;Cubells;;;305;239;78,36;66;21,64;3;1,26;8;3,35;228;95,40;236;98,74
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;81;Espluga Calba, l;;;335;211;62,99;124;37,01;1;0,47;17;8,06;193;91,47;210;99,53
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;82;Espot;;;267;170;63,67;97;36,33;0;0,00;9;5,29;161;94,71;170;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;85;Estaràs;;;150;101;67,33;49;32,67;1;0,99;3;2,97;97;96,04;100;99,01
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;86;Esterri d Àneu;;;559;378;67,62;181;32,38;2;0,53;14;3,70;362;95,77;376;99,47
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;87;Esterri de Cardós;;;69;48;69,57;21;30,43;0;0,00;0;0,00;48;100,00;48;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;88;Estamariu;;;100;80;80,00;20;20,00;0;0,00;2;2,50;78;97,50;80;100,00
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;89;Farrera;;;106;57;53,77;49;46,23;0;0,00;2;3,51;55;96,49;57;100,00
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;92;Floresta, la;;;137;111;81,02;26;18,98;0;0,00;5;4,50;106;95,50;111;100,00
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;93;Fondarella;;;646;446;69,04;200;30,96;8;1,79;10;2,24;428;95,96;438;98,21
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;94;Foradada;;;152;111;73,03;41;26,97;2;1,80;1;0,90;108;97,30;109;98,20
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;96;Fuliola, la;;;974;618;63,45;356;36,55;3;0,49;23;3,72;592;95,79;615;99,51
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;97;Fulleda;;;91;71;78,02;20;21,98;0;0,00;5;7,04;66;92,96;71;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;98;Gavet de la Conca;;;262;165;62,98;97;37,02;3;1,82;5;3,03;157;95,15;162;98,18
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;99;Golmés;;;1.174;725;61,75;449;38,25;11;1,52;13;1,79;701;96,69;714;98,48
+A;2010;MU;Catalunya;25;Lleida;14;Berguedà;100;Gósol;;;204;140;68,63;64;31,37;1;0,71;10;7,14;129;92,14;139;99,29
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;101;Granadella, la;;;607;429;70,68;178;29,32;7;1,63;26;6,06;396;92,31;422;98,37
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;102;Granja d Escarp, la;;;753;455;60,42;298;39,58;6;1,32;22;4,84;427;93,85;449;98,68
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;103;Granyanella;;;128;81;63,28;47;36,72;0;0,00;7;8,64;74;91,36;81;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;104;Granyena de Segarra;;;131;92;70,23;39;29,77;0;0,00;5;5,43;87;94,57;92;100,00
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;105;Granyena de les Garrigues;;;143;91;63,64;52;36,36;1;1,10;1;1,10;89;97,80;90;98,90
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;109;Guimerà;;;271;198;73,06;73;26,94;2;1,01;5;2,53;191;96,46;196;98,99
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;110;Guissona;;;2.637;1.583;60,03;1.054;39,97;15;0,95;63;3,98;1.505;95,07;1.568;99,05
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;111;Guixers;;;113;77;68,14;36;31,86;0;0,00;1;1,30;76;98,70;77;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;112;Ivars de Noguera;;;295;211;71,53;84;28,47;2;0,95;5;2,37;204;96,68;209;99,05
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;113;Ivars d Urgell;;;1.244;912;73,31;332;26,69;8;0,88;47;5,15;857;93,97;904;99,12
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;114;Ivorra;;;102;84;82,35;18;17,65;0;0,00;4;4,76;80;95,24;84;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;115;Isona i Conca Dellà;;;894;570;63,76;324;36,24;5;0,88;25;4,39;540;94,74;565;99,12
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;118;Juncosa;;;388;247;63,66;141;36,34;5;2,02;6;2,43;236;95,55;242;97,98
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;119;Juneda;;;2.331;1.613;69,20;718;30,80;17;1,05;53;3,29;1.543;95,66;1.596;98,95
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;120;Lleida;;;90.538;53.109;58,66;37.429;41,34;373;0,70;1.948;3,67;50.788;95,63;52.736;99,30
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;121;Les;;;616;387;62,82;229;37,18;0;0,00;17;4,39;370;95,61;387;100,00
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;122;Linyola;;;1.970;1.267;64,31;703;35,69;9;0,71;68;5,37;1.190;93,92;1.258;99,29
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;123;Lladorre;;;200;126;63,00;74;37,00;2;1,59;5;3,97;119;94,44;124;98,41
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;124;Lladurs;;;170;126;74,12;44;25,88;2;1,59;3;2,38;121;96,03;124;98,41
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;125;Llardecans;;;456;291;63,82;165;36,18;2;0,69;18;6,19;271;93,13;289;99,31
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;126;Llavorsí;;;286;189;66,08;97;33,92;4;2,12;6;3,17;179;94,71;185;97,88
+A;2010;MU;Catalunya;25;Lleida;15;Cerdanya;127;Lles de Cerdanya;;;232;151;65,09;81;34,91;0;0,00;6;3,97;145;96,03;151;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;128;Llimiana;;;152;85;55,92;67;44,08;0;0,00;3;3,53;82;96,47;85;100,00
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;129;Llobera;;;178;121;67,98;57;32,02;0;0,00;2;1,65;119;98,35;121;100,00
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;130;Maldà;;;218;143;65,60;75;34,40;1;0,70;3;2,10;139;97,20;142;99,30
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;131;Massalcoreig;;;452;308;68,14;144;31,86;4;1,30;9;2,92;295;95,78;304;98,70
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;132;Massoteres;;;134;88;65,67;46;34,33;0;0,00;0;0,00;88;100,00;88;100,00
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;133;Maials;;;767;502;65,45;265;34,55;4;0,80;19;3,78;479;95,42;498;99,20
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;134;Menàrguens;;;654;408;62,39;246;37,61;3;0,74;19;4,66;386;94,61;405;99,26
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;135;Miralcamp;;;1.084;736;67,90;348;32,10;9;1,22;21;2,85;706;95,92;727;98,78
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;136;Molsosa, la;;;106;93;87,74;13;12,26;4;4,30;2;2,15;87;93,55;89;95,70
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;137;Mollerussa;;;8.373;5.072;60,58;3.301;39,42;39;0,77;160;3,15;4.873;96,08;5.033;99,23
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;138;Montgai;;;616;420;68,18;196;31,82;7;1,67;11;2,62;402;95,71;413;98,33
+A;2010;MU;Catalunya;25;Lleida;15;Cerdanya;139;Montellà i Martinet;;;541;355;65,62;186;34,38;6;1,69;7;1,97;342;96,34;349;98,31
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;140;Montferrer i Castellbò;;;772;468;60,62;304;39,38;1;0,21;16;3,42;451;96,37;467;99,79
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;141;Montoliu de Segarra;;;172;106;61,63;66;38,37;0;0,00;3;2,83;103;97,17;106;100,00
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;142;Montoliu de Lleida;;;391;245;62,66;146;37,34;2;0,82;10;4,08;233;95,10;243;99,18
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;143;Montornès de Segarra;;;92;60;65,22;32;34,78;2;3,33;1;1,67;57;95,00;58;96,67
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;145;Nalec;;;89;69;77,53;20;22,47;0;0,00;1;1,45;68;98,55;69;100,00
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;146;Navès;;;216;155;71,76;61;28,24;2;1,29;7;4,52;146;94,19;153;98,71
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;148;Odèn;;;228;160;70,18;68;29,82;0;0,00;3;1,88;157;98,13;160;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;149;Oliana;;;1.430;1.052;73,57;378;26,43;11;1,05;15;1,43;1.026;97,53;1.041;98,95
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;150;Oliola;;;190;139;73,16;51;26,84;0;0,00;6;4,32;133;95,68;139;100,00
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;151;Olius;;;647;451;69,71;196;30,29;12;2,66;12;2,66;427;94,68;439;97,34
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;152;Oluges, les;;;163;91;55,83;72;44,17;1;1,10;5;5,49;85;93,41;90;98,90
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;153;Omellons, els;;;216;137;63,43;79;36,57;4;2,92;1;0,73;132;96,35;133;97,08
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;154;Omells de na Gaia, els;;;122;74;60,66;48;39,34;0;0,00;3;4,05;71;95,95;74;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;155;Organyà;;;727;491;67,54;236;32,46;5;1,02;16;3,26;470;95,72;486;98,98
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;156;Os de Balaguer;;;761;517;67,94;244;32,06;5;0,97;22;4,26;490;94,78;512;99,03
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;157;Ossó de Sió;;;189;126;66,67;63;33,33;0;0,00;2;1,59;124;98,41;126;100,00
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;158;Palau d Anglesola, el;;;1.634;1.093;66,89;541;33,11;12;1,10;35;3,20;1.046;95,70;1.081;98,90
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;161;Conca de Dalt;;;358;232;64,80;126;35,20;2;0,86;9;3,88;221;95,26;230;99,14
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;163;Coma i la Pedra, la;;;234;135;57,69;99;42,31;0;0,00;5;3,70;130;96,30;135;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;164;Penelles;;;402;254;63,18;148;36,82;0;0,00;11;4,33;243;95,67;254;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;165;Peramola;;;312;222;71,15;90;28,85;7;3,15;9;4,05;206;92,79;215;96,85
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;166;Pinell de Solsonès;;;179;149;83,24;30;16,76;1;0,67;3;2,01;145;97,32;148;99,33
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;167;Pinós;;;263;186;70,72;77;29,28;2;1,08;6;3,23;178;95,70;184;98,92
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;168;Poal, el;;;514;400;77,82;114;22,18;2;0,50;18;4,50;380;95,00;398;99,50
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;169;Pobla de Cérvoles, la;;;194;141;72,68;53;27,32;0;0,00;8;5,67;133;94,33;141;100,00
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;170;Bellaguarda;;;270;187;69,26;83;30,74;0;0,00;12;6,42;175;93,58;187;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;171;Pobla de Segur, la;;;2.327;1.497;64,33;830;35,67;5;0,33;75;5,01;1.417;94,66;1.492;99,67
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;172;Ponts;;;1.861;1.301;69,91;560;30,09;16;1,23;37;2,84;1.248;95,93;1.285;98,77
+A;2010;MU;Catalunya;25;Lleida;5;Alta Ribagorça;173;Pont de Suert, el;;;1.771;1.041;58,78;730;41,22;11;1,06;27;2,59;1.003;96,35;1.030;98,94
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;174;Portella, la;;;455;294;64,62;161;35,38;5;1,70;4;1,36;285;96,94;289;98,30
+A;2010;MU;Catalunya;25;Lleida;15;Cerdanya;175;Prats i Sansor;;;198;151;76,26;47;23,74;1;0,66;2;1,32;148;98,01;150;99,34
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;176;Preixana;;;349;248;71,06;101;28,94;2;0,81;12;4,84;234;94,35;246;99,19
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;177;Preixens;;;393;246;62,60;147;37,40;1;0,41;2;0,81;243;98,78;245;99,59
+A;2010;MU;Catalunya;25;Lleida;15;Cerdanya;179;Prullans;;;197;140;71,07;57;28,93;3;2,14;2;1,43;135;96,43;137;97,86
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;180;Puiggròs;;;250;163;65,20;87;34,80;5;3,07;6;3,68;152;93,25;158;96,93
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;181;Puigverd d Agramunt;;;192;136;70,83;56;29,17;3;2,21;4;2,94;129;94,85;133;97,79
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;182;Puigverd de Lleida;;;1.078;687;63,73;391;36,27;7;1,02;32;4,66;648;94,32;680;98,98
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;183;Rialp;;;488;356;72,95;132;27,05;4;1,12;15;4,21;337;94,66;352;98,88
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;185;Ribera d Urgellet;;;699;424;60,66;275;39,34;2;0,47;5;1,18;417;98,35;422;99,53
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;186;Riner;;;226;181;80,09;45;19,91;2;1,10;3;1,66;176;97,24;179;98,90
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;189;Rosselló;;;2.054;1.157;56,33;897;43,67;12;1,04;48;4,15;1.097;94,81;1.145;98,96
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;190;Salàs de Pallars;;;275;183;66,55;92;33,45;3;1,64;11;6,01;169;92,35;180;98,36
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;191;Sanaüja;;;360;243;67,50;117;32,50;4;1,65;6;2,47;233;95,88;239;98,35
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;192;Sant Guim de Freixenet;;;797;558;70,01;239;29,99;14;2,51;28;5,02;516;92,47;544;97,49
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;193;Sant Llorenç de Morunys;;;782;560;71,61;222;28,39;0;0,00;14;2,50;546;97,50;560;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;194;Sant Ramon;;;455;311;68,35;144;31,65;2;0,64;22;7,07;287;92,28;309;99,36
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;196;Sant Esteve de la Sarga;;;131;85;64,89;46;35,11;0;0,00;0;0,00;85;100,00;85;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;197;Sant Guim de la Plana;;;144;112;77,78;32;22,22;0;0,00;6;5,36;106;94,64;112;100,00
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;200;Sarroca de Lleida;;;366;234;63,93;132;36,07;2;0,85;5;2,14;227;97,01;232;99,15
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;201;Sarroca de Bellera;;;123;86;69,92;37;30,08;0;0,00;1;1,16;85;98,84;86;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;202;Senterada;;;112;73;65,18;39;34,82;0;0,00;1;1,37;72;98,63;73;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;203;Seu d Urgell, la;;;9.006;5.050;56,07;3.956;43,93;42;0,83;215;4,26;4.793;94,91;5.008;99,17
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;204;Seròs;;;1.335;879;65,84;456;34,16;11;1,25;34;3,87;834;94,88;868;98,75
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;205;Sidamon;;;568;388;68,31;180;31,69;12;3,09;21;5,41;355;91,49;376;96,91
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;206;Soleràs, el;;;295;210;71,19;85;28,81;6;2,86;5;2,38;199;94,76;204;97,14
+A;2010;MU;Catalunya;25;Lleida;35;Solsonès;207;Solsona;;;6.245;3.916;62,71;2.329;37,29;37;0,94;122;3,12;3.757;95,94;3.879;99,06
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;208;Soriguera;;;294;174;59,18;120;40,82;1;0,57;1;0,57;172;98,85;173;99,43
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;209;Sort;;;1.560;1.070;68,59;490;31,41;8;0,75;38;3,55;1.024;95,70;1.062;99,25
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;210;Soses;;;1.180;734;62,20;446;37,80;12;1,63;12;1,63;710;96,73;722;98,37
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;211;Sudanell;;;697;383;54,95;314;45,05;5;1,31;24;6,27;354;92,43;378;98,69
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;212;Sunyer;;;239;169;70,71;70;29,29;0;0,00;8;4,73;161;95,27;169;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;215;Talarn;;;313;214;68,37;99;31,63;1;0,47;8;3,74;205;95,79;213;99,53
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;216;Talavera;;;253;185;73,12;68;26,88;0;0,00;5;2,70;180;97,30;185;100,00
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;217;Tàrrega;;;10.557;6.421;60,82;4.136;39,18;66;1,03;312;4,86;6.043;94,11;6.355;98,97
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;218;Tarrés;;;97;68;70,10;29;29,90;0;0,00;0;0,00;68;100,00;68;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;219;Tarroja de Segarra;;;141;96;68,09;45;31,91;0;0,00;7;7,29;89;92,71;96;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;220;Térmens;;;1.064;701;65,88;363;34,12;17;2,43;8;1,14;676;96,43;684;97,57
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;221;Tírvia;;;133;75;56,39;58;43,61;0;0,00;1;1,33;74;98,67;75;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;222;Tiurana;;;70;59;84,29;11;15,71;0;0,00;3;5,08;56;94,92;59;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;223;Torà;;;950;600;63,16;350;36,84;9;1,50;31;5,17;560;93,33;591;98,50
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;224;Torms, els;;;146;98;67,12;48;32,88;1;1,02;5;5,10;92;93,88;97;98,98
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;225;Tornabous;;;602;410;68,11;192;31,89;4;0,98;12;2,93;394;96,10;406;99,02
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;226;Torrebesses;;;260;163;62,69;97;37,31;1;0,61;10;6,13;152;93,25;162;99,39
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;227;Torre de Cabdella, la;;;688;404;58,72;284;41,28;1;0,25;13;3,22;390;96,53;403;99,75
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;228;Torrefarrera;;;2.857;1.903;66,61;954;33,39;29;1,52;55;2,89;1.819;95,59;1.874;98,48
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;230;Torregrossa;;;1.666;1.158;69,51;508;30,49;8;0,69;37;3,20;1.113;96,11;1.150;99,31
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;231;Torrelameu;;;523;411;78,59;112;21,41;2;0,49;4;0,97;405;98,54;409;99,51
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;232;Torres de Segre;;;1.478;905;61,23;573;38,77;2;0,22;29;3,20;874;96,57;903;99,78
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;233;Torre-serona;;;280;206;73,57;74;26,43;1;0,49;4;1,94;201;97,57;205;99,51
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;234;Tremp;;;4.357;2.659;61,03;1.698;38,97;29;1,09;88;3,31;2.542;95,60;2.630;98,91
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;238;Vallbona de les Monges;;;232;163;70,26;69;29,74;1;0,61;6;3,68;156;95,71;162;99,39
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;239;Valls de Valira, les;;;563;279;49,56;284;50,44;0;0,00;9;3,23;270;96,77;279;100,00
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;240;Vallfogona de Balaguer;;;1.379;926;67,15;453;32,85;4;0,43;51;5,51;871;94,06;922;99,57
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;242;Verdú;;;786;505;64,25;281;35,75;2;0,40;13;2,57;490;97,03;503;99,60
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;243;Vielha e Mijaran;;;3.387;1.818;53,68;1.569;46,32;17;0,94;69;3,80;1.732;95,27;1.801;99,06
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;244;Vilagrassa;;;364;276;75,82;88;24,18;0;0,00;10;3,62;266;96,38;276;100,00
+A;2010;MU;Catalunya;25;Lleida;5;Alta Ribagorça;245;Vilaller;;;441;254;57,60;187;42,40;0;0,00;11;4,33;243;95,67;254;100,00
+A;2010;MU;Catalunya;25;Lleida;39;Consell General d'Aran;247;Vilamòs;;;148;66;44,59;82;55,41;0;0,00;2;3,03;64;96,97;66;100,00
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;248;Vilanova de Bellpuig;;;935;659;70,48;276;29,52;13;1,97;19;2,88;627;95,14;646;98,03
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;249;Vilanova de l Aguda;;;200;145;72,50;55;27,50;2;1,38;3;2,07;140;96,55;143;98,62
+A;2010;MU;Catalunya;25;Lleida;23;Noguera;250;Vilanova de Meià;;;353;232;65,72;121;34,28;2;0,86;3;1,29;227;97,84;230;99,14
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;251;Vilanova de Segrià;;;658;406;61,70;252;38,30;2;0,49;4;0,99;400;98,52;404;99,51
+A;2010;MU;Catalunya;25;Lleida;27;Pla d'Urgell;252;Vila-sana;;;532;360;67,67;172;32,33;2;0,56;11;3,06;347;96,39;358;99,44
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;253;Vilosell, el;;;170;123;72,35;47;27,65;0;0,00;0;0,00;123;100,00;123;100,00
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;254;Vilanova de la Barca;;;784;545;69,52;239;30,48;4;0,73;12;2,20;529;97,06;541;99,27
+A;2010;MU;Catalunya;25;Lleida;18;Garrigues;255;Vinaixa;;;487;322;66,12;165;33,88;7;2,17;3;0,93;312;96,89;315;97,83
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;901;Vall de Cardós;;;303;177;58,42;126;41,58;1;0,56;6;3,39;170;96,05;176;99,44
+A;2010;MU;Catalunya;25;Lleida;38;Urgell;902;Sant Martí de Riucorb;;;578;407;70,42;171;29,58;9;2,21;10;2,46;388;95,33;398;97,79
+A;2010;MU;Catalunya;25;Lleida;26;Pallars Sobirà;903;Guingueta d Àneu, la;;;262;168;64,12;94;35,88;0;0,00;3;1,79;165;98,21;168;100,00
+A;2010;MU;Catalunya;25;Lleida;25;Pallars Jussà;904;Castell de Mur;;;145;109;75,17;36;24,83;1;0,92;2;1,83;106;97,25;108;99,08
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;905;Ribera d Ondara;;;390;275;70,51;115;29,49;2;0,73;12;4,36;261;94,91;273;99,27
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;906;Valls d Aguilar, les;;;236;158;66,95;78;33,05;1;0,63;2;1,27;155;98,10;157;99,37
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;907;Torrefeta i Florejacs;;;503;316;62,82;187;37,18;0;0,00;18;5,70;298;94,30;316;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;908;Fígols i Alinyà;;;250;174;69,60;76;30,40;2;1,15;3;1,72;169;97,13;172;98,85
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;909;Vansa i Fórnols, la;;;149;92;61,74;57;38,26;0;0,00;1;1,09;91;98,91;92;100,00
+A;2010;MU;Catalunya;25;Lleida;4;Alt Urgell;910;Josa i Tuixén;;;119;84;70,59;35;29,41;0;0,00;2;2,38;82;97,62;84;100,00
+A;2010;MU;Catalunya;25;Lleida;32;Segarra;911;Plans de Sió, els;;;468;328;70,09;140;29,91;9;2,74;13;3,96;306;93,29;319;97,26
+A;2010;MU;Catalunya;25;Lleida;33;Segrià;912;Gimenells i el Pla de la Font;;;909;576;63,37;333;36,63;7;1,22;8;1,39;561;97,40;569;98,78
+A;2010;MU;Catalunya;25;Lleida;15;Cerdanya;913;Riu de Cerdanya;;;95;76;80,00;19;20,00;0;0,00;1;1,32;75;98,68;76;100,00
+A;2010;MU;Catalunya;25;Lleida;98;Residents Absents;998;Residents Absents                       ;;;11.415;1.097;9,61;10.318;90,39;4;0,36;6;0,55;1.087;99,09;1.093;99,64
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;1;Aiguamúrcia;;;715;437;61,12;278;38,88;3;0,69;21;4,81;413;94,51;434;99,31
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;2;Albinyana;;;1.751;1.091;62,31;660;37,69;10;0,92;29;2,66;1.052;96,43;1.081;99,08
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;3;Albiol, l;;;298;188;63,09;110;36,91;5;2,66;13;6,91;170;90,43;183;97,34
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;4;Alcanar;;;6.397;3.669;57,36;2.728;42,64;71;1,94;122;3,33;3.476;94,74;3.598;98,06
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;5;Alcover;;;3.531;1.916;54,26;1.615;45,74;18;0,94;52;2,71;1.846;96,35;1.898;99,06
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;6;Aldover;;;712;440;61,80;272;38,20;5;1,14;25;5,68;410;93,18;435;98,86
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;7;Aleixar, l;;;649;458;70,57;191;29,43;1;0,22;2;0,44;455;99,34;457;99,78
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;8;Alfara de Carles;;;326;222;68,10;104;31,90;3;1,35;13;5,86;206;92,79;219;98,65
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;9;Alforja;;;1.416;863;60,95;553;39,05;6;0,70;28;3,24;829;96,06;857;99,30
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;10;Alió;;;297;214;72,05;83;27,95;1;0,47;14;6,54;199;92,99;213;99,53
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;11;Almoster;;;997;733;73,52;264;26,48;5;0,68;16;2,18;712;97,14;728;99,32
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;12;Altafulla;;;3.354;2.146;63,98;1.208;36,02;14;0,65;69;3,22;2.063;96,13;2.132;99,35
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;13;Ametlla de Mar, l;;;4.366;2.684;61,48;1.682;38,52;23;0,86;34;1,27;2.627;97,88;2.661;99,14
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;14;Amposta;;;14.152;8.347;58,98;5.805;41,02;101;1,21;373;4,47;7.873;94,32;8.246;98,79
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;15;Arbolí;;;105;83;79,05;22;20,95;0;0,00;2;2,41;81;97,59;83;100,00
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;16;Arboç, l;;;3.467;1.982;57,17;1.485;42,83;20;1,01;53;2,67;1.909;96,32;1.962;98,99
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;17;Argentera, l;;;125;92;73,60;33;26,40;0;0,00;2;2,17;90;97,83;92;100,00
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;18;Arnes;;;438;365;83,33;73;16,67;8;2,19;12;3,29;345;94,52;357;97,81
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;19;Ascó;;;1.337;874;65,37;463;34,63;28;3,20;32;3,66;814;93,14;846;96,80
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;20;Banyeres del Penedès;;;2.113;1.252;59,25;861;40,75;10;0,80;31;2,48;1.211;96,73;1.242;99,20
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;21;Barberà de la Conca;;;387;218;56,33;169;43,67;0;0,00;14;6,42;204;93,58;218;100,00
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;22;Batea;;;1.559;1.153;73,96;406;26,04;13;1,13;25;2,17;1.115;96,70;1.140;98,87
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;23;Bellmunt del Priorat;;;247;165;66,80;82;33,20;2;1,21;7;4,24;156;94,55;163;98,79
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;24;Bellvei;;;1.431;869;60,73;562;39,27;5;0,58;38;4,37;826;95,05;864;99,42
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;25;Benifallet;;;667;473;70,91;194;29,09;15;3,17;16;3,38;442;93,45;458;96,83
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;26;Benissanet;;;804;524;65,17;280;34,83;9;1,72;11;2,10;504;96,18;515;98,28
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;27;Bisbal de Falset, la;;;182;121;66,48;61;33,52;1;0,83;4;3,31;116;95,87;120;99,17
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;28;Bisbal del Penedès, la;;;2.571;1.367;53,17;1.204;46,83;37;2,71;23;1,68;1.307;95,61;1.330;97,29
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;29;Blancafort;;;338;202;59,76;136;40,24;0;0,00;11;5,45;191;94,55;202;100,00
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;30;Bonastre;;;459;277;60,35;182;39,65;2;0,72;15;5,42;260;93,86;275;99,28
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;31;Borges del Camp, les;;;1.515;1.038;68,51;477;31,49;8;0,77;32;3,08;998;96,15;1.030;99,23
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;32;Bot;;;588;435;73,98;153;26,02;0;0,00;10;2,30;425;97,70;435;100,00
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;33;Botarell;;;748;481;64,30;267;35,70;0;0,00;16;3,33;465;96,67;481;100,00
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;34;Bràfim;;;496;340;68,55;156;31,45;5;1,47;14;4,12;321;94,41;335;98,53
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;35;Cabacés;;;279;193;69,18;86;30,82;2;1,04;6;3,11;185;95,85;191;98,96
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;36;Cabra del Camp;;;829;404;48,73;425;51,27;2;0,50;7;1,73;395;97,77;402;99,50
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;37;Calafell;;;16.558;8.337;50,35;8.221;49,65;78;0,94;207;2,48;8.052;96,58;8.259;99,06
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;38;Cambrils;;;20.279;10.865;53,58;9.414;46,42;66;0,61;265;2,44;10.534;96,95;10.799;99,39
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;39;Capafonts;;;120;80;66,67;40;33,33;1;1,25;3;3,75;76;95,00;79;98,75
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;40;Capçanes;;;352;260;73,86;92;26,14;5;1,92;9;3,46;246;94,62;255;98,08
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;41;Caseres;;;239;169;70,71;70;29,29;1;0,59;0;0,00;168;99,41;168;99,41
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;42;Castellvell del Camp;;;2.038;1.400;68,69;638;31,31;8;0,57;25;1,79;1.367;97,64;1.392;99,43
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;43;Catllar, el;;;3.053;1.691;55,39;1.362;44,61;3;0,18;39;2,31;1.649;97,52;1.688;99,82
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;44;Sénia, la;;;4.011;2.393;59,66;1.618;40,34;32;1,34;111;4,64;2.250;94,02;2.361;98,66
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;45;Colldejou;;;161;122;75,78;39;24,22;0;0,00;2;1,64;120;98,36;122;100,00
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;46;Conesa;;;102;50;49,02;52;50,98;0;0,00;8;16,00;42;84,00;50;100,00
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;47;Constantí;;;3.983;1.953;49,03;2.030;50,97;15;0,77;38;1,95;1.900;97,29;1.938;99,23
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;48;Corbera d Ebre;;;848;519;61,20;329;38,80;11;2,12;18;3,47;490;94,41;508;97,88
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;49;Cornudella de Montsant;;;810;546;67,41;264;32,59;3;0,55;17;3,11;526;96,34;543;99,45
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;50;Creixell;;;2.359;1.328;56,30;1.031;43,70;10;0,75;25;1,88;1.293;97,36;1.318;99,25
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;51;Cunit;;;8.641;4.627;53,55;4.014;46,45;72;1,56;86;1,86;4.469;96,59;4.555;98,44
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;52;Xerta;;;1.006;691;68,69;315;31,31;15;2,17;22;3,18;654;94,65;676;97,83
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;53;Duesaigües;;;198;147;74,24;51;25,76;1;0,68;1;0,68;145;98,64;146;99,32
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;54;Espluga de Francolí, l;;;2.868;1.643;57,29;1.225;42,71;22;1,34;40;2,43;1.581;96,23;1.621;98,66
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;55;Falset;;;2.001;1.399;69,92;602;30,08;24;1,72;58;4,15;1.317;94,14;1.375;98,28
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;56;Fatarella, la;;;941;535;56,85;406;43,15;17;3,18;15;2,80;503;94,02;518;96,82
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;57;Febró, la;;;46;32;69,57;14;30,43;0;0,00;4;12,50;28;87,50;32;100,00
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;58;Figuera, la;;;104;81;77,88;23;22,12;0;0,00;5;6,17;76;93,83;81;100,00
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;59;Figuerola del Camp;;;261;191;73,18;70;26,82;2;1,05;2;1,05;187;97,91;189;98,95
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;60;Flix;;;3.083;1.941;62,96;1.142;37,04;37;1,91;85;4,38;1.819;93,71;1.904;98,09
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;61;Forès;;;46;30;65,22;16;34,78;0;0,00;0;0,00;30;100,00;30;100,00
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;62;Freginals;;;285;222;77,89;63;22,11;3;1,35;7;3,15;212;95,50;219;98,65
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;63;Galera, la;;;584;337;57,71;247;42,29;2;0,59;15;4,45;320;94,96;335;99,41
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;64;Gandesa;;;2.077;1.410;67,89;667;32,11;12;0,85;40;2,84;1.358;96,31;1.398;99,15
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;65;Garcia;;;458;298;65,07;160;34,93;7;2,35;13;4,36;278;93,29;291;97,65
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;66;Garidells, els;;;165;98;59,39;67;40,61;2;2,04;2;2,04;94;95,92;96;97,96
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;67;Ginestar;;;634;426;67,19;208;32,81;7;1,64;23;5,40;396;92,96;419;98,36
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;68;Godall;;;573;393;68,59;180;31,41;6;1,53;17;4,33;370;94,15;387;98,47
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;69;Gratallops;;;199;151;75,88;48;24,12;1;0,66;8;5,30;142;94,04;150;99,34
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;70;Guiamets, els;;;265;204;76,98;61;23,02;1;0,49;12;5,88;191;93,63;203;99,51
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;71;Horta de Sant Joan;;;981;679;69,22;302;30,78;10;1,47;24;3,53;645;94,99;669;98,53
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;72;Lloar, el;;;99;72;72,73;27;27,27;0;0,00;0;0,00;72;100,00;72;100,00
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;73;Llorac;;;87;58;66,67;29;33,33;0;0,00;0;0,00;58;100,00;58;100,00
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;74;Llorenç del Penedès;;;1.675;1.059;63,22;616;36,78;15;1,42;43;4,06;1.001;94,52;1.044;98,58
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;75;Margalef;;;100;66;66,00;34;34,00;0;0,00;7;10,61;59;89,39;66;100,00
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;76;Marçà;;;480;312;65,00;168;35,00;6;1,92;11;3,53;295;94,55;306;98,08
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;77;Mas de Barberans;;;493;340;68,97;153;31,03;6;1,76;13;3,82;321;94,41;334;98,24
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;78;Masdenverge;;;848;556;65,57;292;34,43;11;1,98;23;4,14;522;93,88;545;98,02
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;79;Masllorenç;;;382;249;65,18;133;34,82;1;0,40;11;4,42;237;95,18;248;99,60
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;80;Masó, la;;;255;181;70,98;74;29,02;2;1,10;8;4,42;171;94,48;179;98,90
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;81;Maspujols;;;549;392;71,40;157;28,60;5;1,28;10;2,55;377;96,17;387;98,72
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;82;Masroig, el;;;387;281;72,61;106;27,39;12;4,27;5;1,78;264;93,95;269;95,73
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;83;Milà, el;;;149;95;63,76;54;36,24;0;0,00;2;2,11;93;97,89;95;100,00
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;84;Miravet;;;576;379;65,80;197;34,20;15;3,96;17;4,49;347;91,56;364;96,04
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;85;Molar, el;;;232;186;80,17;46;19,83;3;1,61;15;8,06;168;90,32;183;98,39
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;86;Montblanc;;;5.256;3.103;59,04;2.153;40,96;35;1,13;124;4,00;2.944;94,88;3.068;98,87
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;88;Montbrió del Camp;;;1.723;1.068;61,98;655;38,02;5;0,47;19;1,78;1.044;97,75;1.063;99,53
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;89;Montferri;;;273;126;46,15;147;53,85;4;3,17;6;4,76;116;92,06;122;96,83
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;90;Montmell, el;;;1.123;490;43,63;633;56,37;3;0,61;14;2,86;473;96,53;487;99,39
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;91;Mont-ral;;;149;95;63,76;54;36,24;0;0,00;0;0,00;95;100,00;95;100,00
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;92;Mont-roig del Camp;;;6.966;3.446;49,47;3.520;50,53;27;0,78;60;1,74;3.359;97,48;3.419;99,22
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;93;Móra d Ebre;;;3.904;2.397;61,40;1.507;38,60;27;1,13;80;3,34;2.290;95,54;2.370;98,87
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;94;Móra la Nova;;;2.210;1.505;68,10;705;31,90;32;2,13;25;1,66;1.448;96,21;1.473;97,87
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;95;Morell, el;;;2.382;1.425;59,82;957;40,18;11;0,77;32;2,25;1.382;96,98;1.414;99,23
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;96;Morera de Montsant, la;;;112;80;71,43;32;28,57;0;0,00;4;5,00;76;95,00;80;100,00
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;97;Nou de Gaià, la;;;373;277;74,26;96;25,74;2;0,72;3;1,08;272;98,19;275;99,28
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;98;Nulles;;;368;251;68,21;117;31,79;0;0,00;5;1,99;246;98,01;251;100,00
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;99;Palma d Ebre, la;;;344;250;72,67;94;27,33;2;0,80;5;2,00;243;97,20;248;99,20
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;100;Pallaresos, els;;;2.956;1.724;58,32;1.232;41,68;20;1,16;58;3,36;1.646;95,48;1.704;98,84
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;101;Passanant i Belltall;;;138;85;61,59;53;38,41;0;0,00;1;1,18;84;98,82;85;100,00
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;102;Paüls;;;504;391;77,58;113;22,42;10;2,56;2;0,51;379;96,93;381;97,44
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;103;Perafort;;;889;522;58,72;367;41,28;2;0,38;16;3,07;504;96,55;520;99,62
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;104;Perelló, el;;;1.801;1.197;66,46;604;33,54;18;1,50;34;2,84;1.145;95,66;1.179;98,50
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;105;Piles, les;;;179;115;64,25;64;35,75;5;4,35;8;6,96;102;88,70;110;95,65
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;106;Pinell de Brai, el;;;877;630;71,84;247;28,16;3;0,48;8;1,27;619;98,25;627;99,52
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;107;Pira;;;384;251;65,36;133;34,64;4;1,59;12;4,78;235;93,63;247;98,41
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;108;Pla de Santa Maria, el;;;1.809;1.055;58,32;754;41,68;9;0,85;14;1,33;1.032;97,82;1.046;99,15
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;109;Pobla de Mafumet, la;;;1.947;1.067;54,80;880;45,20;3;0,28;14;1,31;1.050;98,41;1.064;99,72
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;110;Pobla de Massaluca, la;;;322;218;67,70;104;32,30;1;0,46;3;1,38;214;98,17;217;99,54
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;111;Pobla de Montornès, la;;;2.080;1.085;52,16;995;47,84;15;1,38;20;1,84;1.050;96,77;1.070;98,62
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;112;Poboleda;;;295;203;68,81;92;31,19;4;1,97;3;1,48;196;96,55;199;98,03
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;113;Pont d Armentera, el;;;462;314;67,97;148;32,03;4;1,27;5;1,59;305;97,13;310;98,73
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;114;Porrera;;;387;241;62,27;146;37,73;10;4,15;10;4,15;221;91,70;231;95,85
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;115;Pradell de la Teixeta;;;162;117;72,22;45;27,78;1;0,85;3;2,56;113;96,58;116;99,15
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;116;Prades;;;484;340;70,25;144;29,75;7;2,06;5;1,47;328;96,47;333;97,94
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;117;Prat de Comte;;;153;121;79,08;32;20,92;3;2,48;1;0,83;117;96,69;118;97,52
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;118;Pratdip;;;439;305;69,48;134;30,52;1;0,33;0;0,00;304;99,67;304;99,67
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;119;Puigpelat;;;730;397;54,38;333;45,62;0;0,00;11;2,77;386;97,23;397;100,00
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;120;Querol;;;430;228;53,02;202;46,98;6;2,63;4;1,75;218;95,61;222;97,37
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;121;Rasquera;;;665;373;56,09;292;43,91;7;1,88;13;3,49;353;94,64;366;98,12
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;122;Renau;;;87;65;74,71;22;25,29;2;3,08;1;1,54;62;95,38;63;96,92
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;123;Reus;;;69.613;39.399;56,60;30.214;43,40;263;0,67;889;2,26;38.247;97,08;39.136;99,33
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;124;Riba, la;;;527;340;64,52;187;35,48;7;2,06;2;0,59;331;97,35;333;97,94
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;125;Riba-roja d Ebre;;;1.000;645;64,50;355;35,50;10;1,55;7;1,09;628;97,36;635;98,45
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;126;Riera de Gaià, la;;;1.163;778;66,90;385;33,10;10;1,29;13;1,67;755;97,04;768;98,71
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;127;Riudecanyes;;;773;507;65,59;266;34,41;4;0,79;6;1,18;497;98,03;503;99,21
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;128;Riudecols;;;925;616;66,59;309;33,41;6;0,97;5;0,81;605;98,21;610;99,03
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;129;Riudoms;;;4.542;2.880;63,41;1.662;36,59;29;1,01;57;1,98;2.794;97,01;2.851;98,99
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;130;Rocafort de Queralt;;;200;128;64,00;72;36,00;0;0,00;0;0,00;128;100,00;128;100,00
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;131;Roda de Barà;;;4.403;2.387;54,21;2.016;45,79;7;0,29;57;2,39;2.323;97,32;2.380;99,71
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;132;Rodonyà;;;370;232;62,70;138;37,30;2;0,86;12;5,17;218;93,97;230;99,14
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;133;Roquetes;;;5.655;3.246;57,40;2.409;42,60;38;1,17;146;4,50;3.062;94,33;3.208;98,83
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;134;Rourell, el;;;278;189;67,99;89;32,01;0;0,00;2;1,06;187;98,94;189;100,00
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;135;Salomó;;;328;243;74,09;85;25,91;0;0,00;6;2,47;237;97,53;243;100,00
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;136;Sant Carles de la Ràpita;;;10.205;5.545;54,34;4.660;45,66;66;1,19;207;3,73;5.272;95,08;5.479;98,81
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;137;Sant Jaume dels Domenys;;;1.870;1.142;61,07;728;38,93;17;1,49;34;2,98;1.091;95,53;1.125;98,51
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;138;Santa Bàrbara;;;2.736;1.671;61,07;1.065;38,93;15;0,90;79;4,73;1.577;94,37;1.656;99,10
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;139;Santa Coloma de Queralt;;;2.182;1.321;60,54;861;39,46;18;1,36;32;2,42;1.271;96,21;1.303;98,64
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;140;Santa Oliva;;;2.327;1.387;59,60;940;40,40;11;0,79;29;2,09;1.347;97,12;1.376;99,21
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;141;Pontils;;;126;68;53,97;58;46,03;2;2,94;0;0,00;66;97,06;66;97,06
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;142;Sarral;;;1.154;712;61,70;442;38,30;6;0,84;19;2,67;687;96,49;706;99,16
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;143;Savallà del Comtat;;;62;52;83,87;10;16,13;1;1,92;3;5,77;48;92,31;51;98,08
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;144;Secuita, la;;;1.195;750;62,76;445;37,24;8;1,07;28;3,73;714;95,20;742;98,93
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;145;Selva del Camp, la;;;3.926;2.580;65,72;1.346;34,28;22;0,85;64;2,48;2.494;96,67;2.558;99,15
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;146;Senan;;;45;35;77,78;10;22,22;4;11,43;2;5,71;29;82,86;31;88,57
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;147;Solivella;;;531;366;68,93;165;31,07;6;1,64;6;1,64;354;96,72;360;98,36
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;148;Tarragona;;;93.327;53.238;57,04;40.089;42,96;383;0,72;1.377;2,59;51.478;96,69;52.855;99,28
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;149;Tivenys;;;716;546;76,26;170;23,74;11;2,01;11;2,01;524;95,97;535;97,99
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;150;Tivissa;;;1.340;996;74,33;344;25,67;13;1,31;14;1,41;969;97,29;983;98,69
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;151;Torre de Fontaubella, la;;;118;92;77,97;26;22,03;0;0,00;1;1,09;91;98,91;92;100,00
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;152;Torre de l Espanyol, la;;;471;365;77,49;106;22,51;16;4,38;12;3,29;337;92,33;349;95,62
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;153;Torredembarra;;;10.224;5.659;55,35;4.565;44,65;54;0,95;113;2,00;5.492;97,05;5.605;99,05
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;154;Torroja del Priorat;;;135;102;75,56;33;24,44;1;0,98;4;3,92;97;95,10;101;99,02
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;155;Tortosa;;;22.980;13.690;59,57;9.290;40,43;187;1,37;466;3,40;13.037;95,23;13.503;98,63
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;156;Ulldecona;;;4.184;2.661;63,60;1.523;36,40;30;1,13;94;3,53;2.537;95,34;2.631;98,87
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;157;Ulldemolins;;;401;294;73,32;107;26,68;0;0,00;6;2,04;288;97,96;294;100,00
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;158;Vallclara;;;101;64;63,37;37;36,63;0;0,00;1;1,56;63;98,44;64;100,00
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;159;Vallfogona de Riucorb;;;92;59;64,13;33;35,87;2;3,39;0;0,00;57;96,61;57;96,61
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;160;Vallmoll;;;1.254;726;57,89;528;42,11;11;1,52;29;3,99;686;94,49;715;98,48
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;161;Valls;;;17.182;9.739;56,68;7.443;43,32;89;0,91;247;2,54;9.403;96,55;9.650;99,09
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;162;Vandellòs i l Hospitalet de l Infant;;;4.080;2.422;59,36;1.658;40,64;20;0,83;70;2,89;2.332;96,28;2.402;99,17
+A;2010;MU;Catalunya;43;Tarragona;12;Baix Penedès;163;Vendrell, el;;;24.718;12.891;52,15;11.827;47,85;102;0,79;299;2,32;12.490;96,89;12.789;99,21
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;164;Vespella de Gaià;;;299;182;60,87;117;39,13;2;1,10;1;0,55;179;98,35;180;98,90
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;165;Vilabella;;;614;458;74,59;156;25,41;4;0,87;5;1,09;449;98,03;454;99,13
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;166;Vilallonga del Camp;;;1.468;850;57,90;618;42,10;8;0,94;22;2,59;820;96,47;842;99,06
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;167;Vilanova d Escornalbou;;;388;276;71,13;112;28,87;1;0,36;8;2,90;267;96,74;275;99,64
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;168;Vilanova de Prades;;;106;65;61,32;41;38,68;0;0,00;2;3,08;63;96,92;65;100,00
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;169;Vilaplana;;;481;377;78,38;104;21,62;7;1,86;10;2,65;360;95,49;370;98,14
+A;2010;MU;Catalunya;43;Tarragona;1;Alt Camp;170;Vila-rodona;;;883;583;66,02;300;33,98;2;0,34;19;3,26;562;96,40;581;99,66
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;171;Vila-seca;;;13.704;7.130;52,03;6.574;47,97;26;0,36;172;2,41;6.932;97,22;7.104;99,64
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;172;Vilaverd;;;366;276;75,41;90;24,59;3;1,09;6;2,17;267;96,74;273;98,91
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;173;Vilella Alta, la;;;109;73;66,97;36;33,03;0;0,00;1;1,37;72;98,63;73;100,00
+A;2010;MU;Catalunya;43;Tarragona;29;Priorat;174;Vilella Baixa, la;;;147;113;76,87;34;23,13;0;0,00;6;5,31;107;94,69;113;100,00
+A;2010;MU;Catalunya;43;Tarragona;37;Terra Alta;175;Vilalba dels Arcs;;;597;439;73,53;158;26,47;7;1,59;6;1,37;426;97,04;432;98,41
+A;2010;MU;Catalunya;43;Tarragona;16;Conca de Barberà;176;Vimbodí i Poblet;;;851;561;65,92;290;34,08;6;1,07;8;1,43;547;97,50;555;98,93
+A;2010;MU;Catalunya;43;Tarragona;30;Ribera d'Ebre;177;Vinebre;;;326;235;72,09;91;27,91;6;2,55;2;0,85;227;96,60;229;97,45
+A;2010;MU;Catalunya;43;Tarragona;8;Baix Camp;178;Vinyols i els Arcs;;;1.266;860;67,93;406;32,07;9;1,05;19;2,21;832;96,74;851;98,95
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;901;Deltebre;;;8.796;4.977;56,58;3.819;43,42;53;1,06;148;2,97;4.776;95,96;4.924;98,94
+A;2010;MU;Catalunya;43;Tarragona;22;Montsià;902;Sant Jaume d Enveja;;;2.764;1.672;60,49;1.092;39,51;39;2,33;40;2,39;1.593;95,28;1.633;97,67
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;903;Camarles;;;2.383;1.362;57,15;1.021;42,85;14;1,03;39;2,86;1.309;96,11;1.348;98,97
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;904;Aldea, l;;;2.896;1.655;57,15;1.241;42,85;25;1,51;66;3,99;1.564;94,50;1.630;98,49
+A;2010;MU;Catalunya;43;Tarragona;36;Tarragonès;905;Salou;;;13.259;6.428;48,48;6.831;51,52;72;1,12;93;1,45;6.263;97,43;6.356;98,88
+A;2010;MU;Catalunya;43;Tarragona;9;Baix Ebre;906;Ampolla, l;;;2.096;1.313;62,64;783;37,36;13;0,99;28;2,13;1.272;96,88;1.300;99,01
+A;2010;MU;Catalunya;43;Tarragona;98;Residents Absents;998;Residents Absents                       ;;;10.003;887;8,87;9.116;91,13;8;0,90;10;1,13;869;97,97;879;99,10
+A;2010;PR;Catalunya;8;Barcelona;;;;;;;4.003.751;2.357.263;58,88;1.646.488;41,12;14.857;0,63;68.241;2,89;2.274.165;96,47;2.342.406;99,37
+A;2010;PR;Catalunya;17;Girona;;;;;;;496.421;295.326;59,49;201.095;40,51;2.790;0,94;8.439;2,86;284.097;96,20;292.536;99,06
+A;2010;PR;Catalunya;25;Lleida;;;;;;;312.605;187.159;59,87;125.446;40,13;1.665;0,89;6.565;3,51;178.929;95,60;185.494;99,11
+A;2010;PR;Catalunya;43;Tarragona;;;;;;;550.911;312.882;56,79;238.029;43,21;3.042;0,97;8.386;2,68;301.454;96,35;309.840;99,03
