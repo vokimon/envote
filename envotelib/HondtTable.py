@@ -81,6 +81,12 @@ class HondtTable(QtGui.QTableWidget) :
 			self.verticalHeaderItem(i).setToolTip(
 				self._descriptions.get(party,party))
 
+		# Excluded parties
+		firstThresholdedParty = len(
+			[party for party, votes in self._votations
+				if votes > self._threshold])
+
+
 		# Distribute seats value
 		print "Distribute seats value"
 		self._seats = []
@@ -88,17 +94,14 @@ class HondtTable(QtGui.QTableWidget) :
 			for seat in xrange(1, self.nSeats+1) :
 				item = QtGui.QTableWidgetItem("%i"%(votes/seat))
 				item.setToolTip("%i / %i %s" % (votes, seat, party))
-				item.setTextAlignment(QtCore.Qt.AlignRight);
+				item.setTextAlignment(QtCore.Qt.AlignRight)
 				self.setItem(i, seat-1, item)
-				self._seats.append( ( (votes/seat), item) )
+				if i < firstThresholdedParty :
+					self._seats.append( ( (votes/seat), item) )
 		self._seats.sort()
 
 		# Mark parties under threshold
 		print "Mark parties under threshold"
-		firstThresholdedParty = len(
-			[party for party, votes in self._votations
-				if votes > self._threshold])
-
 		for party in xrange(firstThresholdedParty, nParties) :
 			for seat in xrange(self.nSeats) :
 				item = self.item(party, seat)
