@@ -24,6 +24,9 @@
 - Use description of special party 'censo' to display case explanation
 - Translate symbols to english
 - Behave properly when threshold applies
++ Take threshold into account in HondtTable
+- Display thresholded seats in HondtTable
+- Implement HondtBars graphics
 
 
 
