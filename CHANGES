@@ -1,3 +1,8 @@
+envote 0.9
+* Added historical and hipotetical data for Catalan Parlament in Barcelona circumscription
+* Hondt table takes into account the threshold
+* Known bugs: Hond chart does not take into account the threshold
+
 envote 0.8
 * Added application icon
 * Documentation in spanish
