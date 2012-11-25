@@ -59,6 +59,8 @@ Para **cada circumscripción** se hace lo siguiente:
 1. Se obtienen cocientes de dividir los votos de cada candidatura por 1, 2, 3, 4....
 1. Se asigna escaño a los mayores cocientes de todas las candidaturas
 
+![boo](parlament2012-EncuestaElPais17N.png)
+
 
 Mecánicamente la norma es esa.
 Pero ¿qué implicaciones tiene?
@@ -82,7 +84,7 @@ Costo mínimo por escaño
 	- **Todas las formaciones que han superado el umbral tienen una igual probabilidad de obtener cualquier resto entre cero y el mínimo coste sin llegar a él.**
 		- En porcentaje, se diluye en los mayoritarios, y gana importancia en minoritarios.
 			- Esto es lo que genera la desproporción en la ley de Hondt.
-			- Mitificado: Hay causas mayores para la desproporción como son la división en circumscripciones combinada con el umbral.
+			- Mitificado: Hay causas mayores para la desproporción como son la división en circumscripciones, y, en Barcelona para las autonómicas, el umbral.
 			- Esta acotada por el coste mínimo, suele dar como máximo dos o tres escaños más a los mayoritarios respecto a una repartición proporcional pura.
 		- En cambio, considerando que todos han votado ya y os toca a tu grupo:
 			- tienes las mismas posibilidades de que vuestro voto sea resto inútil para cualquier opción que haya pasado del umbral.
@@ -95,10 +97,10 @@ Efecto del umbral
 	- En Tarragona, Lleida i Girona es practicamente imposible que se aplique el umbral.
 	- En las Generales en Barcelona, tampoco es probable que se aplique el umbral:
 		- Solo se reparten 31 escaños,
-		- El umbral queda más o menos esta donde el coste mínimo.
-- Las formaciones que entran entran con dos escaños y se quedan muy cerca (unos 800 votos) del tercero
+		- El umbral queda más o menos donde el coste mínimo, si afecta lo hace en un intervalo muy pequeño de votos.
+		- Nunca ha llegado a pasar con 31 escaños. (Paso en Madrid una vez cuando tenian 35)
+- Las formaciones que entran, lo hacen con dos escaños y se quedan muy cerca (a unos 800 votos) del tercero
 - Se necesitan 56 votos válidos para subir el umbral un voto.
-
 
 Efectos en general
 ------------------
@@ -116,11 +118,15 @@ Efectos en general
 - El blanco sería igual que el nulo y la abstención, en cuanto a efecto, si no fuera porque sube el umbral del 3% pues se cuenta como uno válido.
 - El efecto real del voto en blanco sobre el umbral del 3%:
 	- Sube el umbral igual que un voto a una candidatura. **Ni más ni menos.**
-	- No es tan malo como dicen.
-		- Con una abtención del 60%, se necesitarían unos 56 votos válidos más para que el umbral requiera tener un voto más.
-		- Reparte esos 56 votos válidos aleatoriamente en los 11 extraparlamentarios y verás como salen ganando.
-		- Si descartabas el blanco por no perjudicarles, es mejor si escoges al azar una candidatura extraparlamentaria que no te disguste.
+	- No es tan malo como dicen
 	- Hay mínimo tres opciones extra-parlamentarias que proponen el blanco computable y una que lo implementa dejando el escaño en blanco y no cobrando.
+- Hay gente que descarta el voto en blanco, y escoge el nulo por no perjudicar a los extraparlamentarios subiendo el umbral.
+	- Si realmente les preocupasen los extraparlamentarios, no deberían votar ni nulo ni blanco sino a uno de los 11 extraparlamentario aunque fuera al azar.
+	- Como el umbral sube un voto cada 56 votos que se den de esta manera:
+		- Representaría 5 votos para cada extraparlamentario por cada voto que subiera el umbral.
+		- Si excluimos a los 3 xenófobos (PxC, MSR y vD) son 7 votos por voto arriba del umbral.
+		- Si tienes preferencias más especificas, darlo al azar entre ellas la subida del umbral será aún menos efectiva.
+		- Conclusión: Si quieres ayudar a los extraparlamentarios, vale la pena subir el umbral votándoles aunque sea a uno al azar.
 - Efecto del voto a formaciones que se quedan fuera:
 	- El principal efecto es el voto cesante si lo hubiera
 	- Sube el umbral igual que cualquier otra opción
