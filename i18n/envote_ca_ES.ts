@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="2.0" language="ca_ES" sourcelanguage="">
+<!DOCTYPE TS>
+<TS version="2.0" language="ca_ES">
 <context>
     <name>Envoter</name>
     <message>
@@ -196,7 +197,7 @@
     <message>
         <location filename="Envoter.py" line="37"/>
         <source>enVote %1 - Votation simulator</source>
-        <translation type="unfinished"></translation>
+        <translation>enVote %1 - Simulador de votacions</translation>
     </message>
 </context>
 <context>
