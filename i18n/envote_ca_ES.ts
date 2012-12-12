@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ca_ES">
+<!DOCTYPE TS><TS version="2.0" language="ca_ES" sourcelanguage="">
 <context>
     <name>Envoter</name>
     <message>
@@ -10,7 +10,7 @@
     <message>
         <location filename="Envoter.py" line="37"/>
         <source>enVote: Votation simulator</source>
-        <translation>enVote: Simulador de votacions</translation>
+        <translation type="obsolete">enVote: Simulador de votacions</translation>
     </message>
     <message>
         <location filename="Envoter.py" line="41"/>
@@ -193,31 +193,36 @@
         <source>Save the changes done to the case</source>
         <translation>Desa els canvis fets al cas</translation>
     </message>
+    <message>
+        <location filename="Envoter.py" line="37"/>
+        <source>enVote %1 - Votation simulator</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HondtTable</name>
     <message>
-        <location filename="HondtTable.py" line="106"/>
+        <location filename="HondtTable.py" line="109"/>
         <source>Divisor removed by %0% valid vote threshold</source>
         <translation>Divisor descartat pel llindar del %0% sobre el vot vàlid</translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="121"/>
+        <location filename="HondtTable.py" line="124"/>
         <source>Second candidate out</source>
         <translation>Segon candidat descartat</translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="122"/>
+        <location filename="HondtTable.py" line="125"/>
         <source>First candidate out</source>
         <translation>Primer candidat descartat</translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="123"/>
+        <location filename="HondtTable.py" line="126"/>
         <source>Last to get in</source>
         <translation>Darrer escò escollit</translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="124"/>
+        <location filename="HondtTable.py" line="127"/>
         <source>Last but one to get in</source>
         <translation>Penúltim escò escollit</translation>
     </message>

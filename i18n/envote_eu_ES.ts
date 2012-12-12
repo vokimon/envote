@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="eu_ES">
+<!DOCTYPE TS><TS version="2.0" language="eu_ES" sourcelanguage="">
 <context>
     <name>Envoter</name>
     <message>
         <location filename="Envoter.py" line="351"/>
         <source>Abstention</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="Envoter.py" line="37"/>
-        <source>enVote: Votation simulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -188,31 +183,36 @@
         <source>Save the changes done to the case</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="Envoter.py" line="37"/>
+        <source>enVote %1 - Votation simulator</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HondtTable</name>
     <message>
-        <location filename="HondtTable.py" line="106"/>
+        <location filename="HondtTable.py" line="109"/>
         <source>Divisor removed by %0% valid vote threshold</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="121"/>
+        <location filename="HondtTable.py" line="124"/>
         <source>Second candidate out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="122"/>
+        <location filename="HondtTable.py" line="125"/>
         <source>First candidate out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="123"/>
+        <location filename="HondtTable.py" line="126"/>
         <source>Last to get in</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="HondtTable.py" line="124"/>
+        <location filename="HondtTable.py" line="127"/>
         <source>Last but one to get in</source>
         <translation type="unfinished"></translation>
     </message>
