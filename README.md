@@ -19,7 +19,7 @@ You can also review historical results and use that data to establish
 a worse case scenario for each so you can keep the faithful voters
 when simulating vote flows.
 
-![Screenshot of enVote](http://acampadadespi.org/blog/wp-content/uploads/2011/11/envote-AbstencioMaxima.png)
+![Screenshot of enVote](parlament2012-EncuestaElPais17N.png)
 
 
 This program was started by the 15M movement activists in Sant 
