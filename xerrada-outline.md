@@ -63,8 +63,11 @@
 		- Sobre vacio. A diferencia del nulo no cuenta para el umbral.
 		- A veces afecta, en las generales, en barcelona podria, pero veremos que no.
 		- Hay webs que proporcionan modelos de voto nulo
-	- Abstención pasiva: Es la que se hace por vagancia, desidia, desapego, desesperanza...
-	- Abstención activa: Quien no quiere legitimar el sistema con su participación y plantea alternativas.
+	- Abstención
+		- Pasiva: Es la que se hace por vagancia, desidia, desapego, desesperanza...
+		- Activa: Quien no quiere legitimar el sistema con su participación y plantea alternativas.
+		- No hay forma de diferenciarlas
+		- Casi siempre es mayor que el partido mayoritario. Es la opcion mayoritaria.
 
 - Como se agrupan las opciones
 	Censo = Abstencion + Participacion
@@ -85,10 +88,10 @@
 		- Entonces, según esto...
 			- Si voto solo a uno, van los tres votos a el?
 				- No, los otros 2 votos los tiras.
-			- Si voto solo a uno de los tres de un partido, y le sobran votos, caen el los otros candidatos?
+			- Si voto solo a uno de los tres de un partido, y le sobran votos, caen en los otros candidatos?
 				- No, el voto es a la persona, no al partido.
 			- Es bueno repartir el voto en varias formaciones?
-			- Depende de lo que pretendas, si otros votantes han hecho lo mismo escogiendo candidatos diferentes de cada lista, no sumaran.
+				- Depende de lo que pretendas, si otros votantes han hecho lo mismo escogiendo candidatos diferentes de cada lista, no sumaran.
 			- Preguntas? Chao senado.
 	- El Congres
 		- S'escullen 31 de 350
@@ -96,12 +99,15 @@
 		- Recompte per llei d'Hondt
 			- Obtenció dels cocients: dividir els vots de cadascu per 1, 2..
 			- Els 31 cocients majors obtenen l'esco
+			- Es un algoritme per obtindre-ho pero no il·lustra l'objectiu:
+				- Es cerca un preu d'esco mínim
+				- Que es reparteixen tots els escons i a ningú li sobra per
 
 - El simulador
 	- Esta pensado para simular una sola circunscripción por cada caso
 		- Lo que pasa en cada circunscripción es independiente
 	- Carga casos reales o hipotéticos
-		- Viene con todas las generales en la provincia de Barcelona
+		- Viene con todas las generales y autonómicas en la provincia de Barcelona
 		- Viene con algunos casos hipotéticos con candidaturas y censos reales de estas elecciones
 		- Viene con diferentes opciones acordes con las ultimas estadisticas del CIS (bastante poco explicitas)
 	- Se puede experimentar situaciones alternativas haciendo transferencias de votos entre opciones (incluyendo nulo, abstencion y blanco)
@@ -280,7 +286,7 @@ Rumor: Cuando un extraparlamentario entra, fastidia al siguiente partido mas peq
 	Sube el umbral que tienen los partidos minoritarios para entrar.
 	En las Generales, es muy improbable que afecte ese umbral.
 	En Barcelona, afectaria como máximo a un partido que tenga el primer escaño justito.
-	Ese escaño no tiene porque llevarselo un mayoritario pero tiene mas probabilidades.
+	Ese escaño no tiene porque llevarselo un mayoritario, cualquiera con representación tiene igual probabilidad.
 	El voto en blanco contribuye poco a subir ese umbral pero contribuye.
 	Efecto en el reparto: A parte de subir el umbral, ninguno más allá del voto cesante.
 	Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.
