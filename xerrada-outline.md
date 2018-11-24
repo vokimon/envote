@@ -70,9 +70,9 @@
 		- Casi siempre es mayor que el partido mayoritario. Es la opcion mayoritaria.
 
 - Como se agrupan las opciones
-	Censo = Abstencion + Participacion
-	Participacion = Nulos + Validos
-	Validos = Blancos + Candidaturas
+	- Censo = Abstencion + Participacion
+	- Participacion = Nulos + Validos
+	- Validos = Blancos + Candidaturas
 
 - Sistema electoral actual
 	- El sistema electoral espanyol funciona per circunscripcions
@@ -269,21 +269,25 @@
 
 - **Abstención:**
 
-	Generales/BCN: Máxima del 34% en 2000, suele ser primera o segunda opción
-	Límite: Los votantes acérrimos de los partidos no dejarían que pasara del 44%
+	**Generales/BCN:** Máxima del 34% en 2000, suele ser primera o segunda opción.
+
+	**Límite:** Los votantes acérrimos de los partidos no dejarían que pasara del 44%
 	Por muy alta que sea la abstención no se repiten las elecciones ni nada parecido.
-	Efecto en el recuento: Ninguno más allá del voto cesante.
+
+	**Efecto en el recuento:** Ninguno más allá del voto cesante.
 	Hay dos tipos de abstención según los motivos.
 
 	- **Abstención pasiva:**
 
 		**Significa:** No me interesa la política
+
 		Como: Simplemente no ir a votar.
 		Representa el aprox 85% de la abstención (según CIS)
 
 	- **Abstención activa:**
 
 		**Significa:** No quiero legitimar el sistema con mi participación
+
 		Es activa si se contribuye a alternativas
 		Problema: És difícil diferenciarla de la pasiva
 		Sigue siendo una opción ética personal válida
@@ -291,15 +295,22 @@
 - **Voto nulo (activo):**
 
 	**Significa:** Es un voto de queja
-	Como: Poner en el sobre algo que no sea una papeleta de un partido
+
+	**Como:** Poner en el sobre algo que no sea una papeleta de un partido
+
 	Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito
 	Confundible con error, pero no si hay mucho
-	Efecto en el recuento: Ninguno más allá del voto cesante.
-	Por muy alto que sea el voto nulo no se repiten las elecciones ni nada parecido.
-	Mito falso: La mesa no esta obligada a leer lo que diga.
+
+	**Efecto en el recuento:** Ninguno más allá del voto cesante.
+
+	**Mito falso:** Por muy alto que sea el voto nulo no se repiten las elecciones ni nada parecido.
+
+	**Mito falso:** La mesa no esta obligada a leer lo que diga.
 
 - **Voto blanco:**
+
 	**Significa:** 'no me gusta ninguno'
+
 	Sube el umbral que tienen los partidos minoritarios para entrar.
 	En las Generales, es muy improbable que afecte ese umbral.
 	En Barcelona, afectaria como máximo a un partido que tenga el primer escaño justito.
