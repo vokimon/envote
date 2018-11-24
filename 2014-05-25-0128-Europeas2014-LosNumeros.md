@@ -33,7 +33,8 @@ Esa expresión delimita entre los dos casos extremos e improbables, pero ¿qué 
 A los partidos con escaños, hay una probabilidad uniforme de que los votos sobrantes estén en cualquier punto entre un escaño y el siguiente.
 Eso implica que el sobrante medio de los partidos con escaños tenderá a ser P/2.
 Respecto a los partidos sin escaño, por el comportamiento electoral típico, no sigue esa misma distribución uniforme del voto sobrante sinó que tiende a estar por la parte más baja en la mayoría de ellos.
-Voy a hacer una suposición de que solo un cuarto de los partidos sigue la distribución uniforme de los partidos con escaño, el voto sobrante no sería $P*C$ sinó que se aproximaría mejor con $P/2*C/4 = P*C/8$ y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al $100/(E+C/8)%$.
+Voy a hacer una suposición de que solo un cuarto de los partidos extra parlamentarios sigue la distribución uniforme de los partidos con escaño.
+El voto sobrante no sería $P*C$ sinó que se aproximaría mejor con $P/2*C/4 = P*C/8$ y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al $100/(E+C/8)%$.
 Si mi suposición no os gusta, podéis cambiar los números, pero mucho no cambia.
 
 
@@ -92,7 +93,7 @@ Una persona que vea las elecciones como un pulso entre los mayoritarios que no v
 En la abstención yo creo que hoy en día predomina el primer caso.
 
 
-Coaliciones, candidatos ocultos y partidos europeos
+## Coaliciones, candidatos ocultos y partidos europeos
 
 
 Respecto a las candidaturas, coaliciones y demás hay algunas cosas importantes a tener en cuenta:
@@ -116,7 +117,7 @@ Por otro lado, tampoco hay demasiada disciplina de partido europeo en Bruselas a
 [1](http://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29)
 
 
-#Teoría de juegos
+## Teoría de juegos
 
 
 A partir de aqui, ¿como evalúo el efecto de mi (no)voto? Siguiendo la teoría de juegos, tendríamos que pensar que todo el mundo ha tomado su decisión y faltas tú.
@@ -172,8 +173,11 @@ Que partido puede recibir o perder ese voto? Todos tienen posibilidades pero nor
 
 En todo caso, coged el enVote y haced vuestra simulacion, oye.
  
-Sin más, creo queos he dado herramientas suficientes para que hagáis los experimentos vosotros mismos.
+Sin más, creo que os he dado herramientas suficientes para que hagáis los experimentos vosotros mismos.
 Espero que os sea útil.
-Como siempre en estas cosas os recomiendo que voteis a quien penséis que os representa mejor y si no habéis encontrado ese alguien, dejadme sugeriros que no os quedéis en casa, que considereis votar aunque sea a Escaños en Blanco que convierten el voto en blanco en escaños vacios para que realmente nadie os represente.
+Como siempre en estas cosas os recomiendo que voteis a quien penséis que os representa mejor
+y si no habéis encontrado ese alguien,
+dejadme sugeriros que no os quedéis en casa, que considereis votar aunque sea a **Escaños en Blanco**
+que convierten el voto en blanco en escaños vacios para que realmente nadie os represente.
 Que conste que no es mi opción, pero la recomendaré siempre como mejor opción que el no-voto.
 
